@@ -70,7 +70,6 @@ Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadPowerUpSprites,Magi
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadPowerUpSprites,Magic Number,The method contains a magic number: 150
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadPowerUpSprites,Magic Number,The method contains a magic number: 150
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,TileMap,getTile,Complex Conditional,The conditional expression x < 0 || x >= getWidth() || y < 0 || y >= getHeight() is complex.
-Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,TileMapDrawer,draw,Complex Conditional,The conditional expression sprite instanceof Creature && x >= 0 && x < screenWidth is complex.
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,TileMapDrawer,draw,Complex Method,Cyclomatic complexity of the method is 8
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,TileMapDrawer,draw,Magic Number,The method contains a magic number: 2
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame.sprites,Creature,clone,Long Statement,The length of the statement "return constructor.newInstance(new Object[]{(Animation)left.clone()`(Animation)right.clone()`(Animation)deadLeft.clone()`(Animation)deadRight.clone()});" is 152.

@@ -129,7 +129,7 @@ Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,TileMapDrawer,pixelsToTiles,3,1,1
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,TileMapDrawer,pixelsToTiles,3,1,1
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,TileMapDrawer,tilesToPixels,3,1,1
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,TileMapDrawer,setBackground,3,1,1
-Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,TileMapDrawer,draw,38,8,4
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,TileMapDrawer,draw,40,8,4
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame.sprites,Creature,Creature,8,1,4
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame.sprites,Creature,clone,10,1,0
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame.sprites,Creature,getMaxSpeed,3,1,0
