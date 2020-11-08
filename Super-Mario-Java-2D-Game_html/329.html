@@ -151,15 +151,16 @@ top.document.title  = "TileMapDrawer.java";
 <a name="142"><font size=-1>142     </font></a><span class="default">            </span><span class="keyword">int <a href="dictionary_C.html#355">y</a> </span><span class="default">= Math.<a href="dictionary_R.html#295">round</a>(<a href="dictionary_C.html#351">sprite</a>.<a href="dictionary_C.html#305">getY</a>()) + <a href="dictionary_C.html#347">offsetY</a>;</span>
 <a name="143"><font size=-1>143     </font></a><span class="default">            <a href="dictionary_C.html#341">g</a>.<a href="dictionary_D.html#204">drawImage</a>(<a href="dictionary_C.html#351">sprite</a>.<a href="dictionary_C.html#309">getImage</a>(), <a href="dictionary_C.html#353">x</a>, <a href="dictionary_C.html#355">y</a>, </span><span class="keyword">null</span><span class="default">);</span>
 <a name="144"><font size=-1>144     </font></a><span class="default"></span>
-<a name="145"><font size=-1>145     </font></a><span class="default">            </span><span class="comment">// wake up the creature when it's on screen</span>
-<a name="146"><font size=-1>146     </font></a><span class="comment">            </span><span class="keyword">if </span><span class="default">(<a href="dictionary_C.html#351">sprite</a> </span><span class="keyword">instanceof <a href="dictionary_C.html#165">Creature</a> </span><span class="default">&amp;&amp;</span>
-<a name="147"><font size=-1>147     </font></a><span class="default">                <a href="dictionary_C.html#353">x</a> &gt;= </span><span class="number">0 </span><span class="default">&amp;&amp; <a href="dictionary_C.html#353">x</a> &lt; <a href="dictionary_C.html#350">screenWidth</a>)</span>
-<a name="148"><font size=-1>148     </font></a><span class="default">            {</span>
-<a name="149"><font size=-1>149     </font></a><span class="default">                ((Creature)<a href="dictionary_C.html#351">sprite</a>).<a href="dictionary_C.html#306">wakeUp</a>();</span>
-<a name="150"><font size=-1>150     </font></a><span class="default">            }</span>
-<a name="151"><font size=-1>151     </font></a><span class="default">        }</span>
-<a name="152"><font size=-1>152     </font></a><span class="default">    }</span>
-<a name="153"><font size=-1>153     </font></a><span class="default"></span>
-<a name="154"><font size=-1>154     </font></a><span class="default">}</span>
-<a name="155"><font size=-1>155     </font></a><span class="default"></span>
+<a name="145"><font size=-1>145     </font></a><span class="default">            </span><span class="keyword">boolean </span><span class="default">iam = sprite </span><span class="keyword">instanceof </span><span class="default">Creature;</span>
+<a name="146"><font size=-1>146     </font></a><span class="default">            </span><span class="keyword">boolean </span><span class="default">position = x &gt;= </span><span class="number">0 </span><span class="default">&amp;&amp; x &lt; screenWidth;</span>
+<a name="147"><font size=-1>147     </font></a><span class="default">            </span><span class="comment">// wake up the creature when it's on screen</span>
+<a name="148"><font size=-1>148     </font></a><span class="comment">            </span><span class="keyword">if </span><span class="default">(iam &amp;&amp; position)</span>
+<a name="149"><font size=-1>149     </font></a><span class="default">            {</span>
+<a name="150"><font size=-1>150     </font></a><span class="default">                ((Creature)sprite).wakeUp();</span>
+<a name="151"><font size=-1>151     </font></a><span class="default">            }</span>
+<a name="152"><font size=-1>152     </font></a><span class="default">        }</span>
+<a name="153"><font size=-1>153     </font></a><span class="default">    }</span>
+<a name="154"><font size=-1>154     </font></a><span class="default"></span>
+<a name="155"><font size=-1>155     </font></a><span class="default">}</span>
+<a name="156"><font size=-1>156     </font></a><span class="default"></span>
 </pre></body></html>
