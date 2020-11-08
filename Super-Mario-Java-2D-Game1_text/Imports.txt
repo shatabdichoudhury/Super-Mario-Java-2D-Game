@@ -1,0 +1,79 @@
+                                 Imports Report
+===============================================================================
+
+Animation.java
+| java.awt.Image
+| java.util.ArrayList
+
+Creature.java
+| com.TETOSOFT.graphics
+| java.lang.reflect.Constructor
+
+Fly.java
+| com.TETOSOFT.graphics.Animation
+
+GameCore.java
+| java.awt
+| com.TETOSOFT.graphics.ScreenManager
+| javax.swing.ImageIcon
+
+GameEngine.java
+| java.awt
+| com.TETOSOFT.graphics
+| com.TETOSOFT.input
+| com.TETOSOFT.test.GameCore
+| com.TETOSOFT.tilegame.sprites
+| java.awt.event.KeyEvent
+| java.util.Iterator
+
+Grub.java
+| com.TETOSOFT.graphics.Animation
+
+InputManager.java
+| java.awt
+| java.awt.event
+| java.util.List
+| java.util.ArrayList
+| javax.swing.SwingUtilities
+
+MapLoader.java
+| java.awt
+| java.io
+| com.TETOSOFT.graphics
+| com.TETOSOFT.tilegame.sprites
+| java.awt.geom.AffineTransform
+| java.util.ArrayList
+| javax.swing.ImageIcon
+
+Mouse.java
+| java.awt
+| java.awt.event.MouseEvent
+
+Player.java
+| com.TETOSOFT.graphics.Animation
+
+PowerUp.java
+| com.TETOSOFT.graphics
+| java.lang.reflect.Constructor
+
+ScreenManager.java
+| java.awt
+| java.awt.image.BufferStrategy
+| java.awt.image.BufferedImage
+| java.lang.reflect.InvocationTargetException
+| javax.swing.JFrame
+
+Sprite.java
+| java.awt.Image
+
+TileMap.java
+| com.TETOSOFT.graphics.Sprite
+| java.awt.Image
+| java.util.LinkedList
+| java.util.Iterator
+
+TileMapDrawer.java
+| java.awt
+| com.TETOSOFT.graphics.Sprite
+| com.TETOSOFT.tilegame.sprites.Creature
+| java.util.Iterator

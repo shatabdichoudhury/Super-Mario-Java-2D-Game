@@ -1,0 +1,2531 @@
+                         Object Cross Reference Report
+===============================================================================
+
+BIT_DEPTH_MULTI   (Unknown Variable)
+    Use [ScreenManager.java, 76]     com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    Use [ScreenManager.java, 77]     com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+
+BUTTON1   (Unknown Variable)
+    Use [Mouse.java, 61]             com.TETOSOFT.input.Mouse.getMouseButtonCode
+
+BUTTON2   (Unknown Variable)
+    Use [Mouse.java, 63]             com.TETOSOFT.input.Mouse.getMouseButtonCode
+
+BUTTON3   (Unknown Variable)
+    Use [Mouse.java, 65]             com.TETOSOFT.input.Mouse.getMouseButtonCode
+
+com.TETOSOFT.graphics.Animation.addFrame.duration   (Parameter)
+  Declared as: long
+    Define [Animation.java, 35]      com.TETOSOFT.graphics.Animation.addFrame
+    Use [Animation.java, 37]         com.TETOSOFT.graphics.Animation.addFrame
+
+com.TETOSOFT.graphics.Animation.addFrame.image   (Parameter)
+  Declared as: Image
+    Define [Animation.java, 35]      com.TETOSOFT.graphics.Animation.addFrame
+    Use [Animation.java, 38]         com.TETOSOFT.graphics.Animation.addFrame
+
+com.TETOSOFT.graphics.Animation.Animation.frames   (Parameter)
+  Declared as: ArrayList
+    Define [Animation.java, 21]      com.TETOSOFT.graphics.Animation.Animation
+    Use [Animation.java, 23]         com.TETOSOFT.graphics.Animation.Animation
+
+com.TETOSOFT.graphics.Animation.Animation.totalDuration   (Parameter)
+  Declared as: long
+    Define [Animation.java, 21]      com.TETOSOFT.graphics.Animation.Animation
+    Use [Animation.java, 24]         com.TETOSOFT.graphics.Animation.Animation
+
+com.TETOSOFT.graphics.Animation.AnimFrame.AnimFrame.endTime   (Parameter)
+  Declared as: long
+    Define [Animation.java, 92]      com.TETOSOFT.graphics.Animation.AnimFrame.AnimFrame
+    Use [Animation.java, 95]         com.TETOSOFT.graphics.Animation.AnimFrame.AnimFrame
+
+com.TETOSOFT.graphics.Animation.AnimFrame.AnimFrame.image   (Parameter)
+  Declared as: Image
+    Define [Animation.java, 92]      com.TETOSOFT.graphics.Animation.AnimFrame.AnimFrame
+    Use [Animation.java, 94]         com.TETOSOFT.graphics.Animation.AnimFrame.AnimFrame
+
+com.TETOSOFT.graphics.Animation.AnimFrame.endTime   (Variable)
+  Declared as: long
+    Define [Animation.java, 90]      com.TETOSOFT.graphics.Animation.AnimFrame
+    Set [Animation.java, 95]         com.TETOSOFT.graphics.Animation.AnimFrame.AnimFrame
+    Use [Animation.java, 61]         com.TETOSOFT.graphics.Animation.update
+
+com.TETOSOFT.graphics.Animation.AnimFrame.image   (Variable)
+  Declared as: Image
+    Define [Animation.java, 89]      com.TETOSOFT.graphics.Animation.AnimFrame
+    Set [Animation.java, 94]         com.TETOSOFT.graphics.Animation.AnimFrame.AnimFrame
+    Use [Animation.java, 77]         com.TETOSOFT.graphics.Animation.getImage
+
+com.TETOSOFT.graphics.Animation.animTime   (Private Variable)
+  Declared as: long
+    Define [Animation.java, 11]      com.TETOSOFT.graphics.Animation
+    Set [Animation.java, 44]         com.TETOSOFT.graphics.Animation.start
+    Modify [Animation.java, 53]      com.TETOSOFT.graphics.Animation.update
+    Use [Animation.java, 55]         com.TETOSOFT.graphics.Animation.update
+    Set [Animation.java, 57]         com.TETOSOFT.graphics.Animation.update
+    Use [Animation.java, 57]         com.TETOSOFT.graphics.Animation.update
+    Use [Animation.java, 61]         com.TETOSOFT.graphics.Animation.update
+
+com.TETOSOFT.graphics.Animation.currFrameIndex   (Private Variable)
+  Declared as: int
+    Define [Animation.java, 10]      com.TETOSOFT.graphics.Animation
+    Use [Animation.java, 77]         com.TETOSOFT.graphics.Animation.getImage
+    Set [Animation.java, 45]         com.TETOSOFT.graphics.Animation.start
+    Set [Animation.java, 58]         com.TETOSOFT.graphics.Animation.update
+    Use [Animation.java, 61]         com.TETOSOFT.graphics.Animation.update
+    Modify [Animation.java, 63]      com.TETOSOFT.graphics.Animation.update
+
+com.TETOSOFT.graphics.Animation.frames   (Private Variable)
+  Declared as: ArrayList
+    Define [Animation.java, 9]       com.TETOSOFT.graphics.Animation
+    Set [Animation.java, 23]         com.TETOSOFT.graphics.Animation.Animation
+    Use [Animation.java, 38]         com.TETOSOFT.graphics.Animation.addFrame
+    Use [Animation.java, 31]         com.TETOSOFT.graphics.Animation.clone
+    Use [Animation.java, 84]         com.TETOSOFT.graphics.Animation.getFrame
+    Use [Animation.java, 71]         com.TETOSOFT.graphics.Animation.getImage
+    Use [Animation.java, 51]         com.TETOSOFT.graphics.Animation.update
+
+com.TETOSOFT.graphics.Animation.getFrame.i   (Parameter)
+  Declared as: int
+    Define [Animation.java, 82]      com.TETOSOFT.graphics.Animation.getFrame
+    Use [Animation.java, 84]         com.TETOSOFT.graphics.Animation.getFrame
+
+com.TETOSOFT.graphics.Animation.totalDuration   (Private Variable)
+  Declared as: long
+    Define [Animation.java, 12]      com.TETOSOFT.graphics.Animation
+    Set [Animation.java, 24]         com.TETOSOFT.graphics.Animation.Animation
+    Modify [Animation.java, 37]      com.TETOSOFT.graphics.Animation.addFrame
+    Use [Animation.java, 38]         com.TETOSOFT.graphics.Animation.addFrame
+    Use [Animation.java, 31]         com.TETOSOFT.graphics.Animation.clone
+    Use [Animation.java, 55]         com.TETOSOFT.graphics.Animation.update
+    Use [Animation.java, 57]         com.TETOSOFT.graphics.Animation.update
+
+com.TETOSOFT.graphics.Animation.update.elapsedTime   (Parameter)
+  Declared as: long
+    Define [Animation.java, 49]      com.TETOSOFT.graphics.Animation.update
+    Use [Animation.java, 53]         com.TETOSOFT.graphics.Animation.update
+
+com.TETOSOFT.graphics.ScreenManager.checkBitDepth.mode1   (Parameter)
+  Declared as: DisplayMode
+    Define [ScreenManager.java, 75]   com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    Use [ScreenManager.java, 76]     com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    Use [ScreenManager.java, 78]     com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+
+com.TETOSOFT.graphics.ScreenManager.checkBitDepth.mode1_bit   (Variable)
+  Declared as: boolean=mode1.getBitDepth != DisplayMode.BIT_DEPTH_MULTI
+    Define [ScreenManager.java, 76]   com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    Set [ScreenManager.java, 76]     com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    Set [ScreenManager.java, 79]     com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    Use [ScreenManager.java, 79]     com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    Use [ScreenManager.java, 80]     com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+
+com.TETOSOFT.graphics.ScreenManager.checkBitDepth.mode2   (Parameter)
+  Declared as: DisplayMode
+    Define [ScreenManager.java, 75]   com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    Use [ScreenManager.java, 77]     com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    Use [ScreenManager.java, 78]     com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+
+com.TETOSOFT.graphics.ScreenManager.checkBitDepth.mode2_bit   (Variable)
+  Declared as: boolean=mode2.getBitDepth != DisplayMode.BIT_DEPTH_MULTI
+    Define [ScreenManager.java, 77]   com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    Set [ScreenManager.java, 77]     com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    Use [ScreenManager.java, 80]     com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+
+com.TETOSOFT.graphics.ScreenManager.checkBitDepth.mode_notequals   (Variable)
+  Declared as: boolean=mode1.getBitDepth != mode2.getBitDepth
+    Define [ScreenManager.java, 78]   com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    Set [ScreenManager.java, 78]     com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    Use [ScreenManager.java, 79]     com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+
+com.TETOSOFT.graphics.ScreenManager.createCompatibleImage.gc   (Variable)
+  Declared as: GraphicsConfiguration=window.getGraphicsConfiguration
+    Define [ScreenManager.java, 214]   com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+    Set [ScreenManager.java, 214]    com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+    Use [ScreenManager.java, 216]    com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+
+com.TETOSOFT.graphics.ScreenManager.createCompatibleImage.h   (Parameter)
+  Declared as: int
+    Define [ScreenManager.java, 209]   com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+    Use [ScreenManager.java, 216]    com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+
+com.TETOSOFT.graphics.ScreenManager.createCompatibleImage.transparancy   (Parameter)
+  Declared as: int
+    Define [ScreenManager.java, 210]   com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+    Use [ScreenManager.java, 216]    com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+
+com.TETOSOFT.graphics.ScreenManager.createCompatibleImage.w   (Parameter)
+  Declared as: int
+    Define [ScreenManager.java, 209]   com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+    Use [ScreenManager.java, 216]    com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+
+com.TETOSOFT.graphics.ScreenManager.createCompatibleImage.window   (Variable)
+  Declared as: Window=device.getFullScreenWindow
+    Define [ScreenManager.java, 212]   com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+    Set [ScreenManager.java, 212]    com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+    Use [ScreenManager.java, 213]    com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+    Use [ScreenManager.java, 215]    com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+
+com.TETOSOFT.graphics.ScreenManager.device   (Private Variable)
+  Declared as: GraphicsDevice
+    Define [ScreenManager.java, 11]   com.TETOSOFT.graphics.ScreenManager
+    Set [ScreenManager.java, 17]     com.TETOSOFT.graphics.ScreenManager.ScreenManager
+    Use [ScreenManager.java, 212]    com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+    Use [ScreenManager.java, 31]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Use [ScreenManager.java, 24]     com.TETOSOFT.graphics.ScreenManager.getCompatibleDisplayModes
+    Use [ScreenManager.java, 48]     com.TETOSOFT.graphics.ScreenManager.getCurrentDisplayMode
+    Use [ScreenManager.java, 163]    com.TETOSOFT.graphics.ScreenManager.getFullScreenWindow
+    Use [ScreenManager.java, 132]    com.TETOSOFT.graphics.ScreenManager.getGraphics
+    Use [ScreenManager.java, 185]    com.TETOSOFT.graphics.ScreenManager.getHeight
+    Use [ScreenManager.java, 170]    com.TETOSOFT.graphics.ScreenManager.getWidth
+    Use [ScreenManager.java, 200]    com.TETOSOFT.graphics.ScreenManager.restoreScreen
+    Use [ScreenManager.java, 205]    com.TETOSOFT.graphics.ScreenManager.restoreScreen
+    Use [ScreenManager.java, 96]     com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Use [ScreenManager.java, 98]     com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Use [ScreenManager.java, 101]    com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Use [ScreenManager.java, 147]    com.TETOSOFT.graphics.ScreenManager.update
+
+com.TETOSOFT.graphics.ScreenManager.displayModesMatch.mode1   (Parameter)
+  Declared as: DisplayMode
+    Define [ScreenManager.java, 51]   com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+    Use [ScreenManager.java, 53]     com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+    Use [ScreenManager.java, 53]     com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+    Use [ScreenManager.java, 58]     com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+    Use [ScreenManager.java, 63]     com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+    Use [ScreenManager.java, 67]     com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+
+com.TETOSOFT.graphics.ScreenManager.displayModesMatch.mode2   (Parameter)
+  Declared as: DisplayMode
+    Define [ScreenManager.java, 51]   com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+    Use [ScreenManager.java, 53]     com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+    Use [ScreenManager.java, 53]     com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+    Use [ScreenManager.java, 58]     com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+    Use [ScreenManager.java, 65]     com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+    Use [ScreenManager.java, 67]     com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+
+com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode.(for_loop_1).(for_loop_2).j   (Variable)
+  Declared as: int=0
+    Set [ScreenManager.java, 34]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Use [ScreenManager.java, 34]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Modify [ScreenManager.java, 34]   com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Use [ScreenManager.java, 36]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Define [ScreenManager.java, 34]   com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+
+com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode.(for_loop_1).i   (Variable)
+  Declared as: int=0
+    Set [ScreenManager.java, 32]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Use [ScreenManager.java, 32]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Modify [ScreenManager.java, 32]   com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Use [ScreenManager.java, 36]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Use [ScreenManager.java, 38]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Define [ScreenManager.java, 32]   com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+
+com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode.goodModes   (Variable)
+  Declared as: DisplayMode[]=device.getDisplayModes
+    Define [ScreenManager.java, 31]   com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Set [ScreenManager.java, 31]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Use [ScreenManager.java, 34]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Use [ScreenManager.java, 36]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+
+com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode.modes   (Parameter)
+  Declared as: DisplayMode[]
+    Define [ScreenManager.java, 29]   com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Use [ScreenManager.java, 32]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Use [ScreenManager.java, 36]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Use [ScreenManager.java, 38]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+
+com.TETOSOFT.graphics.ScreenManager.getGraphics.strategy   (Variable)
+  Declared as: BufferStrategy=window.getBufferStrategy
+    Define [ScreenManager.java, 135]   com.TETOSOFT.graphics.ScreenManager.getGraphics
+    Set [ScreenManager.java, 135]    com.TETOSOFT.graphics.ScreenManager.getGraphics
+    Use [ScreenManager.java, 136]    com.TETOSOFT.graphics.ScreenManager.getGraphics
+
+com.TETOSOFT.graphics.ScreenManager.getGraphics.window   (Variable)
+  Declared as: Window=device.getFullScreenWindow
+    Define [ScreenManager.java, 132]   com.TETOSOFT.graphics.ScreenManager.getGraphics
+    Set [ScreenManager.java, 132]    com.TETOSOFT.graphics.ScreenManager.getGraphics
+    Use [ScreenManager.java, 133]    com.TETOSOFT.graphics.ScreenManager.getGraphics
+    Use [ScreenManager.java, 135]    com.TETOSOFT.graphics.ScreenManager.getGraphics
+
+com.TETOSOFT.graphics.ScreenManager.getHeight.window   (Variable)
+  Declared as: Window=device.getFullScreenWindow
+    Define [ScreenManager.java, 185]   com.TETOSOFT.graphics.ScreenManager.getHeight
+    Set [ScreenManager.java, 185]    com.TETOSOFT.graphics.ScreenManager.getHeight
+    Use [ScreenManager.java, 186]    com.TETOSOFT.graphics.ScreenManager.getHeight
+    Use [ScreenManager.java, 188]    com.TETOSOFT.graphics.ScreenManager.getHeight
+
+com.TETOSOFT.graphics.ScreenManager.getWidth.window   (Variable)
+  Declared as: Window=device.getFullScreenWindow
+    Define [ScreenManager.java, 170]   com.TETOSOFT.graphics.ScreenManager.getWidth
+    Set [ScreenManager.java, 170]    com.TETOSOFT.graphics.ScreenManager.getWidth
+    Use [ScreenManager.java, 171]    com.TETOSOFT.graphics.ScreenManager.getWidth
+    Use [ScreenManager.java, 173]    com.TETOSOFT.graphics.ScreenManager.getWidth
+
+com.TETOSOFT.graphics.ScreenManager.restoreScreen.window   (Variable)
+  Declared as: Window=device.getFullScreenWindow
+    Define [ScreenManager.java, 200]   com.TETOSOFT.graphics.ScreenManager.restoreScreen
+    Set [ScreenManager.java, 200]    com.TETOSOFT.graphics.ScreenManager.restoreScreen
+    Use [ScreenManager.java, 201]    com.TETOSOFT.graphics.ScreenManager.restoreScreen
+    Use [ScreenManager.java, 203]    com.TETOSOFT.graphics.ScreenManager.restoreScreen
+
+com.TETOSOFT.graphics.ScreenManager.ScreenManager.environment   (Variable)
+  Declared as: GraphicsEnvironment=GraphicsEnvironment.getLocalGraphicsEnvir...
+    Define [ScreenManager.java, 16]   com.TETOSOFT.graphics.ScreenManager.ScreenManager
+    Set [ScreenManager.java, 16]     com.TETOSOFT.graphics.ScreenManager.ScreenManager
+    Use [ScreenManager.java, 17]     com.TETOSOFT.graphics.ScreenManager.ScreenManager
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.(catch_1).ex   (Catch Parameter)
+  Declared as: IllegalArgumentException
+    Define [ScreenManager.java, 103]   com.TETOSOFT.graphics.ScreenManager.setFullScreen
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.(catch_2).ex   (Catch Parameter)
+  Declared as: InterruptedException
+    Define [ScreenManager.java, 117]   com.TETOSOFT.graphics.ScreenManager.setFullScreen
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.(catch_3).ex   (Catch Parameter)
+  Declared as: InvocationTargetException
+    Define [ScreenManager.java, 121]   com.TETOSOFT.graphics.ScreenManager.setFullScreen
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.displayMode   (Parameter)
+  Declared as: DisplayMode
+    Define [ScreenManager.java, 88]   com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Use [ScreenManager.java, 98]     com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Use [ScreenManager.java, 101]    com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Use [ScreenManager.java, 105]    com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Use [ScreenManager.java, 105]    com.TETOSOFT.graphics.ScreenManager.setFullScreen
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.frame   (Variable)
+  Declared as: JFrame=JFrame()
+    Define [ScreenManager.java, 90]   com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Set [ScreenManager.java, 90]     com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Use [ScreenManager.java, 91]     com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Use [ScreenManager.java, 92]     com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Use [ScreenManager.java, 93]     com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Use [ScreenManager.java, 94]     com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Use [ScreenManager.java, 96]     com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Use [ScreenManager.java, 105]    com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Use [ScreenManager.java, 113]    com.TETOSOFT.graphics.ScreenManager.setFullScreen.(Anon_1).run
+
+com.TETOSOFT.graphics.ScreenManager.update.strategy   (Variable)
+  Declared as: BufferStrategy=window.getBufferStrategy
+    Define [ScreenManager.java, 150]   com.TETOSOFT.graphics.ScreenManager.update
+    Set [ScreenManager.java, 150]    com.TETOSOFT.graphics.ScreenManager.update
+    Use [ScreenManager.java, 151]    com.TETOSOFT.graphics.ScreenManager.update
+    Use [ScreenManager.java, 153]    com.TETOSOFT.graphics.ScreenManager.update
+
+com.TETOSOFT.graphics.ScreenManager.update.window   (Variable)
+  Declared as: Window=device.getFullScreenWindow
+    Define [ScreenManager.java, 147]   com.TETOSOFT.graphics.ScreenManager.update
+    Set [ScreenManager.java, 147]    com.TETOSOFT.graphics.ScreenManager.update
+    Use [ScreenManager.java, 148]    com.TETOSOFT.graphics.ScreenManager.update
+    Use [ScreenManager.java, 150]    com.TETOSOFT.graphics.ScreenManager.update
+
+com.TETOSOFT.graphics.Sprite.anim   (Protected Variable)
+  Declared as: Animation
+    Define [Sprite.java, 7]          com.TETOSOFT.graphics.Sprite
+    Set [Sprite.java, 18]            com.TETOSOFT.graphics.Sprite.Sprite
+    Use [Sprite.java, 98]            com.TETOSOFT.graphics.Sprite.clone
+    Use [Sprite.java, 62]            com.TETOSOFT.graphics.Sprite.getHeight
+    Use [Sprite.java, 92]            com.TETOSOFT.graphics.Sprite.getImage
+    Use [Sprite.java, 56]            com.TETOSOFT.graphics.Sprite.getWidth
+    Use [Sprite.java, 27]            com.TETOSOFT.graphics.Sprite.update
+    Use [PowerUp.java, 20]           com.TETOSOFT.tilegame.sprites.PowerUp.clone
+    Use [Creature.java, 146]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 161]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Set [Creature.java, 162]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 163]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 166]         com.TETOSOFT.tilegame.sprites.Creature.update
+
+com.TETOSOFT.graphics.Sprite.dx   (Private Variable)
+  Declared as: float
+    Define [Sprite.java, 12]         com.TETOSOFT.graphics.Sprite
+    Use [Sprite.java, 68]            com.TETOSOFT.graphics.Sprite.getVelocityX
+    Set [Sprite.java, 80]            com.TETOSOFT.graphics.Sprite.setVelocityX
+    Use [Sprite.java, 25]            com.TETOSOFT.graphics.Sprite.update
+
+com.TETOSOFT.graphics.Sprite.dy   (Private Variable)
+  Declared as: float
+    Define [Sprite.java, 13]         com.TETOSOFT.graphics.Sprite
+    Use [Sprite.java, 74]            com.TETOSOFT.graphics.Sprite.getVelocityY
+    Set [Sprite.java, 86]            com.TETOSOFT.graphics.Sprite.setVelocityY
+    Use [Sprite.java, 26]            com.TETOSOFT.graphics.Sprite.update
+
+com.TETOSOFT.graphics.Sprite.setVelocityX.dx   (Parameter)
+  Declared as: float
+    Define [Sprite.java, 78]         com.TETOSOFT.graphics.Sprite.setVelocityX
+    Use [Sprite.java, 80]            com.TETOSOFT.graphics.Sprite.setVelocityX
+
+com.TETOSOFT.graphics.Sprite.setVelocityY.dy   (Parameter)
+  Declared as: float
+    Define [Sprite.java, 84]         com.TETOSOFT.graphics.Sprite.setVelocityY
+    Use [Sprite.java, 86]            com.TETOSOFT.graphics.Sprite.setVelocityY
+
+com.TETOSOFT.graphics.Sprite.setX.x   (Parameter)
+  Declared as: float
+    Define [Sprite.java, 42]         com.TETOSOFT.graphics.Sprite.setX
+    Use [Sprite.java, 44]            com.TETOSOFT.graphics.Sprite.setX
+
+com.TETOSOFT.graphics.Sprite.setY.y   (Parameter)
+  Declared as: float
+    Define [Sprite.java, 48]         com.TETOSOFT.graphics.Sprite.setY
+    Use [Sprite.java, 50]            com.TETOSOFT.graphics.Sprite.setY
+
+com.TETOSOFT.graphics.Sprite.Sprite.anim   (Parameter)
+  Declared as: Animation
+    Define [Sprite.java, 16]         com.TETOSOFT.graphics.Sprite.Sprite
+    Use [Sprite.java, 18]            com.TETOSOFT.graphics.Sprite.Sprite
+
+com.TETOSOFT.graphics.Sprite.update.elapsedTime   (Parameter)
+  Declared as: long
+    Define [Sprite.java, 23]         com.TETOSOFT.graphics.Sprite.update
+    Use [Sprite.java, 25]            com.TETOSOFT.graphics.Sprite.update
+    Use [Sprite.java, 26]            com.TETOSOFT.graphics.Sprite.update
+    Use [Sprite.java, 27]            com.TETOSOFT.graphics.Sprite.update
+
+com.TETOSOFT.graphics.Sprite.x   (Private Variable)
+  Declared as: float
+    Define [Sprite.java, 9]          com.TETOSOFT.graphics.Sprite
+    Use [Sprite.java, 33]            com.TETOSOFT.graphics.Sprite.getX
+    Set [Sprite.java, 44]            com.TETOSOFT.graphics.Sprite.setX
+    Modify [Sprite.java, 25]         com.TETOSOFT.graphics.Sprite.update
+
+com.TETOSOFT.graphics.Sprite.y   (Private Variable)
+  Declared as: float
+    Define [Sprite.java, 10]         com.TETOSOFT.graphics.Sprite
+    Use [Sprite.java, 38]            com.TETOSOFT.graphics.Sprite.getY
+    Set [Sprite.java, 50]            com.TETOSOFT.graphics.Sprite.setY
+    Modify [Sprite.java, 26]         com.TETOSOFT.graphics.Sprite.update
+
+com.TETOSOFT.input.GameAction.amount   (Private Variable)
+  Declared as: int
+    Define [GameAction.java, 19]     com.TETOSOFT.input.GameAction
+    Use [GameAction.java, 90]        com.TETOSOFT.input.GameAction.getAmount
+    Set [GameAction.java, 95]        com.TETOSOFT.input.GameAction.getAmount
+    Set [GameAction.java, 100]       com.TETOSOFT.input.GameAction.getAmount
+    Modify [GameAction.java, 69]     com.TETOSOFT.input.GameAction.press
+    Set [GameAction.java, 46]        com.TETOSOFT.input.GameAction.reset
+
+com.TETOSOFT.input.GameAction.behavior   (Private Variable)
+  Declared as: int
+    Define [GameAction.java, 18]     com.TETOSOFT.input.GameAction
+    Set [GameAction.java, 32]        com.TETOSOFT.input.GameAction.GameAction
+    Use [GameAction.java, 97]        com.TETOSOFT.input.GameAction.getAmount
+
+com.TETOSOFT.input.GameAction.DETECT_INITAL_PRESS_ONLY   (Public Static Variable)
+  Declared as: int=1
+    Define [GameAction.java, 11]     com.TETOSOFT.input.GameAction
+    Set [GameAction.java, 11]        com.TETOSOFT.input.GameAction
+    Use [GameAction.java, 97]        com.TETOSOFT.input.GameAction.getAmount
+    Use [GameEngine.java, 69]        com.TETOSOFT.tilegame.GameEngine.initInput
+    Use [GameEngine.java, 70]        com.TETOSOFT.tilegame.GameEngine.initInput
+
+com.TETOSOFT.input.GameAction.GameAction.behavior   (Parameter)
+  Declared as: int
+    Define [GameAction.java, 29]     com.TETOSOFT.input.GameAction.GameAction
+    Use [GameAction.java, 32]        com.TETOSOFT.input.GameAction.GameAction
+
+com.TETOSOFT.input.GameAction.GameAction.name   (Parameter)
+  Declared as: String
+    Define [GameAction.java, 23]     com.TETOSOFT.input.GameAction.GameAction
+    Use [GameAction.java, 25]        com.TETOSOFT.input.GameAction.GameAction
+
+com.TETOSOFT.input.GameAction.GameAction.name   (Parameter)
+  Declared as: String
+    Define [GameAction.java, 29]     com.TETOSOFT.input.GameAction.GameAction
+    Use [GameAction.java, 31]        com.TETOSOFT.input.GameAction.GameAction
+
+com.TETOSOFT.input.GameAction.getAmount.retVal   (Variable)
+  Declared as: int=amount
+    Define [GameAction.java, 90]     com.TETOSOFT.input.GameAction.getAmount
+    Set [GameAction.java, 90]        com.TETOSOFT.input.GameAction.getAmount
+    Use [GameAction.java, 91]        com.TETOSOFT.input.GameAction.getAmount
+    Use [GameAction.java, 103]       com.TETOSOFT.input.GameAction.getAmount
+
+com.TETOSOFT.input.GameAction.name   (Private Variable)
+  Declared as: String
+    Define [GameAction.java, 17]     com.TETOSOFT.input.GameAction
+    Set [GameAction.java, 31]        com.TETOSOFT.input.GameAction.GameAction
+    Use [GameAction.java, 39]        com.TETOSOFT.input.GameAction.getName
+
+com.TETOSOFT.input.GameAction.NORMAL   (Public Static Variable)
+  Declared as: int=0
+    Define [GameAction.java, 8]      com.TETOSOFT.input.GameAction
+    Set [GameAction.java, 8]         com.TETOSOFT.input.GameAction
+    Use [GameAction.java, 25]        com.TETOSOFT.input.GameAction.GameAction
+
+com.TETOSOFT.input.GameAction.press.amount   (Parameter)
+  Declared as: int
+    Define [GameAction.java, 65]     com.TETOSOFT.input.GameAction.press
+    Use [GameAction.java, 69]        com.TETOSOFT.input.GameAction.press
+
+com.TETOSOFT.input.GameAction.state   (Private Variable)
+  Declared as: int
+    Define [GameAction.java, 20]     com.TETOSOFT.input.GameAction
+    Use [GameAction.java, 93]        com.TETOSOFT.input.GameAction.getAmount
+    Set [GameAction.java, 99]        com.TETOSOFT.input.GameAction.getAmount
+    Use [GameAction.java, 67]        com.TETOSOFT.input.GameAction.press
+    Set [GameAction.java, 70]        com.TETOSOFT.input.GameAction.press
+    Set [GameAction.java, 78]        com.TETOSOFT.input.GameAction.release
+    Set [GameAction.java, 45]        com.TETOSOFT.input.GameAction.reset
+
+com.TETOSOFT.input.GameAction.STATE_PRESSED   (Private Static Variable)
+  Declared as: int=1
+    Define [GameAction.java, 14]     com.TETOSOFT.input.GameAction
+    Set [GameAction.java, 14]        com.TETOSOFT.input.GameAction
+    Use [GameAction.java, 70]        com.TETOSOFT.input.GameAction.press
+
+com.TETOSOFT.input.GameAction.STATE_RELEASED   (Private Static Variable)
+  Declared as: int=0
+    Define [GameAction.java, 13]     com.TETOSOFT.input.GameAction
+    Set [GameAction.java, 13]        com.TETOSOFT.input.GameAction
+    Use [GameAction.java, 93]        com.TETOSOFT.input.GameAction.getAmount
+    Use [GameAction.java, 78]        com.TETOSOFT.input.GameAction.release
+    Use [GameAction.java, 45]        com.TETOSOFT.input.GameAction.reset
+
+com.TETOSOFT.input.GameAction.STATE_WAITING_FOR_RELEASE   (Private Static Variable)
+  Declared as: int=2
+    Define [GameAction.java, 15]     com.TETOSOFT.input.GameAction
+    Set [GameAction.java, 15]        com.TETOSOFT.input.GameAction
+    Use [GameAction.java, 99]        com.TETOSOFT.input.GameAction.getAmount
+    Use [GameAction.java, 67]        com.TETOSOFT.input.GameAction.press
+
+com.TETOSOFT.input.InputManager.centerLocation   (Private Variable)
+  Declared as: Point
+    Define [InputManager.java, 30]   com.TETOSOFT.input.InputManager
+    Set [InputManager.java, 39]      com.TETOSOFT.input.InputManager.InputManager
+    Use [InputManager.java, 201]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 202]     com.TETOSOFT.input.InputManager.mouseMoved
+    Set [InputManager.java, 96]      com.TETOSOFT.input.InputManager.recenterMouse
+    Set [InputManager.java, 97]      com.TETOSOFT.input.InputManager.recenterMouse
+    Use [InputManager.java, 98]      com.TETOSOFT.input.InputManager.recenterMouse
+    Use [InputManager.java, 101]     com.TETOSOFT.input.InputManager.recenterMouse
+    Use [InputManager.java, 101]     com.TETOSOFT.input.InputManager.recenterMouse
+
+com.TETOSOFT.input.InputManager.comp   (Private Variable)
+  Declared as: Component
+    Define [InputManager.java, 31]   com.TETOSOFT.input.InputManager
+    Set [InputManager.java, 37]      com.TETOSOFT.input.InputManager.InputManager
+    Use [InputManager.java, 95]      com.TETOSOFT.input.InputManager.recenterMouse
+    Use [InputManager.java, 96]      com.TETOSOFT.input.InputManager.recenterMouse
+    Use [InputManager.java, 97]      com.TETOSOFT.input.InputManager.recenterMouse
+    Use [InputManager.java, 99]      com.TETOSOFT.input.InputManager.recenterMouse
+    Use [InputManager.java, 52]      com.TETOSOFT.input.InputManager.setCursor
+
+com.TETOSOFT.input.InputManager.getKeyAction.e   (Parameter)
+  Declared as: KeyEvent
+    Define [InputManager.java, 105]   com.TETOSOFT.input.InputManager.getKeyAction
+    Use [InputManager.java, 106]     com.TETOSOFT.input.InputManager.getKeyAction
+
+com.TETOSOFT.input.InputManager.getKeyAction.keyCode   (Variable)
+  Declared as: int=e.getKeyCode
+    Define [InputManager.java, 106]   com.TETOSOFT.input.InputManager.getKeyAction
+    Set [InputManager.java, 106]     com.TETOSOFT.input.InputManager.getKeyAction
+    Use [InputManager.java, 107]     com.TETOSOFT.input.InputManager.getKeyAction
+    Use [InputManager.java, 108]     com.TETOSOFT.input.InputManager.getKeyAction
+
+com.TETOSOFT.input.InputManager.getMouseButtonAction.e   (Parameter)
+  Declared as: MouseEvent
+    Define [InputManager.java, 115]   com.TETOSOFT.input.InputManager.getMouseButtonAction
+    Use [InputManager.java, 116]     com.TETOSOFT.input.InputManager.getMouseButtonAction
+
+com.TETOSOFT.input.InputManager.getMouseButtonAction.mouseCode   (Variable)
+  Declared as: int=mouse.getMouseButtonCode
+    Define [InputManager.java, 116]   com.TETOSOFT.input.InputManager.getMouseButtonAction
+    Set [InputManager.java, 116]     com.TETOSOFT.input.InputManager.getMouseButtonAction
+    Use [InputManager.java, 117]     com.TETOSOFT.input.InputManager.getMouseButtonAction
+    Use [InputManager.java, 118]     com.TETOSOFT.input.InputManager.getMouseButtonAction
+
+com.TETOSOFT.input.InputManager.InputManager.comp   (Parameter)
+  Declared as: Component
+    Define [InputManager.java, 36]   com.TETOSOFT.input.InputManager.InputManager
+    Use [InputManager.java, 37]      com.TETOSOFT.input.InputManager.InputManager
+    Use [InputManager.java, 41]      com.TETOSOFT.input.InputManager.InputManager
+    Use [InputManager.java, 42]      com.TETOSOFT.input.InputManager.InputManager
+    Use [InputManager.java, 43]      com.TETOSOFT.input.InputManager.InputManager
+    Use [InputManager.java, 44]      com.TETOSOFT.input.InputManager.InputManager
+    Use [InputManager.java, 46]      com.TETOSOFT.input.InputManager.InputManager
+
+com.TETOSOFT.input.InputManager.INVISIBLE_CURSOR   (Public Static Variable)
+  Declared as: Cursor=createCustomCursor
+    Define [InputManager.java, 14]   com.TETOSOFT.input.InputManager
+    Set [InputManager.java, 14]      com.TETOSOFT.input.InputManager
+    Use [GameEngine.java, 73]        com.TETOSOFT.tilegame.GameEngine.initInput
+
+com.TETOSOFT.input.InputManager.isRecentering   (Private Variable)
+  Declared as: boolean
+    Define [InputManager.java, 33]   com.TETOSOFT.input.InputManager
+    Use [InputManager.java, 200]     com.TETOSOFT.input.InputManager.mouseMoved
+    Set [InputManager.java, 204]     com.TETOSOFT.input.InputManager.mouseMoved
+    Set [InputManager.java, 100]     com.TETOSOFT.input.InputManager.recenterMouse
+
+com.TETOSOFT.input.InputManager.keyActions   (Private Variable)
+  Declared as: GameAction[]=GameAction[NUM_KEY_CODES]
+    Define [InputManager.java, 24]   com.TETOSOFT.input.InputManager
+    Set [InputManager.java, 24]      com.TETOSOFT.input.InputManager
+    Use [InputManager.java, 107]     com.TETOSOFT.input.InputManager.getKeyAction
+    Use [InputManager.java, 108]     com.TETOSOFT.input.InputManager.getKeyAction
+    Set [InputManager.java, 84]      com.TETOSOFT.input.InputManager.mapToKey
+
+com.TETOSOFT.input.InputManager.keyPressed.e   (Parameter)
+  Declared as: KeyEvent
+    Define [InputManager.java, 127]   com.TETOSOFT.input.InputManager.keyPressed
+    Use [InputManager.java, 128]     com.TETOSOFT.input.InputManager.keyPressed
+    Use [InputManager.java, 133]     com.TETOSOFT.input.InputManager.keyPressed
+
+com.TETOSOFT.input.InputManager.keyPressed.gameAction   (Variable)
+  Declared as: GameAction=getKeyAction
+    Define [InputManager.java, 128]   com.TETOSOFT.input.InputManager.keyPressed
+    Set [InputManager.java, 128]     com.TETOSOFT.input.InputManager.keyPressed
+    Use [InputManager.java, 129]     com.TETOSOFT.input.InputManager.keyPressed
+    Use [InputManager.java, 130]     com.TETOSOFT.input.InputManager.keyPressed
+
+com.TETOSOFT.input.InputManager.keyReleased.e   (Parameter)
+  Declared as: KeyEvent
+    Define [InputManager.java, 138]   com.TETOSOFT.input.InputManager.keyReleased
+    Use [InputManager.java, 139]     com.TETOSOFT.input.InputManager.keyReleased
+    Use [InputManager.java, 144]     com.TETOSOFT.input.InputManager.keyReleased
+
+com.TETOSOFT.input.InputManager.keyReleased.gameAction   (Variable)
+  Declared as: GameAction=getKeyAction
+    Define [InputManager.java, 139]   com.TETOSOFT.input.InputManager.keyReleased
+    Set [InputManager.java, 139]     com.TETOSOFT.input.InputManager.keyReleased
+    Use [InputManager.java, 140]     com.TETOSOFT.input.InputManager.keyReleased
+    Use [InputManager.java, 141]     com.TETOSOFT.input.InputManager.keyReleased
+
+com.TETOSOFT.input.InputManager.keyTyped.e   (Parameter)
+  Declared as: KeyEvent
+    Define [InputManager.java, 149]   com.TETOSOFT.input.InputManager.keyTyped
+    Use [InputManager.java, 151]     com.TETOSOFT.input.InputManager.keyTyped
+
+com.TETOSOFT.input.InputManager.mapToKey.gameAction   (Parameter)
+  Declared as: GameAction
+    Define [InputManager.java, 83]   com.TETOSOFT.input.InputManager.mapToKey
+    Use [InputManager.java, 84]      com.TETOSOFT.input.InputManager.mapToKey
+
+com.TETOSOFT.input.InputManager.mapToKey.keyCode   (Parameter)
+  Declared as: int
+    Define [InputManager.java, 83]   com.TETOSOFT.input.InputManager.mapToKey
+    Use [InputManager.java, 84]      com.TETOSOFT.input.InputManager.mapToKey
+
+com.TETOSOFT.input.InputManager.mapToMouse.gameAction   (Parameter)
+  Declared as: GameAction
+    Define [InputManager.java, 88]   com.TETOSOFT.input.InputManager.mapToMouse
+    Use [InputManager.java, 91]      com.TETOSOFT.input.InputManager.mapToMouse
+
+com.TETOSOFT.input.InputManager.mapToMouse.mouseCode   (Parameter)
+  Declared as: int
+    Define [InputManager.java, 89]   com.TETOSOFT.input.InputManager.mapToMouse
+    Use [InputManager.java, 91]      com.TETOSOFT.input.InputManager.mapToMouse
+
+com.TETOSOFT.input.InputManager.mouse   (Private Static Variable)
+  Declared as: Mouse
+    Define [InputManager.java, 29]   com.TETOSOFT.input.InputManager
+    Set [InputManager.java, 38]      com.TETOSOFT.input.InputManager.InputManager
+    Use [InputManager.java, 116]     com.TETOSOFT.input.InputManager.getMouseButtonAction
+    Use [InputManager.java, 207]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 208]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 209]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 209]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 210]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 210]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 217]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 218]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 224]     com.TETOSOFT.input.InputManager.mouseWheelMoved
+    Use [InputManager.java, 224]     com.TETOSOFT.input.InputManager.mouseWheelMoved
+
+com.TETOSOFT.input.InputManager.mouseActions   (Private Variable)
+  Declared as: GameAction[]=GameAction[NUM_MOUSE_CODES]
+    Define [InputManager.java, 26]   com.TETOSOFT.input.InputManager
+    Set [InputManager.java, 26]      com.TETOSOFT.input.InputManager
+    Use [InputManager.java, 118]     com.TETOSOFT.input.InputManager.getMouseButtonAction
+    Set [InputManager.java, 91]      com.TETOSOFT.input.InputManager.mapToMouse
+    Use [InputManager.java, 233]     com.TETOSOFT.input.InputManager.mouseHelper
+    Use [InputManager.java, 236]     com.TETOSOFT.input.InputManager.mouseHelper
+
+com.TETOSOFT.input.InputManager.mouseClicked.e   (Parameter)
+  Declared as: MouseEvent
+    Define [InputManager.java, 174]   com.TETOSOFT.input.InputManager.mouseClicked
+
+com.TETOSOFT.input.InputManager.mouseDragged.e   (Parameter)
+  Declared as: MouseEvent
+    Define [InputManager.java, 192]   com.TETOSOFT.input.InputManager.mouseDragged
+    Use [InputManager.java, 193]     com.TETOSOFT.input.InputManager.mouseDragged
+
+com.TETOSOFT.input.InputManager.mouseEntered.e   (Parameter)
+  Declared as: MouseEvent
+    Define [InputManager.java, 180]   com.TETOSOFT.input.InputManager.mouseEntered
+    Use [InputManager.java, 181]     com.TETOSOFT.input.InputManager.mouseEntered
+
+com.TETOSOFT.input.InputManager.mouseExited.e   (Parameter)
+  Declared as: MouseEvent
+    Define [InputManager.java, 186]   com.TETOSOFT.input.InputManager.mouseExited
+    Use [InputManager.java, 187]     com.TETOSOFT.input.InputManager.mouseExited
+
+com.TETOSOFT.input.InputManager.mouseHelper.amount   (Parameter)
+  Declared as: int
+    Define [InputManager.java, 229]   com.TETOSOFT.input.InputManager.mouseHelper
+    Use [InputManager.java, 232]     com.TETOSOFT.input.InputManager.mouseHelper
+    Use [InputManager.java, 239]     com.TETOSOFT.input.InputManager.mouseHelper
+
+com.TETOSOFT.input.InputManager.mouseHelper.codeNeg   (Parameter)
+  Declared as: int
+    Define [InputManager.java, 228]   com.TETOSOFT.input.InputManager.mouseHelper
+    Use [InputManager.java, 233]     com.TETOSOFT.input.InputManager.mouseHelper
+
+com.TETOSOFT.input.InputManager.mouseHelper.codePos   (Parameter)
+  Declared as: int
+    Define [InputManager.java, 228]   com.TETOSOFT.input.InputManager.mouseHelper
+    Use [InputManager.java, 236]     com.TETOSOFT.input.InputManager.mouseHelper
+
+com.TETOSOFT.input.InputManager.mouseHelper.gameAction   (Variable)
+  Declared as: GameAction
+    Define [InputManager.java, 231]   com.TETOSOFT.input.InputManager.mouseHelper
+    Set [InputManager.java, 233]     com.TETOSOFT.input.InputManager.mouseHelper
+    Set [InputManager.java, 236]     com.TETOSOFT.input.InputManager.mouseHelper
+    Use [InputManager.java, 238]     com.TETOSOFT.input.InputManager.mouseHelper
+    Use [InputManager.java, 239]     com.TETOSOFT.input.InputManager.mouseHelper
+    Use [InputManager.java, 240]     com.TETOSOFT.input.InputManager.mouseHelper
+
+com.TETOSOFT.input.InputManager.mouseMoved.dx   (Variable)
+  Declared as: int=e.getX - mouse.getMouseLocationX
+    Define [InputManager.java, 207]   com.TETOSOFT.input.InputManager.mouseMoved
+    Set [InputManager.java, 207]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 209]     com.TETOSOFT.input.InputManager.mouseMoved
+
+com.TETOSOFT.input.InputManager.mouseMoved.dy   (Variable)
+  Declared as: int=e.getY - mouse.getMouseLocationY
+    Define [InputManager.java, 208]   com.TETOSOFT.input.InputManager.mouseMoved
+    Set [InputManager.java, 208]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 210]     com.TETOSOFT.input.InputManager.mouseMoved
+
+com.TETOSOFT.input.InputManager.mouseMoved.e   (Parameter)
+  Declared as: MouseEvent
+    Define [InputManager.java, 198]   com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 201]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 202]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 207]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 208]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 217]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 218]     com.TETOSOFT.input.InputManager.mouseMoved
+
+com.TETOSOFT.input.InputManager.mousePressed.e   (Parameter)
+  Declared as: MouseEvent
+    Define [InputManager.java, 156]   com.TETOSOFT.input.InputManager.mousePressed
+    Use [InputManager.java, 157]     com.TETOSOFT.input.InputManager.mousePressed
+
+com.TETOSOFT.input.InputManager.mousePressed.gameAction   (Variable)
+  Declared as: GameAction=getMouseButtonAction
+    Define [InputManager.java, 157]   com.TETOSOFT.input.InputManager.mousePressed
+    Set [InputManager.java, 157]     com.TETOSOFT.input.InputManager.mousePressed
+    Use [InputManager.java, 158]     com.TETOSOFT.input.InputManager.mousePressed
+    Use [InputManager.java, 159]     com.TETOSOFT.input.InputManager.mousePressed
+
+com.TETOSOFT.input.InputManager.mouseReleased.e   (Parameter)
+  Declared as: MouseEvent
+    Define [InputManager.java, 165]   com.TETOSOFT.input.InputManager.mouseReleased
+    Use [InputManager.java, 166]     com.TETOSOFT.input.InputManager.mouseReleased
+
+com.TETOSOFT.input.InputManager.mouseReleased.gameAction   (Variable)
+  Declared as: GameAction=getMouseButtonAction
+    Define [InputManager.java, 166]   com.TETOSOFT.input.InputManager.mouseReleased
+    Set [InputManager.java, 166]     com.TETOSOFT.input.InputManager.mouseReleased
+    Use [InputManager.java, 167]     com.TETOSOFT.input.InputManager.mouseReleased
+    Use [InputManager.java, 168]     com.TETOSOFT.input.InputManager.mouseReleased
+
+com.TETOSOFT.input.InputManager.mouseWheelMoved.e   (Parameter)
+  Declared as: MouseWheelEvent
+    Define [InputManager.java, 223]   com.TETOSOFT.input.InputManager.mouseWheelMoved
+    Use [InputManager.java, 225]     com.TETOSOFT.input.InputManager.mouseWheelMoved
+
+com.TETOSOFT.input.InputManager.NUM_KEY_CODES   (Private Static Variable)
+  Declared as: int=600
+    Define [InputManager.java, 22]   com.TETOSOFT.input.InputManager
+    Set [InputManager.java, 22]      com.TETOSOFT.input.InputManager
+    Use [InputManager.java, 25]      com.TETOSOFT.input.InputManager
+
+com.TETOSOFT.input.InputManager.NUM_MOUSE_CODES   (Private Static Variable)
+  Declared as: int=9
+    Define [InputManager.java, 20]   com.TETOSOFT.input.InputManager
+    Set [InputManager.java, 20]      com.TETOSOFT.input.InputManager
+    Use [InputManager.java, 27]      com.TETOSOFT.input.InputManager
+
+com.TETOSOFT.input.InputManager.robot   (Private Variable)
+  Declared as: Robot
+    Define [InputManager.java, 32]   com.TETOSOFT.input.InputManager
+    Use [InputManager.java, 79]      com.TETOSOFT.input.InputManager.isRelativeMouseMode
+    Use [InputManager.java, 95]      com.TETOSOFT.input.InputManager.recenterMouse
+    Use [InputManager.java, 101]     com.TETOSOFT.input.InputManager.recenterMouse
+    Set [InputManager.java, 64]      com.TETOSOFT.input.InputManager.setRelativeMouseMode
+    Set [InputManager.java, 69]      com.TETOSOFT.input.InputManager.setRelativeMouseMode
+    Set [InputManager.java, 73]      com.TETOSOFT.input.InputManager.setRelativeMouseMode
+
+com.TETOSOFT.input.InputManager.setCursor.cursor   (Parameter)
+  Declared as: Cursor
+    Define [InputManager.java, 50]   com.TETOSOFT.input.InputManager.setCursor
+    Use [InputManager.java, 52]      com.TETOSOFT.input.InputManager.setCursor
+
+com.TETOSOFT.input.InputManager.setRelativeMouseMode.(catch_1).ex   (Catch Parameter)
+  Declared as: AWTException
+    Define [InputManager.java, 67]   com.TETOSOFT.input.InputManager.setRelativeMouseMode
+
+com.TETOSOFT.input.InputManager.setRelativeMouseMode.mode   (Parameter)
+  Declared as: boolean
+    Define [InputManager.java, 56]   com.TETOSOFT.input.InputManager.setRelativeMouseMode
+    Use [InputManager.java, 58]      com.TETOSOFT.input.InputManager.setRelativeMouseMode
+    Use [InputManager.java, 62]      com.TETOSOFT.input.InputManager.setRelativeMouseMode
+
+com.TETOSOFT.input.Mouse.getMouseButtonCode.e   (Parameter)
+  Declared as: MouseEvent
+    Define [Mouse.java, 59]          com.TETOSOFT.input.Mouse.getMouseButtonCode
+    Use [Mouse.java, 60]             com.TETOSOFT.input.Mouse.getMouseButtonCode
+
+com.TETOSOFT.input.Mouse.getMouseName.mouseCode   (Parameter)
+  Declared as: int
+    Define [Mouse.java, 44]          com.TETOSOFT.input.Mouse.getMouseName
+    Use [Mouse.java, 45]             com.TETOSOFT.input.Mouse.getMouseName
+    Use [Mouse.java, 55]             com.TETOSOFT.input.Mouse.getMouseName
+
+com.TETOSOFT.input.Mouse.MOUSE_BUTTON_1   (Protected Static Variable)
+  Declared as: int=6
+    Define [Mouse.java, 14]          com.TETOSOFT.input.Mouse
+    Set [Mouse.java, 14]             com.TETOSOFT.input.Mouse
+    Use [Mouse.java, 62]             com.TETOSOFT.input.Mouse.getMouseButtonCode
+    Use [Mouse.java, 52]             com.TETOSOFT.input.Mouse.getMouseName
+
+com.TETOSOFT.input.Mouse.MOUSE_BUTTON_2   (Protected Static Variable)
+  Declared as: int=7
+    Define [Mouse.java, 15]          com.TETOSOFT.input.Mouse
+    Set [Mouse.java, 15]             com.TETOSOFT.input.Mouse
+    Use [Mouse.java, 64]             com.TETOSOFT.input.Mouse.getMouseButtonCode
+    Use [Mouse.java, 53]             com.TETOSOFT.input.Mouse.getMouseName
+
+com.TETOSOFT.input.Mouse.MOUSE_BUTTON_3   (Protected Static Variable)
+  Declared as: int=8
+    Define [Mouse.java, 16]          com.TETOSOFT.input.Mouse
+    Set [Mouse.java, 16]             com.TETOSOFT.input.Mouse
+    Use [Mouse.java, 66]             com.TETOSOFT.input.Mouse.getMouseButtonCode
+    Use [Mouse.java, 54]             com.TETOSOFT.input.Mouse.getMouseName
+
+com.TETOSOFT.input.Mouse.MOUSE_MOVE_DOWN   (Protected Variable)
+  Declared as: int=3
+    Define [Mouse.java, 11]          com.TETOSOFT.input.Mouse
+    Set [Mouse.java, 11]             com.TETOSOFT.input.Mouse
+    Use [Mouse.java, 49]             com.TETOSOFT.input.Mouse.getMouseName
+    Use [InputManager.java, 210]     com.TETOSOFT.input.InputManager.mouseMoved
+
+com.TETOSOFT.input.Mouse.MOUSE_MOVE_LEFT   (Protected Variable)
+  Declared as: int=0
+    Define [Mouse.java, 8]           com.TETOSOFT.input.Mouse
+    Set [Mouse.java, 8]              com.TETOSOFT.input.Mouse
+    Use [Mouse.java, 46]             com.TETOSOFT.input.Mouse.getMouseName
+    Use [InputManager.java, 209]     com.TETOSOFT.input.InputManager.mouseMoved
+
+com.TETOSOFT.input.Mouse.MOUSE_MOVE_RIGHT   (Protected Variable)
+  Declared as: int=1
+    Define [Mouse.java, 9]           com.TETOSOFT.input.Mouse
+    Set [Mouse.java, 9]              com.TETOSOFT.input.Mouse
+    Use [Mouse.java, 47]             com.TETOSOFT.input.Mouse.getMouseName
+    Use [InputManager.java, 209]     com.TETOSOFT.input.InputManager.mouseMoved
+
+com.TETOSOFT.input.Mouse.MOUSE_MOVE_UP   (Protected Variable)
+  Declared as: int=2
+    Define [Mouse.java, 10]          com.TETOSOFT.input.Mouse
+    Set [Mouse.java, 10]             com.TETOSOFT.input.Mouse
+    Use [Mouse.java, 48]             com.TETOSOFT.input.Mouse.getMouseName
+    Use [InputManager.java, 210]     com.TETOSOFT.input.InputManager.mouseMoved
+
+com.TETOSOFT.input.Mouse.MOUSE_WHEEL_DOWN   (Protected Variable)
+  Declared as: int=5
+    Define [Mouse.java, 13]          com.TETOSOFT.input.Mouse
+    Set [Mouse.java, 13]             com.TETOSOFT.input.Mouse
+    Use [Mouse.java, 51]             com.TETOSOFT.input.Mouse.getMouseName
+    Use [InputManager.java, 224]     com.TETOSOFT.input.InputManager.mouseWheelMoved
+
+com.TETOSOFT.input.Mouse.MOUSE_WHEEL_UP   (Protected Variable)
+  Declared as: int=4
+    Define [Mouse.java, 12]          com.TETOSOFT.input.Mouse
+    Set [Mouse.java, 12]             com.TETOSOFT.input.Mouse
+    Use [Mouse.java, 50]             com.TETOSOFT.input.Mouse.getMouseName
+    Use [InputManager.java, 224]     com.TETOSOFT.input.InputManager.mouseWheelMoved
+
+com.TETOSOFT.input.Mouse.mouseLocation   (Private Variable)
+  Declared as: Point
+    Define [Mouse.java, 18]          com.TETOSOFT.input.Mouse
+    Set [Mouse.java, 21]             com.TETOSOFT.input.Mouse.Mouse
+    Use [Mouse.java, 25]             com.TETOSOFT.input.Mouse.getMouseLocation
+    Use [Mouse.java, 29]             com.TETOSOFT.input.Mouse.getMouseLocationX
+    Use [Mouse.java, 33]             com.TETOSOFT.input.Mouse.getMouseLocationY
+    Set [Mouse.java, 37]             com.TETOSOFT.input.Mouse.setMouseLocationX
+    Set [Mouse.java, 41]             com.TETOSOFT.input.Mouse.setMouseLocationY
+
+com.TETOSOFT.input.Mouse.setMouseLocationX.x   (Parameter)
+  Declared as: int
+    Define [Mouse.java, 36]          com.TETOSOFT.input.Mouse.setMouseLocationX
+    Use [Mouse.java, 37]             com.TETOSOFT.input.Mouse.setMouseLocationX
+
+com.TETOSOFT.input.Mouse.setMouseLocationY.y   (Parameter)
+  Declared as: int
+    Define [Mouse.java, 40]          com.TETOSOFT.input.Mouse.setMouseLocationY
+    Use [Mouse.java, 41]             com.TETOSOFT.input.Mouse.setMouseLocationY
+
+com.TETOSOFT.test.GameCore.draw.g   (Parameter)
+  Declared as: Graphics2D
+    Define [GameCore.java, 147]      com.TETOSOFT.test.GameCore.draw
+
+com.TETOSOFT.test.GameCore.FONT_SIZE   (Protected Static Variable)
+  Declared as: int=18
+    Define [GameCore.java, 14]       com.TETOSOFT.test.GameCore
+    Set [GameCore.java, 14]          com.TETOSOFT.test.GameCore
+    Use [GameCore.java, 91]          com.TETOSOFT.test.GameCore.init
+
+com.TETOSOFT.test.GameCore.gameLoop.currTime   (Variable)
+  Declared as: long=startTime
+    Define [GameCore.java, 109]      com.TETOSOFT.test.GameCore.gameLoop
+    Set [GameCore.java, 109]         com.TETOSOFT.test.GameCore.gameLoop
+    Use [GameCore.java, 113]         com.TETOSOFT.test.GameCore.gameLoop
+    Modify [GameCore.java, 114]      com.TETOSOFT.test.GameCore.gameLoop
+
+com.TETOSOFT.test.GameCore.gameLoop.elapsedTime   (Variable)
+  Declared as: long=System.currentTimeMillis - currTime
+    Define [GameCore.java, 112]      com.TETOSOFT.test.GameCore.gameLoop
+    Set [GameCore.java, 112]         com.TETOSOFT.test.GameCore.gameLoop
+    Use [GameCore.java, 114]         com.TETOSOFT.test.GameCore.gameLoop
+    Use [GameCore.java, 117]         com.TETOSOFT.test.GameCore.gameLoop
+
+com.TETOSOFT.test.GameCore.gameLoop.g   (Variable)
+  Declared as: Graphics2D=screen.getGraphics
+    Define [GameCore.java, 120]      com.TETOSOFT.test.GameCore.gameLoop
+    Set [GameCore.java, 120]         com.TETOSOFT.test.GameCore.gameLoop
+    Use [GameCore.java, 121]         com.TETOSOFT.test.GameCore.gameLoop
+    Use [GameCore.java, 122]         com.TETOSOFT.test.GameCore.gameLoop
+
+com.TETOSOFT.test.GameCore.gameLoop.startTime   (Variable)
+  Declared as: long=System.currentTimeMillis
+    Define [GameCore.java, 108]      com.TETOSOFT.test.GameCore.gameLoop
+    Set [GameCore.java, 108]         com.TETOSOFT.test.GameCore.gameLoop
+    Use [GameCore.java, 109]         com.TETOSOFT.test.GameCore.gameLoop
+
+com.TETOSOFT.test.GameCore.init.displayMode   (Variable)
+  Declared as: DisplayMode=screen.findFirstCompatibleMode
+    Define [GameCore.java, 86]       com.TETOSOFT.test.GameCore.init
+    Set [GameCore.java, 86]          com.TETOSOFT.test.GameCore.init
+    Use [GameCore.java, 88]          com.TETOSOFT.test.GameCore.init
+
+com.TETOSOFT.test.GameCore.init.window   (Variable)
+  Declared as: Window=screen.getFullScreenWindow
+    Define [GameCore.java, 90]       com.TETOSOFT.test.GameCore.init
+    Set [GameCore.java, 90]          com.TETOSOFT.test.GameCore.init
+    Use [GameCore.java, 91]          com.TETOSOFT.test.GameCore.init
+    Use [GameCore.java, 92]          com.TETOSOFT.test.GameCore.init
+    Use [GameCore.java, 93]          com.TETOSOFT.test.GameCore.init
+
+com.TETOSOFT.test.GameCore.isRunning   (Private Variable)
+  Declared as: boolean
+    Define [GameCore.java, 29]       com.TETOSOFT.test.GameCore
+    Use [GameCore.java, 111]         com.TETOSOFT.test.GameCore.gameLoop
+    Set [GameCore.java, 95]          com.TETOSOFT.test.GameCore.init
+    Set [GameCore.java, 37]          com.TETOSOFT.test.GameCore.stop
+
+com.TETOSOFT.test.GameCore.LAZILY_CONSTANT   (Private Static Variable)
+  Declared as: int=2000
+    Define [GameCore.java, 15]       com.TETOSOFT.test.GameCore
+    Set [GameCore.java, 15]          com.TETOSOFT.test.GameCore
+    Use [GameCore.java, 68]          com.TETOSOFT.test.GameCore.lazilyExit.(Anon_1).run
+
+com.TETOSOFT.test.GameCore.lazilyExit.(Anon_1).run.(catch_1).ex   (Catch Parameter)
+  Declared as: InterruptedException
+    Define [GameCore.java, 70]       com.TETOSOFT.test.GameCore.lazilyExit.(Anon_1).run
+
+com.TETOSOFT.test.GameCore.lazilyExit.thread   (Variable)
+  Declared as: Thread
+    Define [GameCore.java, 64]       com.TETOSOFT.test.GameCore.lazilyExit
+    Set [GameCore.java, 64]          com.TETOSOFT.test.GameCore.lazilyExit
+    Use [GameCore.java, 75]          com.TETOSOFT.test.GameCore.lazilyExit
+    Use [GameCore.java, 76]          com.TETOSOFT.test.GameCore.lazilyExit
+
+com.TETOSOFT.test.GameCore.loadImage.fileName   (Parameter)
+  Declared as: String
+    Define [GameCore.java, 99]       com.TETOSOFT.test.GameCore.loadImage
+    Use [GameCore.java, 100]         com.TETOSOFT.test.GameCore.loadImage
+
+com.TETOSOFT.test.GameCore.POSSIBLE_MODES   (Private Static Variable)
+  Declared as: DisplayMode[]
+    Define [GameCore.java, 17]       com.TETOSOFT.test.GameCore
+    Set [GameCore.java, 17]          com.TETOSOFT.test.GameCore
+    Use [GameCore.java, 87]          com.TETOSOFT.test.GameCore.init
+
+com.TETOSOFT.test.GameCore.screen   (Protected Variable)
+  Declared as: ScreenManager
+    Define [GameCore.java, 30]       com.TETOSOFT.test.GameCore
+    Use [GameCore.java, 120]         com.TETOSOFT.test.GameCore.gameLoop
+    Use [GameCore.java, 123]         com.TETOSOFT.test.GameCore.gameLoop
+    Set [GameCore.java, 85]          com.TETOSOFT.test.GameCore.init
+    Use [GameCore.java, 87]          com.TETOSOFT.test.GameCore.init
+    Use [GameCore.java, 88]          com.TETOSOFT.test.GameCore.init
+    Use [GameCore.java, 90]          com.TETOSOFT.test.GameCore.init
+    Use [GameCore.java, 50]          com.TETOSOFT.test.GameCore.run
+    Use [GameEngine.java, 111]       com.TETOSOFT.tilegame.GameEngine.draw
+    Use [GameEngine.java, 111]       com.TETOSOFT.tilegame.GameEngine.draw
+    Use [GameEngine.java, 46]        com.TETOSOFT.tilegame.GameEngine.init
+    Use [GameEngine.java, 72]        com.TETOSOFT.tilegame.GameEngine.initInput
+
+com.TETOSOFT.test.GameCore.update.elapsedTime   (Parameter)
+  Declared as: long
+    Define [GameCore.java, 138]      com.TETOSOFT.test.GameCore.update
+
+com.TETOSOFT.tilegame.GameEngine.acquirePowerUp.powerUp   (Parameter)
+  Declared as: PowerUp
+    Define [GameEngine.java, 368]    com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+    Use [GameEngine.java, 370]       com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+    Use [GameEngine.java, 372]       com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+    Use [GameEngine.java, 381]       com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+    Use [GameEngine.java, 384]       com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+
+com.TETOSOFT.tilegame.GameEngine.checkInput.elapsedTime   (Parameter)
+  Declared as: long
+    Define [GameEngine.java, 82]     com.TETOSOFT.tilegame.GameEngine.checkInput
+
+com.TETOSOFT.tilegame.GameEngine.checkInput.player   (Variable)
+  Declared as: Player=Player
+    Define [GameEngine.java, 89]     com.TETOSOFT.tilegame.GameEngine.checkInput
+    Set [GameEngine.java, 89]        com.TETOSOFT.tilegame.GameEngine.checkInput
+    Use [GameEngine.java, 90]        com.TETOSOFT.tilegame.GameEngine.checkInput
+    Use [GameEngine.java, 95]        com.TETOSOFT.tilegame.GameEngine.checkInput
+    Use [GameEngine.java, 98]        com.TETOSOFT.tilegame.GameEngine.checkInput
+    Use [GameEngine.java, 101]       com.TETOSOFT.tilegame.GameEngine.checkInput
+    Use [GameEngine.java, 103]       com.TETOSOFT.tilegame.GameEngine.checkInput
+
+com.TETOSOFT.tilegame.GameEngine.checkInput.velocityX   (Variable)
+  Declared as: float=0
+    Define [GameEngine.java, 92]     com.TETOSOFT.tilegame.GameEngine.checkInput
+    Set [GameEngine.java, 92]        com.TETOSOFT.tilegame.GameEngine.checkInput
+    Modify [GameEngine.java, 95]     com.TETOSOFT.tilegame.GameEngine.checkInput
+    Modify [GameEngine.java, 98]     com.TETOSOFT.tilegame.GameEngine.checkInput
+    Use [GameEngine.java, 103]       com.TETOSOFT.tilegame.GameEngine.checkInput
+
+com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision.(catch_1).ex   (Catch Parameter)
+  Declared as: InterruptedException
+    Use [GameEngine.java, 355]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Define [GameEngine.java, 354]    com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+
+com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision.badguy   (Variable)
+  Declared as: Creature=Creature
+    Define [GameEngine.java, 341]    com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Set [GameEngine.java, 341]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 344]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 345]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+
+com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision.canKill   (Parameter)
+  Declared as: boolean
+    Define [GameEngine.java, 331]    com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 342]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+
+com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision.collisionSprite   (Variable)
+  Declared as: Sprite=getSpriteCollision
+    Define [GameEngine.java, 337]    com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Set [GameEngine.java, 337]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 338]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 339]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 340]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 341]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+
+com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision.player   (Parameter)
+  Declared as: Player
+    Define [GameEngine.java, 330]    com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 332]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 337]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 345]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 345]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 346]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 349]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+
+com.TETOSOFT.tilegame.GameEngine.collectedStars   (Private Variable)
+  Declared as: int=0
+    Define [GameEngine.java, 35]     com.TETOSOFT.tilegame.GameEngine
+    Set [GameEngine.java, 35]        com.TETOSOFT.tilegame.GameEngine
+    Modify [GameEngine.java, 374]    com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+    Use [GameEngine.java, 375]       com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+    Set [GameEngine.java, 378]       com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+    Use [GameEngine.java, 115]       com.TETOSOFT.tilegame.GameEngine.draw
+
+com.TETOSOFT.tilegame.GameEngine.draw.g   (Parameter)
+  Declared as: Graphics2D
+    Define [GameEngine.java, 109]    com.TETOSOFT.tilegame.GameEngine.draw
+    Use [GameEngine.java, 111]       com.TETOSOFT.tilegame.GameEngine.draw
+    Use [GameEngine.java, 112]       com.TETOSOFT.tilegame.GameEngine.draw
+    Use [GameEngine.java, 113]       com.TETOSOFT.tilegame.GameEngine.draw
+    Use [GameEngine.java, 114]       com.TETOSOFT.tilegame.GameEngine.draw
+    Use [GameEngine.java, 115]       com.TETOSOFT.tilegame.GameEngine.draw
+    Use [GameEngine.java, 116]       com.TETOSOFT.tilegame.GameEngine.draw
+    Use [GameEngine.java, 117]       com.TETOSOFT.tilegame.GameEngine.draw
+    Use [GameEngine.java, 118]       com.TETOSOFT.tilegame.GameEngine.draw
+    Use [GameEngine.java, 119]       com.TETOSOFT.tilegame.GameEngine.draw
+
+com.TETOSOFT.tilegame.GameEngine.drawer   (Private Variable)
+  Declared as: TileMapDrawer
+    Define [GameEngine.java, 29]     com.TETOSOFT.tilegame.GameEngine
+    Use [GameEngine.java, 111]       com.TETOSOFT.tilegame.GameEngine.draw
+    Set [GameEngine.java, 49]        com.TETOSOFT.tilegame.GameEngine.init
+    Use [GameEngine.java, 50]        com.TETOSOFT.tilegame.GameEngine.init
+
+com.TETOSOFT.tilegame.GameEngine.exit   (Private Variable)
+  Declared as: GameAction
+    Define [GameEngine.java, 34]     com.TETOSOFT.tilegame.GameEngine
+    Use [GameEngine.java, 85]        com.TETOSOFT.tilegame.GameEngine.checkInput
+    Set [GameEngine.java, 70]        com.TETOSOFT.tilegame.GameEngine.initInput
+    Use [GameEngine.java, 78]        com.TETOSOFT.tilegame.GameEngine.initInput
+
+com.TETOSOFT.tilegame.GameEngine.getSpriteCollision.i   (Variable)
+  Declared as: Iterator=map.getSprites
+    Define [GameEngine.java, 208]    com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+    Set [GameEngine.java, 208]       com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+    Use [GameEngine.java, 209]       com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+    Use [GameEngine.java, 210]       com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+
+com.TETOSOFT.tilegame.GameEngine.getSpriteCollision.otherSprite   (Variable)
+  Declared as: Sprite=Sprite
+    Define [GameEngine.java, 210]    com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+    Set [GameEngine.java, 210]       com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+    Use [GameEngine.java, 211]       com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+    Use [GameEngine.java, 213]       com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+
+com.TETOSOFT.tilegame.GameEngine.getSpriteCollision.sprite   (Parameter)
+  Declared as: Sprite
+    Define [GameEngine.java, 205]    com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+    Use [GameEngine.java, 211]       com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.(for_loop_1).(for_loop_2).y   (Variable)
+  Declared as: int=fromTileY
+    Set [GameEngine.java, 153]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 153]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Modify [GameEngine.java, 153]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 155]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 157]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Define [GameEngine.java, 153]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.(for_loop_1).x   (Variable)
+  Declared as: int=fromTileX
+    Set [GameEngine.java, 152]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 152]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Modify [GameEngine.java, 152]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 154]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 154]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 155]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 157]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Define [GameEngine.java, 152]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.fromTileX   (Variable)
+  Declared as: int=TileMapDrawer.pixelsToTiles
+    Define [GameEngine.java, 144]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Set [GameEngine.java, 144]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 152]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.fromTileY   (Variable)
+  Declared as: int=TileMapDrawer.pixelsToTiles
+    Define [GameEngine.java, 145]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Set [GameEngine.java, 145]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 153]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.fromX   (Variable)
+  Declared as: float=Math.min
+    Define [GameEngine.java, 138]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Set [GameEngine.java, 138]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 144]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.fromY   (Variable)
+  Declared as: float=Math.min
+    Define [GameEngine.java, 139]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Set [GameEngine.java, 139]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 145]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.newX   (Parameter)
+  Declared as: float
+    Define [GameEngine.java, 136]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 138]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 140]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.newY   (Parameter)
+  Declared as: float
+    Define [GameEngine.java, 136]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 139]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 141]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.sprite   (Parameter)
+  Declared as: Sprite
+    Define [GameEngine.java, 136]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 138]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 139]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 140]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 141]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 147]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 149]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.toTileX   (Variable)
+  Declared as: int=TileMapDrawer.pixelsToTiles
+    Define [GameEngine.java, 146]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Set [GameEngine.java, 146]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 152]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.toTileY   (Variable)
+  Declared as: int=TileMapDrawer.pixelsToTiles
+    Define [GameEngine.java, 148]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Set [GameEngine.java, 148]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 153]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.toX   (Variable)
+  Declared as: float=Math.max
+    Define [GameEngine.java, 140]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Set [GameEngine.java, 140]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 147]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.toY   (Variable)
+  Declared as: float=Math.max
+    Define [GameEngine.java, 141]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Set [GameEngine.java, 141]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 149]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+
+com.TETOSOFT.tilegame.GameEngine.GRAVITY   (Private Static Variable)
+  Declared as: float=0.002f
+    Define [GameEngine.java, 23]     com.TETOSOFT.tilegame.GameEngine
+    Set [GameEngine.java, 23]        com.TETOSOFT.tilegame.GameEngine
+    Use [GameEngine.java, 271]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+
+com.TETOSOFT.tilegame.GameEngine.inputManager   (Private Variable)
+  Declared as: InputManager
+    Define [GameEngine.java, 28]     com.TETOSOFT.tilegame.GameEngine
+    Set [GameEngine.java, 72]        com.TETOSOFT.tilegame.GameEngine.initInput
+    Use [GameEngine.java, 73]        com.TETOSOFT.tilegame.GameEngine.initInput
+    Use [GameEngine.java, 75]        com.TETOSOFT.tilegame.GameEngine.initInput
+    Use [GameEngine.java, 76]        com.TETOSOFT.tilegame.GameEngine.initInput
+    Use [GameEngine.java, 77]        com.TETOSOFT.tilegame.GameEngine.initInput
+    Use [GameEngine.java, 78]        com.TETOSOFT.tilegame.GameEngine.initInput
+
+com.TETOSOFT.tilegame.GameEngine.isCollision.s1   (Parameter)
+  Declared as: Sprite
+    Define [GameEngine.java, 173]    com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 175]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 180]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 180]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 188]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 189]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 195]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 197]       com.TETOSOFT.tilegame.GameEngine.isCollision
+
+com.TETOSOFT.tilegame.GameEngine.isCollision.s1x   (Variable)
+  Declared as: int=Math.round
+    Define [GameEngine.java, 188]    com.TETOSOFT.tilegame.GameEngine.isCollision
+    Set [GameEngine.java, 188]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 194]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 195]       com.TETOSOFT.tilegame.GameEngine.isCollision
+
+com.TETOSOFT.tilegame.GameEngine.isCollision.s1y   (Variable)
+  Declared as: int=Math.round
+    Define [GameEngine.java, 189]    com.TETOSOFT.tilegame.GameEngine.isCollision
+    Set [GameEngine.java, 189]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 196]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 197]       com.TETOSOFT.tilegame.GameEngine.isCollision
+
+com.TETOSOFT.tilegame.GameEngine.isCollision.s2   (Parameter)
+  Declared as: Sprite
+    Define [GameEngine.java, 173]    com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 175]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 183]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 183]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 190]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 191]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 194]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 196]       com.TETOSOFT.tilegame.GameEngine.isCollision
+
+com.TETOSOFT.tilegame.GameEngine.isCollision.s2x   (Variable)
+  Declared as: int=Math.round
+    Define [GameEngine.java, 190]    com.TETOSOFT.tilegame.GameEngine.isCollision
+    Set [GameEngine.java, 190]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 194]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 195]       com.TETOSOFT.tilegame.GameEngine.isCollision
+
+com.TETOSOFT.tilegame.GameEngine.isCollision.s2y   (Variable)
+  Declared as: int=Math.round
+    Define [GameEngine.java, 191]    com.TETOSOFT.tilegame.GameEngine.isCollision
+    Set [GameEngine.java, 191]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 196]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 197]       com.TETOSOFT.tilegame.GameEngine.isCollision
+
+com.TETOSOFT.tilegame.GameEngine.jump   (Private Variable)
+  Declared as: GameAction
+    Define [GameEngine.java, 33]     com.TETOSOFT.tilegame.GameEngine
+    Use [GameEngine.java, 100]       com.TETOSOFT.tilegame.GameEngine.checkInput
+    Set [GameEngine.java, 69]        com.TETOSOFT.tilegame.GameEngine.initInput
+    Use [GameEngine.java, 77]        com.TETOSOFT.tilegame.GameEngine.initInput
+
+com.TETOSOFT.tilegame.GameEngine.main.args   (Parameter)
+  Declared as: String[]
+    Define [GameEngine.java, 18]     com.TETOSOFT.tilegame.GameEngine.main
+
+com.TETOSOFT.tilegame.GameEngine.map   (Private Variable)
+  Declared as: TileMap
+    Define [GameEngine.java, 26]     com.TETOSOFT.tilegame.GameEngine
+    Use [GameEngine.java, 370]       com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+    Set [GameEngine.java, 387]       com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+    Use [GameEngine.java, 89]        com.TETOSOFT.tilegame.GameEngine.checkInput
+    Use [GameEngine.java, 111]       com.TETOSOFT.tilegame.GameEngine.draw
+    Use [GameEngine.java, 128]       com.TETOSOFT.tilegame.GameEngine.getMap
+    Use [GameEngine.java, 208]       com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+    Use [GameEngine.java, 154]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 155]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Set [GameEngine.java, 53]        com.TETOSOFT.tilegame.GameEngine.init
+    Use [GameEngine.java, 227]       com.TETOSOFT.tilegame.GameEngine.update
+    Set [GameEngine.java, 232]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 244]       com.TETOSOFT.tilegame.GameEngine.update
+
+com.TETOSOFT.tilegame.GameEngine.mapLoader   (Private Variable)
+  Declared as: MapLoader
+    Define [GameEngine.java, 27]     com.TETOSOFT.tilegame.GameEngine
+    Use [GameEngine.java, 387]       com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+    Use [GameEngine.java, 119]       com.TETOSOFT.tilegame.GameEngine.draw
+    Set [GameEngine.java, 46]        com.TETOSOFT.tilegame.GameEngine.init
+    Use [GameEngine.java, 50]        com.TETOSOFT.tilegame.GameEngine.init
+    Use [GameEngine.java, 53]        com.TETOSOFT.tilegame.GameEngine.init
+    Use [GameEngine.java, 232]       com.TETOSOFT.tilegame.GameEngine.update
+
+com.TETOSOFT.tilegame.GameEngine.moveLeft   (Private Variable)
+  Declared as: GameAction
+    Define [GameEngine.java, 31]     com.TETOSOFT.tilegame.GameEngine
+    Use [GameEngine.java, 93]        com.TETOSOFT.tilegame.GameEngine.checkInput
+    Set [GameEngine.java, 67]        com.TETOSOFT.tilegame.GameEngine.initInput
+    Use [GameEngine.java, 75]        com.TETOSOFT.tilegame.GameEngine.initInput
+
+com.TETOSOFT.tilegame.GameEngine.moveRight   (Private Variable)
+  Declared as: GameAction
+    Define [GameEngine.java, 32]     com.TETOSOFT.tilegame.GameEngine
+    Use [GameEngine.java, 97]        com.TETOSOFT.tilegame.GameEngine.checkInput
+    Set [GameEngine.java, 68]        com.TETOSOFT.tilegame.GameEngine.initInput
+    Use [GameEngine.java, 76]        com.TETOSOFT.tilegame.GameEngine.initInput
+
+com.TETOSOFT.tilegame.GameEngine.numLives   (Private Variable)
+  Declared as: int=6
+    Define [GameEngine.java, 36]     com.TETOSOFT.tilegame.GameEngine
+    Set [GameEngine.java, 36]        com.TETOSOFT.tilegame.GameEngine
+    Modify [GameEngine.java, 377]    com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+    Modify [GameEngine.java, 350]    com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 351]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 117]       com.TETOSOFT.tilegame.GameEngine.draw
+
+com.TETOSOFT.tilegame.GameEngine.pointCache   (Private Variable)
+  Declared as: Point=Point()
+    Define [GameEngine.java, 25]     com.TETOSOFT.tilegame.GameEngine
+    Set [GameEngine.java, 25]        com.TETOSOFT.tilegame.GameEngine
+    Use [GameEngine.java, 157]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Use [GameEngine.java, 158]       com.TETOSOFT.tilegame.GameEngine.getTileCollision
+
+com.TETOSOFT.tilegame.GameEngine.update.creature   (Variable)
+  Declared as: Creature=Creature
+    Define [GameEngine.java, 248]    com.TETOSOFT.tilegame.GameEngine.update
+    Set [GameEngine.java, 248]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 249]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 252]       com.TETOSOFT.tilegame.GameEngine.update
+
+com.TETOSOFT.tilegame.GameEngine.update.elapsedTime   (Parameter)
+  Declared as: long
+    Define [GameEngine.java, 226]    com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 237]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 240]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 241]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 252]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 256]       com.TETOSOFT.tilegame.GameEngine.update
+
+com.TETOSOFT.tilegame.GameEngine.update.i   (Variable)
+  Declared as: Iterator=map.getSprites
+    Define [GameEngine.java, 244]    com.TETOSOFT.tilegame.GameEngine.update
+    Set [GameEngine.java, 244]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 245]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 246]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 250]       com.TETOSOFT.tilegame.GameEngine.update
+
+com.TETOSOFT.tilegame.GameEngine.update.player   (Variable)
+  Declared as: Creature=Creature
+    Define [GameEngine.java, 227]    com.TETOSOFT.tilegame.GameEngine.update
+    Set [GameEngine.java, 227]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 231]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 240]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 241]       com.TETOSOFT.tilegame.GameEngine.update
+
+com.TETOSOFT.tilegame.GameEngine.update.sprite   (Variable)
+  Declared as: Sprite=Sprite
+    Define [GameEngine.java, 246]    com.TETOSOFT.tilegame.GameEngine.update
+    Set [GameEngine.java, 246]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 247]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 248]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 256]       com.TETOSOFT.tilegame.GameEngine.update
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.canKill   (Variable)
+  Declared as: boolean=(oldY < creature.getY)
+    Define [GameEngine.java, 318]    com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Set [GameEngine.java, 318]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 319]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.creature   (Parameter)
+  Declared as: Creature
+    Define [GameEngine.java, 265]    com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 269]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 270]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 270]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 275]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 276]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 279]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 279]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 281]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 285]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 287]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 289]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 292]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 294]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 295]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 299]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 300]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 302]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 302]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 304]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 308]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 310]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 312]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 315]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 317]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 318]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 319]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.dx   (Variable)
+  Declared as: float=creature.getVelocityX
+    Define [GameEngine.java, 275]    com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Set [GameEngine.java, 275]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 277]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 284]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 288]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.dy   (Variable)
+  Declared as: float=creature.getVelocityY
+    Define [GameEngine.java, 299]    com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Set [GameEngine.java, 299]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 301]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 307]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 311]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.elapsedTime   (Parameter)
+  Declared as: long
+    Define [GameEngine.java, 266]    com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 271]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 277]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 301]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.newX   (Variable)
+  Declared as: float=oldX + dx * elapsedTime
+    Define [GameEngine.java, 277]    com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Set [GameEngine.java, 277]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 279]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 281]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.newY   (Variable)
+  Declared as: float=oldY + dy * elapsedTime
+    Define [GameEngine.java, 301]    com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Set [GameEngine.java, 301]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 302]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 304]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.oldX   (Variable)
+  Declared as: float=creature.getX
+    Define [GameEngine.java, 276]    com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Set [GameEngine.java, 276]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 277]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.oldY   (Variable)
+  Declared as: float=creature.getY
+    Define [GameEngine.java, 300]    com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Set [GameEngine.java, 300]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 301]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 318]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.tile   (Variable)
+  Declared as: Point=getTileCollision
+    Define [GameEngine.java, 278]    com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Set [GameEngine.java, 278]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 280]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 286]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 290]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Set [GameEngine.java, 302]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 303]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 309]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 313]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+
+com.TETOSOFT.tilegame.MapLoader.addSprite.hostSprite   (Parameter)
+  Declared as: Sprite
+    Define [MapLoader.java, 200]     com.TETOSOFT.tilegame.MapLoader.addSprite
+    Use [MapLoader.java, 202]        com.TETOSOFT.tilegame.MapLoader.addSprite
+    Use [MapLoader.java, 204]        com.TETOSOFT.tilegame.MapLoader.addSprite
+
+com.TETOSOFT.tilegame.MapLoader.addSprite.map   (Parameter)
+  Declared as: TileMap
+    Define [MapLoader.java, 199]     com.TETOSOFT.tilegame.MapLoader.addSprite
+    Use [MapLoader.java, 218]        com.TETOSOFT.tilegame.MapLoader.addSprite
+
+com.TETOSOFT.tilegame.MapLoader.addSprite.sprite   (Variable)
+  Declared as: Sprite=Sprite
+    Define [MapLoader.java, 204]     com.TETOSOFT.tilegame.MapLoader.addSprite
+    Set [MapLoader.java, 204]        com.TETOSOFT.tilegame.MapLoader.addSprite
+    Use [MapLoader.java, 207]        com.TETOSOFT.tilegame.MapLoader.addSprite
+    Use [MapLoader.java, 210]        com.TETOSOFT.tilegame.MapLoader.addSprite
+    Use [MapLoader.java, 213]        com.TETOSOFT.tilegame.MapLoader.addSprite
+    Use [MapLoader.java, 215]        com.TETOSOFT.tilegame.MapLoader.addSprite
+    Use [MapLoader.java, 218]        com.TETOSOFT.tilegame.MapLoader.addSprite
+
+com.TETOSOFT.tilegame.MapLoader.addSprite.tileX   (Parameter)
+  Declared as: int
+    Define [MapLoader.java, 200]     com.TETOSOFT.tilegame.MapLoader.addSprite
+    Use [MapLoader.java, 208]        com.TETOSOFT.tilegame.MapLoader.addSprite
+
+com.TETOSOFT.tilegame.MapLoader.addSprite.tileY   (Parameter)
+  Declared as: int
+    Define [MapLoader.java, 200]     com.TETOSOFT.tilegame.MapLoader.addSprite
+    Use [MapLoader.java, 214]        com.TETOSOFT.tilegame.MapLoader.addSprite
+
+com.TETOSOFT.tilegame.MapLoader.coinSprite   (Private Variable)
+  Declared as: Sprite
+    Define [MapLoader.java, 27]      com.TETOSOFT.tilegame.MapLoader
+    Use [MapLoader.java, 172]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Set [MapLoader.java, 340]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+
+com.TETOSOFT.tilegame.MapLoader.createFlyAnim.anim   (Variable)
+  Declared as: Animation=Animation()
+    Define [MapLoader.java, 308]     com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+    Set [MapLoader.java, 308]        com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+    Use [MapLoader.java, 309]        com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+    Use [MapLoader.java, 310]        com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+    Use [MapLoader.java, 311]        com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+    Use [MapLoader.java, 312]        com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+    Use [MapLoader.java, 313]        com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+
+com.TETOSOFT.tilegame.MapLoader.createFlyAnim.img1   (Parameter)
+  Declared as: Image
+    Define [MapLoader.java, 306]     com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+    Use [MapLoader.java, 309]        com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+
+com.TETOSOFT.tilegame.MapLoader.createFlyAnim.img2   (Parameter)
+  Declared as: Image
+    Define [MapLoader.java, 306]     com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+    Use [MapLoader.java, 310]        com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+    Use [MapLoader.java, 312]        com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+
+com.TETOSOFT.tilegame.MapLoader.createFlyAnim.img3   (Parameter)
+  Declared as: Image
+    Define [MapLoader.java, 306]     com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+    Use [MapLoader.java, 311]        com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+
+com.TETOSOFT.tilegame.MapLoader.createGrubAnim.anim   (Variable)
+  Declared as: Animation=Animation()
+    Define [MapLoader.java, 319]     com.TETOSOFT.tilegame.MapLoader.createGrubAnim
+    Set [MapLoader.java, 319]        com.TETOSOFT.tilegame.MapLoader.createGrubAnim
+    Use [MapLoader.java, 320]        com.TETOSOFT.tilegame.MapLoader.createGrubAnim
+    Use [MapLoader.java, 321]        com.TETOSOFT.tilegame.MapLoader.createGrubAnim
+    Use [MapLoader.java, 322]        com.TETOSOFT.tilegame.MapLoader.createGrubAnim
+
+com.TETOSOFT.tilegame.MapLoader.createGrubAnim.img1   (Parameter)
+  Declared as: Image
+    Define [MapLoader.java, 317]     com.TETOSOFT.tilegame.MapLoader.createGrubAnim
+    Use [MapLoader.java, 320]        com.TETOSOFT.tilegame.MapLoader.createGrubAnim
+
+com.TETOSOFT.tilegame.MapLoader.createGrubAnim.img2   (Parameter)
+  Declared as: Image
+    Define [MapLoader.java, 317]     com.TETOSOFT.tilegame.MapLoader.createGrubAnim
+    Use [MapLoader.java, 321]        com.TETOSOFT.tilegame.MapLoader.createGrubAnim
+
+com.TETOSOFT.tilegame.MapLoader.createPlayerAnim.anim   (Variable)
+  Declared as: Animation=Animation()
+    Define [MapLoader.java, 299]     com.TETOSOFT.tilegame.MapLoader.createPlayerAnim
+    Set [MapLoader.java, 299]        com.TETOSOFT.tilegame.MapLoader.createPlayerAnim
+    Use [MapLoader.java, 300]        com.TETOSOFT.tilegame.MapLoader.createPlayerAnim
+    Use [MapLoader.java, 302]        com.TETOSOFT.tilegame.MapLoader.createPlayerAnim
+
+com.TETOSOFT.tilegame.MapLoader.createPlayerAnim.player   (Parameter)
+  Declared as: Image
+    Define [MapLoader.java, 297]     com.TETOSOFT.tilegame.MapLoader.createPlayerAnim
+    Use [MapLoader.java, 300]        com.TETOSOFT.tilegame.MapLoader.createPlayerAnim
+
+com.TETOSOFT.tilegame.MapLoader.currentMap   (Protected Variable)
+  Declared as: int
+    Define [MapLoader.java, 21]      com.TETOSOFT.tilegame.MapLoader
+    Modify [MapLoader.java, 97]      com.TETOSOFT.tilegame.MapLoader.loadNextMap
+    Use [MapLoader.java, 100]        com.TETOSOFT.tilegame.MapLoader.loadNextMap
+    Use [MapLoader.java, 104]        com.TETOSOFT.tilegame.MapLoader.loadNextMap
+    Set [MapLoader.java, 109]        com.TETOSOFT.tilegame.MapLoader.loadNextMap
+    Use [MapLoader.java, 122]        com.TETOSOFT.tilegame.MapLoader.reloadMap
+    Use [GameEngine.java, 119]       com.TETOSOFT.tilegame.GameEngine.draw
+
+com.TETOSOFT.tilegame.MapLoader.flySprite   (Private Variable)
+  Declared as: Sprite
+    Define [MapLoader.java, 30]      com.TETOSOFT.tilegame.MapLoader
+    Set [MapLoader.java, 292]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 184]        com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.gc   (Private Variable)
+  Declared as: GraphicsConfiguration
+    Define [MapLoader.java, 22]      com.TETOSOFT.tilegame.MapLoader
+    Set [MapLoader.java, 38]         com.TETOSOFT.tilegame.MapLoader.MapLoader
+    Use [MapLoader.java, 78]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+
+com.TETOSOFT.tilegame.MapLoader.getFlippedImage.image   (Parameter)
+  Declared as: Image
+    Define [MapLoader.java, 61]      com.TETOSOFT.tilegame.MapLoader.getFlippedImage
+    Use [MapLoader.java, 63]         com.TETOSOFT.tilegame.MapLoader.getFlippedImage
+
+com.TETOSOFT.tilegame.MapLoader.getMirrorImage.image   (Parameter)
+  Declared as: Image
+    Define [MapLoader.java, 55]      com.TETOSOFT.tilegame.MapLoader.getMirrorImage
+    Use [MapLoader.java, 57]         com.TETOSOFT.tilegame.MapLoader.getMirrorImage
+
+com.TETOSOFT.tilegame.MapLoader.getScaledImage.g   (Variable)
+  Declared as: Graphics2D=Graphics2D
+    Define [MapLoader.java, 84]      com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Set [MapLoader.java, 84]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 85]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 86]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+
+com.TETOSOFT.tilegame.MapLoader.getScaledImage.image   (Parameter)
+  Declared as: Image
+    Define [MapLoader.java, 67]      com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 74]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 75]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 79]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 80]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 85]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+
+com.TETOSOFT.tilegame.MapLoader.getScaledImage.newImage   (Variable)
+  Declared as: Image=gc.createCompatibleImage
+    Define [MapLoader.java, 78]      com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Set [MapLoader.java, 78]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 84]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 88]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+
+com.TETOSOFT.tilegame.MapLoader.getScaledImage.transform   (Variable)
+  Declared as: AffineTransform=AffineTransform()
+    Define [MapLoader.java, 71]      com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Set [MapLoader.java, 71]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 72]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 73]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 85]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+
+com.TETOSOFT.tilegame.MapLoader.getScaledImage.x   (Parameter)
+  Declared as: float
+    Define [MapLoader.java, 67]      com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 72]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 74]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+
+com.TETOSOFT.tilegame.MapLoader.getScaledImage.y   (Parameter)
+  Declared as: float
+    Define [MapLoader.java, 67]      com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 72]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Use [MapLoader.java, 75]         com.TETOSOFT.tilegame.MapLoader.getScaledImage
+
+com.TETOSOFT.tilegame.MapLoader.goalSprite   (Private Variable)
+  Declared as: Sprite
+    Define [MapLoader.java, 28]      com.TETOSOFT.tilegame.MapLoader
+    Use [MapLoader.java, 178]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Set [MapLoader.java, 331]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+
+com.TETOSOFT.tilegame.MapLoader.grubSprite   (Private Variable)
+  Declared as: Sprite
+    Define [MapLoader.java, 29]      com.TETOSOFT.tilegame.MapLoader
+    Set [MapLoader.java, 293]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 181]        com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.(for_loop_3).i   (Variable)
+  Declared as: int=0
+    Set [MapLoader.java, 268]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 268]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Modify [MapLoader.java, 268]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 271]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 271]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 273]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 273]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 275]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 275]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Define [MapLoader.java, 268]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+
+com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.(for_loop_4).i   (Variable)
+  Declared as: int=0
+    Set [MapLoader.java, 283]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 283]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Modify [MapLoader.java, 283]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 285]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 285]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 286]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 286]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 286]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 286]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 287]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 287]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 287]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Define [MapLoader.java, 283]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+
+com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.flyAnim   (Variable)
+  Declared as: Animation[]=Animation[4]
+    Define [MapLoader.java, 280]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Set [MapLoader.java, 280]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Set [MapLoader.java, 286]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 292]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 292]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 292]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 292]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+
+com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.grubAnim   (Variable)
+  Declared as: Animation[]=Animation[4]
+    Define [MapLoader.java, 281]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Set [MapLoader.java, 281]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Set [MapLoader.java, 287]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 293]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 293]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 293]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 293]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+
+com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.images   (Variable)
+  Declared as: Image[][]=Image[4]
+    Define [MapLoader.java, 252]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Set [MapLoader.java, 252]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Set [MapLoader.java, 255]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Set [MapLoader.java, 264]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 264]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Set [MapLoader.java, 265]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 265]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Set [MapLoader.java, 266]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 266]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 268]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Set [MapLoader.java, 271]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 271]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Set [MapLoader.java, 273]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 273]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Set [MapLoader.java, 275]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 275]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 285]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 286]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 286]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 286]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 287]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 287]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+
+com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.playerAnim   (Variable)
+  Declared as: Animation[]=Animation[4]
+    Define [MapLoader.java, 279]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Set [MapLoader.java, 279]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Set [MapLoader.java, 285]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 291]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 291]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 291]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 291]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+
+com.TETOSOFT.tilegame.MapLoader.loadImage.filename   (Variable)
+  Declared as: String="images/" + name
+    Define [MapLoader.java, 50]      com.TETOSOFT.tilegame.MapLoader.loadImage
+    Set [MapLoader.java, 50]         com.TETOSOFT.tilegame.MapLoader.loadImage
+    Use [MapLoader.java, 51]         com.TETOSOFT.tilegame.MapLoader.loadImage
+
+com.TETOSOFT.tilegame.MapLoader.loadImage.name   (Parameter)
+  Declared as: String
+    Define [MapLoader.java, 48]      com.TETOSOFT.tilegame.MapLoader.loadImage
+    Use [MapLoader.java, 50]         com.TETOSOFT.tilegame.MapLoader.loadImage
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.(for_loop_1).(for_loop_2).ch   (Variable)
+  Declared as: char=line.charAt
+    Set [MapLoader.java, 162]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 165]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 171]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 174]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 177]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 180]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 183]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Define [MapLoader.java, 162]     com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.(for_loop_1).(for_loop_2).tile   (Variable)
+  Declared as: int=ch - 'A'
+    Set [MapLoader.java, 165]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 166]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 166]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 167]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Define [MapLoader.java, 165]     com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.(for_loop_1).(for_loop_2).x   (Variable)
+  Declared as: int=0
+    Set [MapLoader.java, 161]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 161]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Modify [MapLoader.java, 161]     com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 162]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 167]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 172]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 175]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 178]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 181]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 184]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Define [MapLoader.java, 161]     com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.(for_loop_1).line   (Variable)
+  Declared as: String=String
+    Set [MapLoader.java, 160]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 161]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 162]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Define [MapLoader.java, 160]     com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.(for_loop_1).y   (Variable)
+  Declared as: int=0
+    Set [MapLoader.java, 159]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 159]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Modify [MapLoader.java, 159]     com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 160]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 167]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 172]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 175]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 178]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 181]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 184]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Define [MapLoader.java, 159]     com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.filename   (Parameter)
+  Declared as: String
+    Define [MapLoader.java, 131]     com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 140]        com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.height   (Variable)
+  Declared as: int=0
+    Define [MapLoader.java, 136]     com.TETOSOFT.tilegame.MapLoader.loadMap
+    Set [MapLoader.java, 136]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Set [MapLoader.java, 157]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 158]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 159]        com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.line   (Variable)
+  Declared as: String=reader.readLine
+    Define [MapLoader.java, 142]     com.TETOSOFT.tilegame.MapLoader.loadMap
+    Set [MapLoader.java, 142]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 144]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 150]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 151]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 152]        com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.lines   (Variable)
+  Declared as: ArrayList=ArrayList()
+    Define [MapLoader.java, 134]     com.TETOSOFT.tilegame.MapLoader.loadMap
+    Set [MapLoader.java, 134]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 151]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 157]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 160]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 192]        com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.newMap   (Variable)
+  Declared as: TileMap=TileMap(widthheight,)
+    Define [MapLoader.java, 158]     com.TETOSOFT.tilegame.MapLoader.loadMap
+    Set [MapLoader.java, 158]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 167]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 172]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 175]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 178]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 181]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 184]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 193]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 195]        com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.player   (Variable)
+  Declared as: Sprite=Sprite
+    Define [MapLoader.java, 190]     com.TETOSOFT.tilegame.MapLoader.loadMap
+    Set [MapLoader.java, 190]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 191]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 192]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 193]        com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.reader   (Variable)
+  Declared as: BufferedReader=BufferedReader(FileReader(filename))
+    Define [MapLoader.java, 139]     com.TETOSOFT.tilegame.MapLoader.loadMap
+    Set [MapLoader.java, 139]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 142]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 145]        com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.width   (Variable)
+  Declared as: int=0
+    Define [MapLoader.java, 135]     com.TETOSOFT.tilegame.MapLoader.loadMap
+    Set [MapLoader.java, 135]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Set [MapLoader.java, 152]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 152]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 158]        com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadNextMap.(catch_1).ex   (Catch Parameter)
+  Declared as: IOException
+    Define [MapLoader.java, 102]     com.TETOSOFT.tilegame.MapLoader.loadNextMap
+
+com.TETOSOFT.tilegame.MapLoader.loadNextMap.map   (Variable)
+  Declared as: TileMap=null
+    Define [MapLoader.java, 94]      com.TETOSOFT.tilegame.MapLoader.loadNextMap
+    Set [MapLoader.java, 94]         com.TETOSOFT.tilegame.MapLoader.loadNextMap
+    Use [MapLoader.java, 95]         com.TETOSOFT.tilegame.MapLoader.loadNextMap
+    Set [MapLoader.java, 99]         com.TETOSOFT.tilegame.MapLoader.loadNextMap
+    Set [MapLoader.java, 110]        com.TETOSOFT.tilegame.MapLoader.loadNextMap
+    Use [MapLoader.java, 114]        com.TETOSOFT.tilegame.MapLoader.loadNextMap
+
+com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites.anim   (Variable)
+  Declared as: Animation=Animation()
+    Define [MapLoader.java, 329]     com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Set [MapLoader.java, 329]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [MapLoader.java, 330]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [MapLoader.java, 331]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Set [MapLoader.java, 334]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [MapLoader.java, 335]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [MapLoader.java, 336]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [MapLoader.java, 337]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [MapLoader.java, 338]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [MapLoader.java, 339]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [MapLoader.java, 340]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Set [MapLoader.java, 343]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [MapLoader.java, 344]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [MapLoader.java, 345]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [MapLoader.java, 346]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [MapLoader.java, 347]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [MapLoader.java, 348]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [MapLoader.java, 349]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+
+com.TETOSOFT.tilegame.MapLoader.loadTileImages.ch   (Variable)
+  Declared as: char='A'
+    Define [MapLoader.java, 233]     com.TETOSOFT.tilegame.MapLoader.loadTileImages
+    Set [MapLoader.java, 233]        com.TETOSOFT.tilegame.MapLoader.loadTileImages
+    Use [MapLoader.java, 237]        com.TETOSOFT.tilegame.MapLoader.loadTileImages
+    Modify [MapLoader.java, 243]     com.TETOSOFT.tilegame.MapLoader.loadTileImages
+
+com.TETOSOFT.tilegame.MapLoader.loadTileImages.file   (Variable)
+  Declared as: File=File("images/" + name)
+    Define [MapLoader.java, 238]     com.TETOSOFT.tilegame.MapLoader.loadTileImages
+    Set [MapLoader.java, 238]        com.TETOSOFT.tilegame.MapLoader.loadTileImages
+    Use [MapLoader.java, 239]        com.TETOSOFT.tilegame.MapLoader.loadTileImages
+
+com.TETOSOFT.tilegame.MapLoader.loadTileImages.name   (Variable)
+  Declared as: String=ch + ".png"
+    Define [MapLoader.java, 237]     com.TETOSOFT.tilegame.MapLoader.loadTileImages
+    Set [MapLoader.java, 237]        com.TETOSOFT.tilegame.MapLoader.loadTileImages
+    Use [MapLoader.java, 238]        com.TETOSOFT.tilegame.MapLoader.loadTileImages
+    Use [MapLoader.java, 242]        com.TETOSOFT.tilegame.MapLoader.loadTileImages
+
+com.TETOSOFT.tilegame.MapLoader.MapLoader.gc   (Parameter)
+  Declared as: GraphicsConfiguration
+    Define [MapLoader.java, 36]      com.TETOSOFT.tilegame.MapLoader.MapLoader
+    Use [MapLoader.java, 38]         com.TETOSOFT.tilegame.MapLoader.MapLoader
+
+com.TETOSOFT.tilegame.MapLoader.musicSprite   (Private Variable)
+  Declared as: Sprite
+    Define [MapLoader.java, 26]      com.TETOSOFT.tilegame.MapLoader
+    Use [MapLoader.java, 175]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Set [MapLoader.java, 348]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Set [MapLoader.java, 349]        com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+
+com.TETOSOFT.tilegame.MapLoader.playerSprite   (Private Variable)
+  Declared as: Sprite
+    Define [MapLoader.java, 25]      com.TETOSOFT.tilegame.MapLoader
+    Set [MapLoader.java, 291]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 190]        com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.reloadMap.(catch_2).ex   (Catch Parameter)
+  Declared as: IOException
+    Use [MapLoader.java, 125]        com.TETOSOFT.tilegame.MapLoader.reloadMap
+    Define [MapLoader.java, 124]     com.TETOSOFT.tilegame.MapLoader.reloadMap
+
+com.TETOSOFT.tilegame.MapLoader.tiles   (Private Variable)
+  Declared as: ArrayList
+    Define [MapLoader.java, 20]      com.TETOSOFT.tilegame.MapLoader
+    Use [MapLoader.java, 166]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Use [MapLoader.java, 167]        com.TETOSOFT.tilegame.MapLoader.loadMap
+    Set [MapLoader.java, 232]        com.TETOSOFT.tilegame.MapLoader.loadTileImages
+    Use [MapLoader.java, 242]        com.TETOSOFT.tilegame.MapLoader.loadTileImages
+
+com.TETOSOFT.tilegame.sprites.Creature.clone.(catch_1).ex   (Catch Parameter)
+  Declared as: Exception
+    Use [Creature.java, 57]          com.TETOSOFT.tilegame.sprites.Creature.clone
+    Define [Creature.java, 55]       com.TETOSOFT.tilegame.sprites.Creature.clone
+
+com.TETOSOFT.tilegame.sprites.Creature.clone.constructor   (Variable)
+  Declared as: Constructor=getConstructors
+    Define [Creature.java, 46]       com.TETOSOFT.tilegame.sprites.Creature.clone
+    Set [Creature.java, 46]          com.TETOSOFT.tilegame.sprites.Creature.clone
+    Use [Creature.java, 48]          com.TETOSOFT.tilegame.sprites.Creature.clone
+
+com.TETOSOFT.tilegame.sprites.Creature.Creature.deadLeft   (Parameter)
+  Declared as: Animation
+    Define [Creature.java, 33]       com.TETOSOFT.tilegame.sprites.Creature.Creature
+    Use [Creature.java, 38]          com.TETOSOFT.tilegame.sprites.Creature.Creature
+
+com.TETOSOFT.tilegame.sprites.Creature.Creature.deadRight   (Parameter)
+  Declared as: Animation
+    Define [Creature.java, 33]       com.TETOSOFT.tilegame.sprites.Creature.Creature
+    Use [Creature.java, 39]          com.TETOSOFT.tilegame.sprites.Creature.Creature
+
+com.TETOSOFT.tilegame.sprites.Creature.Creature.left   (Parameter)
+  Declared as: Animation
+    Define [Creature.java, 32]       com.TETOSOFT.tilegame.sprites.Creature.Creature
+    Use [Creature.java, 36]          com.TETOSOFT.tilegame.sprites.Creature.Creature
+
+com.TETOSOFT.tilegame.sprites.Creature.Creature.right   (Parameter)
+  Declared as: Animation
+    Define [Creature.java, 32]       com.TETOSOFT.tilegame.sprites.Creature.Creature
+    Use [Creature.java, 35]          com.TETOSOFT.tilegame.sprites.Creature.Creature
+    Use [Creature.java, 37]          com.TETOSOFT.tilegame.sprites.Creature.Creature
+
+com.TETOSOFT.tilegame.sprites.Creature.deadLeft   (Private Variable)
+  Declared as: Animation
+    Define [Creature.java, 24]       com.TETOSOFT.tilegame.sprites.Creature
+    Set [Creature.java, 38]          com.TETOSOFT.tilegame.sprites.Creature.Creature
+    Use [Creature.java, 51]          com.TETOSOFT.tilegame.sprites.Creature.clone
+    Use [Creature.java, 154]         com.TETOSOFT.tilegame.sprites.Creature.update
+
+com.TETOSOFT.tilegame.sprites.Creature.deadRight   (Private Variable)
+  Declared as: Animation
+    Define [Creature.java, 25]       com.TETOSOFT.tilegame.sprites.Creature
+    Set [Creature.java, 39]          com.TETOSOFT.tilegame.sprites.Creature.Creature
+    Use [Creature.java, 52]          com.TETOSOFT.tilegame.sprites.Creature.clone
+    Use [Creature.java, 157]         com.TETOSOFT.tilegame.sprites.Creature.update
+
+com.TETOSOFT.tilegame.sprites.Creature.DIE_TIME   (Private Static Variable)
+  Declared as: int=1000
+    Define [Creature.java, 16]       com.TETOSOFT.tilegame.sprites.Creature
+    Set [Creature.java, 16]          com.TETOSOFT.tilegame.sprites.Creature
+    Use [Creature.java, 171]         com.TETOSOFT.tilegame.sprites.Creature.update
+
+com.TETOSOFT.tilegame.sprites.Creature.left   (Private Variable)
+  Declared as: Animation
+    Define [Creature.java, 22]       com.TETOSOFT.tilegame.sprites.Creature
+    Set [Creature.java, 36]          com.TETOSOFT.tilegame.sprites.Creature.Creature
+    Use [Creature.java, 49]          com.TETOSOFT.tilegame.sprites.Creature.clone
+    Use [Creature.java, 148]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 153]         com.TETOSOFT.tilegame.sprites.Creature.update
+
+com.TETOSOFT.tilegame.sprites.Creature.right   (Private Variable)
+  Declared as: Animation
+    Define [Creature.java, 23]       com.TETOSOFT.tilegame.sprites.Creature
+    Set [Creature.java, 37]          com.TETOSOFT.tilegame.sprites.Creature.Creature
+    Use [Creature.java, 50]          com.TETOSOFT.tilegame.sprites.Creature.clone
+    Use [Creature.java, 151]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 156]         com.TETOSOFT.tilegame.sprites.Creature.update
+
+com.TETOSOFT.tilegame.sprites.Creature.setState.state   (Parameter)
+  Declared as: int
+    Define [Creature.java, 95]       com.TETOSOFT.tilegame.sprites.Creature.setState
+    Use [Creature.java, 96]          com.TETOSOFT.tilegame.sprites.Creature.setState
+    Use [Creature.java, 97]          com.TETOSOFT.tilegame.sprites.Creature.setState
+    Use [Creature.java, 99]          com.TETOSOFT.tilegame.sprites.Creature.setState
+
+com.TETOSOFT.tilegame.sprites.Creature.state   (Private Variable)
+  Declared as: int
+    Define [Creature.java, 26]       com.TETOSOFT.tilegame.sprites.Creature
+    Set [Creature.java, 40]          com.TETOSOFT.tilegame.sprites.Creature.Creature
+    Use [Creature.java, 87]          com.TETOSOFT.tilegame.sprites.Creature.getState
+    Use [Creature.java, 111]         com.TETOSOFT.tilegame.sprites.Creature.isAlive
+    Use [Creature.java, 96]          com.TETOSOFT.tilegame.sprites.Creature.setState
+    Set [Creature.java, 97]          com.TETOSOFT.tilegame.sprites.Creature.setState
+    Use [Creature.java, 153]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 156]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 171]         com.TETOSOFT.tilegame.sprites.Creature.update
+
+com.TETOSOFT.tilegame.sprites.Creature.STATE_DEAD   (Public Static Variable)
+  Declared as: int=2
+    Define [Creature.java, 20]       com.TETOSOFT.tilegame.sprites.Creature
+    Set [Creature.java, 20]          com.TETOSOFT.tilegame.sprites.Creature
+    Use [Creature.java, 172]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [GameEngine.java, 231]       com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 249]       com.TETOSOFT.tilegame.GameEngine.update
+
+com.TETOSOFT.tilegame.sprites.Creature.STATE_DYING   (Public Static Variable)
+  Declared as: int=1
+    Define [Creature.java, 19]       com.TETOSOFT.tilegame.sprites.Creature
+    Set [Creature.java, 19]          com.TETOSOFT.tilegame.sprites.Creature
+    Use [Creature.java, 99]          com.TETOSOFT.tilegame.sprites.Creature.setState
+    Use [Creature.java, 153]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 156]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 171]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [GameEngine.java, 344]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Use [GameEngine.java, 349]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+
+com.TETOSOFT.tilegame.sprites.Creature.STATE_NORMAL   (Public Static Variable)
+  Declared as: int=0
+    Define [Creature.java, 18]       com.TETOSOFT.tilegame.sprites.Creature
+    Set [Creature.java, 18]          com.TETOSOFT.tilegame.sprites.Creature
+    Use [Creature.java, 40]          com.TETOSOFT.tilegame.sprites.Creature.Creature
+    Use [Creature.java, 111]         com.TETOSOFT.tilegame.sprites.Creature.isAlive
+    Use [Creature.java, 76]          com.TETOSOFT.tilegame.sprites.Creature.wakeUp
+
+com.TETOSOFT.tilegame.sprites.Creature.stateTime   (Private Variable)
+  Declared as: long
+    Define [Creature.java, 27]       com.TETOSOFT.tilegame.sprites.Creature
+    Set [Creature.java, 98]          com.TETOSOFT.tilegame.sprites.Creature.setState
+    Modify [Creature.java, 170]      com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 171]         com.TETOSOFT.tilegame.sprites.Creature.update
+
+com.TETOSOFT.tilegame.sprites.Creature.update.elapsedTime   (Parameter)
+  Declared as: long
+    Define [Creature.java, 144]      com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 166]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 170]         com.TETOSOFT.tilegame.sprites.Creature.update
+
+com.TETOSOFT.tilegame.sprites.Creature.update.newAnim   (Variable)
+  Declared as: Animation=anim
+    Define [Creature.java, 146]      com.TETOSOFT.tilegame.sprites.Creature.update
+    Set [Creature.java, 146]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Set [Creature.java, 148]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Set [Creature.java, 151]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 153]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Set [Creature.java, 154]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 156]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Set [Creature.java, 157]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 161]         com.TETOSOFT.tilegame.sprites.Creature.update
+    Use [Creature.java, 162]         com.TETOSOFT.tilegame.sprites.Creature.update
+
+com.TETOSOFT.tilegame.sprites.Fly.Fly.deadLeft   (Parameter)
+  Declared as: Animation
+    Define [Fly.java, 11]            com.TETOSOFT.tilegame.sprites.Fly.Fly
+    Use [Fly.java, 13]               com.TETOSOFT.tilegame.sprites.Fly.Fly
+
+com.TETOSOFT.tilegame.sprites.Fly.Fly.deadRight   (Parameter)
+  Declared as: Animation
+    Define [Fly.java, 11]            com.TETOSOFT.tilegame.sprites.Fly.Fly
+    Use [Fly.java, 13]               com.TETOSOFT.tilegame.sprites.Fly.Fly
+
+com.TETOSOFT.tilegame.sprites.Fly.Fly.left   (Parameter)
+  Declared as: Animation
+    Define [Fly.java, 10]            com.TETOSOFT.tilegame.sprites.Fly.Fly
+    Use [Fly.java, 13]               com.TETOSOFT.tilegame.sprites.Fly.Fly
+
+com.TETOSOFT.tilegame.sprites.Fly.Fly.right   (Parameter)
+  Declared as: Animation
+    Define [Fly.java, 10]            com.TETOSOFT.tilegame.sprites.Fly.Fly
+    Use [Fly.java, 13]               com.TETOSOFT.tilegame.sprites.Fly.Fly
+
+com.TETOSOFT.tilegame.sprites.Grub.Grub.deadLeft   (Parameter)
+  Declared as: Animation
+    Define [Grub.java, 11]           com.TETOSOFT.tilegame.sprites.Grub.Grub
+    Use [Grub.java, 13]              com.TETOSOFT.tilegame.sprites.Grub.Grub
+
+com.TETOSOFT.tilegame.sprites.Grub.Grub.deadRight   (Parameter)
+  Declared as: Animation
+    Define [Grub.java, 11]           com.TETOSOFT.tilegame.sprites.Grub.Grub
+    Use [Grub.java, 13]              com.TETOSOFT.tilegame.sprites.Grub.Grub
+
+com.TETOSOFT.tilegame.sprites.Grub.Grub.left   (Parameter)
+  Declared as: Animation
+    Define [Grub.java, 10]           com.TETOSOFT.tilegame.sprites.Grub.Grub
+    Use [Grub.java, 13]              com.TETOSOFT.tilegame.sprites.Grub.Grub
+
+com.TETOSOFT.tilegame.sprites.Grub.Grub.right   (Parameter)
+  Declared as: Animation
+    Define [Grub.java, 10]           com.TETOSOFT.tilegame.sprites.Grub.Grub
+    Use [Grub.java, 13]              com.TETOSOFT.tilegame.sprites.Grub.Grub
+
+com.TETOSOFT.tilegame.sprites.Player.jump.forceJump   (Parameter)
+  Declared as: boolean
+    Define [Player.java, 53]         com.TETOSOFT.tilegame.sprites.Player.jump
+    Use [Player.java, 54]            com.TETOSOFT.tilegame.sprites.Player.jump
+
+com.TETOSOFT.tilegame.sprites.Player.JUMP_SPEED   (Private Static Variable)
+  Declared as: float=-.95f
+    Define [Player.java, 11]         com.TETOSOFT.tilegame.sprites.Player
+    Set [Player.java, 11]            com.TETOSOFT.tilegame.sprites.Player
+    Use [Player.java, 56]            com.TETOSOFT.tilegame.sprites.Player.jump
+
+com.TETOSOFT.tilegame.sprites.Player.onGround   (Private Variable)
+  Declared as: boolean
+    Define [Player.java, 13]         com.TETOSOFT.tilegame.sprites.Player
+    Set [Player.java, 29]            com.TETOSOFT.tilegame.sprites.Player.collideVertical
+    Use [Player.java, 54]            com.TETOSOFT.tilegame.sprites.Player.jump
+    Set [Player.java, 55]            com.TETOSOFT.tilegame.sprites.Player.jump
+    Set [Player.java, 38]            com.TETOSOFT.tilegame.sprites.Player.setY
+
+com.TETOSOFT.tilegame.sprites.Player.Player.deadLeft   (Parameter)
+  Declared as: Animation
+    Define [Player.java, 15]         com.TETOSOFT.tilegame.sprites.Player.Player
+    Use [Player.java, 17]            com.TETOSOFT.tilegame.sprites.Player.Player
+
+com.TETOSOFT.tilegame.sprites.Player.Player.deadRight   (Parameter)
+  Declared as: Animation
+    Define [Player.java, 15]         com.TETOSOFT.tilegame.sprites.Player.Player
+    Use [Player.java, 17]            com.TETOSOFT.tilegame.sprites.Player.Player
+
+com.TETOSOFT.tilegame.sprites.Player.Player.left   (Parameter)
+  Declared as: Animation
+    Define [Player.java, 15]         com.TETOSOFT.tilegame.sprites.Player.Player
+    Use [Player.java, 17]            com.TETOSOFT.tilegame.sprites.Player.Player
+
+com.TETOSOFT.tilegame.sprites.Player.Player.right   (Parameter)
+  Declared as: Animation
+    Define [Player.java, 15]         com.TETOSOFT.tilegame.sprites.Player.Player
+    Use [Player.java, 17]            com.TETOSOFT.tilegame.sprites.Player.Player
+
+com.TETOSOFT.tilegame.sprites.Player.setY.y   (Parameter)
+  Declared as: float
+    Define [Player.java, 35]         com.TETOSOFT.tilegame.sprites.Player.setY
+    Use [Player.java, 37]            com.TETOSOFT.tilegame.sprites.Player.setY
+    Use [Player.java, 40]            com.TETOSOFT.tilegame.sprites.Player.setY
+
+com.TETOSOFT.tilegame.sprites.PowerUp.clone.(catch_1).ex   (Catch Parameter)
+  Declared as: Exception
+    Use [PowerUp.java, 24]           com.TETOSOFT.tilegame.sprites.PowerUp.clone
+    Define [PowerUp.java, 22]        com.TETOSOFT.tilegame.sprites.PowerUp.clone
+
+com.TETOSOFT.tilegame.sprites.PowerUp.clone.constructor   (Variable)
+  Declared as: Constructor=getConstructors
+    Define [PowerUp.java, 17]        com.TETOSOFT.tilegame.sprites.PowerUp.clone
+    Set [PowerUp.java, 17]           com.TETOSOFT.tilegame.sprites.PowerUp.clone
+    Use [PowerUp.java, 19]           com.TETOSOFT.tilegame.sprites.PowerUp.clone
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Goal.Goal.anim   (Parameter)
+  Declared as: Animation
+    Define [PowerUp.java, 54]        com.TETOSOFT.tilegame.sprites.PowerUp.Goal.Goal
+    Use [PowerUp.java, 55]           com.TETOSOFT.tilegame.sprites.PowerUp.Goal.Goal
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Music.Music.anim   (Parameter)
+  Declared as: Animation
+    Define [PowerUp.java, 44]        com.TETOSOFT.tilegame.sprites.PowerUp.Music.Music
+    Use [PowerUp.java, 45]           com.TETOSOFT.tilegame.sprites.PowerUp.Music.Music
+
+com.TETOSOFT.tilegame.sprites.PowerUp.PowerUp.anim   (Parameter)
+  Declared as: Animation
+    Define [PowerUp.java, 11]        com.TETOSOFT.tilegame.sprites.PowerUp.PowerUp
+    Use [PowerUp.java, 12]           com.TETOSOFT.tilegame.sprites.PowerUp.PowerUp
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Star.Star.anim   (Parameter)
+  Declared as: Animation
+    Define [PowerUp.java, 34]        com.TETOSOFT.tilegame.sprites.PowerUp.Star.Star
+    Use [PowerUp.java, 35]           com.TETOSOFT.tilegame.sprites.PowerUp.Star.Star
+
+com.TETOSOFT.tilegame.TileMap.addSprite.sprite   (Parameter)
+  Declared as: Sprite
+    Define [TileMap.java, 91]        com.TETOSOFT.tilegame.TileMap.addSprite
+    Use [TileMap.java, 92]           com.TETOSOFT.tilegame.TileMap.addSprite
+
+com.TETOSOFT.tilegame.TileMap.getTile.x   (Parameter)
+  Declared as: int
+    Define [TileMap.java, 52]        com.TETOSOFT.tilegame.TileMap.getTile
+    Use [TileMap.java, 53]           com.TETOSOFT.tilegame.TileMap.getTile
+    Use [TileMap.java, 53]           com.TETOSOFT.tilegame.TileMap.getTile
+    Use [TileMap.java, 59]           com.TETOSOFT.tilegame.TileMap.getTile
+
+com.TETOSOFT.tilegame.TileMap.getTile.y   (Parameter)
+  Declared as: int
+    Define [TileMap.java, 52]        com.TETOSOFT.tilegame.TileMap.getTile
+    Use [TileMap.java, 54]           com.TETOSOFT.tilegame.TileMap.getTile
+    Use [TileMap.java, 54]           com.TETOSOFT.tilegame.TileMap.getTile
+    Use [TileMap.java, 59]           com.TETOSOFT.tilegame.TileMap.getTile
+
+com.TETOSOFT.tilegame.TileMap.player   (Private Variable)
+  Declared as: Sprite
+    Define [TileMap.java, 19]        com.TETOSOFT.tilegame.TileMap
+    Use [TileMap.java, 76]           com.TETOSOFT.tilegame.TileMap.getPlayer
+    Set [TileMap.java, 84]           com.TETOSOFT.tilegame.TileMap.setPlayer
+
+com.TETOSOFT.tilegame.TileMap.removeSprite.sprite   (Parameter)
+  Declared as: Sprite
+    Define [TileMap.java, 99]        com.TETOSOFT.tilegame.TileMap.removeSprite
+    Use [TileMap.java, 100]          com.TETOSOFT.tilegame.TileMap.removeSprite
+
+com.TETOSOFT.tilegame.TileMap.setPlayer.player   (Parameter)
+  Declared as: Sprite
+    Define [TileMap.java, 83]        com.TETOSOFT.tilegame.TileMap.setPlayer
+    Use [TileMap.java, 84]           com.TETOSOFT.tilegame.TileMap.setPlayer
+
+com.TETOSOFT.tilegame.TileMap.setTile.tile   (Parameter)
+  Declared as: Image
+    Define [TileMap.java, 67]        com.TETOSOFT.tilegame.TileMap.setTile
+    Use [TileMap.java, 68]           com.TETOSOFT.tilegame.TileMap.setTile
+
+com.TETOSOFT.tilegame.TileMap.setTile.x   (Parameter)
+  Declared as: int
+    Define [TileMap.java, 67]        com.TETOSOFT.tilegame.TileMap.setTile
+    Use [TileMap.java, 68]           com.TETOSOFT.tilegame.TileMap.setTile
+
+com.TETOSOFT.tilegame.TileMap.setTile.y   (Parameter)
+  Declared as: int
+    Define [TileMap.java, 67]        com.TETOSOFT.tilegame.TileMap.setTile
+    Use [TileMap.java, 68]           com.TETOSOFT.tilegame.TileMap.setTile
+
+com.TETOSOFT.tilegame.TileMap.sprites   (Private Variable)
+  Declared as: LinkedList
+    Define [TileMap.java, 18]        com.TETOSOFT.tilegame.TileMap
+    Set [TileMap.java, 27]           com.TETOSOFT.tilegame.TileMap.TileMap
+    Use [TileMap.java, 92]           com.TETOSOFT.tilegame.TileMap.addSprite
+    Use [TileMap.java, 109]          com.TETOSOFT.tilegame.TileMap.getSprites
+    Use [TileMap.java, 100]          com.TETOSOFT.tilegame.TileMap.removeSprite
+
+com.TETOSOFT.tilegame.TileMap.TileMap.height   (Parameter)
+  Declared as: int
+    Define [TileMap.java, 25]        com.TETOSOFT.tilegame.TileMap.TileMap
+    Use [TileMap.java, 26]           com.TETOSOFT.tilegame.TileMap.TileMap
+
+com.TETOSOFT.tilegame.TileMap.TileMap.width   (Parameter)
+  Declared as: int
+    Define [TileMap.java, 25]        com.TETOSOFT.tilegame.TileMap.TileMap
+    Use [TileMap.java, 26]           com.TETOSOFT.tilegame.TileMap.TileMap
+
+com.TETOSOFT.tilegame.TileMap.tiles   (Private Variable)
+  Declared as: Image[][]
+    Define [TileMap.java, 17]        com.TETOSOFT.tilegame.TileMap
+    Set [TileMap.java, 26]           com.TETOSOFT.tilegame.TileMap.TileMap
+    Use [TileMap.java, 43]           com.TETOSOFT.tilegame.TileMap.getHeight
+    Use [TileMap.java, 59]           com.TETOSOFT.tilegame.TileMap.getTile
+    Use [TileMap.java, 35]           com.TETOSOFT.tilegame.TileMap.getWidth
+    Set [TileMap.java, 68]           com.TETOSOFT.tilegame.TileMap.setTile
+
+com.TETOSOFT.tilegame.TileMapDrawer.background   (Private Variable)
+  Declared as: Image
+    Define [TileMapDrawer.java, 31]   com.TETOSOFT.tilegame.TileMapDrawer
+    Use [TileMapDrawer.java, 97]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 98]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 105]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 107]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 109]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 111]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 72]     com.TETOSOFT.tilegame.TileMapDrawer.setBackground
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.(for_loop_1).(for_loop_2).image   (Variable)
+  Declared as: Image=map.getTile
+    Set [TileMapDrawer.java, 121]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 122]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 123]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Define [TileMapDrawer.java, 121]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.(for_loop_1).(for_loop_2).x   (Variable)
+  Declared as: int=firstTileX
+    Set [TileMapDrawer.java, 120]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 120]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Modify [TileMapDrawer.java, 120]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 121]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 124]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Define [TileMapDrawer.java, 120]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.(for_loop_1).y   (Variable)
+  Declared as: int=0
+    Set [TileMapDrawer.java, 119]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 119]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Modify [TileMapDrawer.java, 119]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 121]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 125]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Define [TileMapDrawer.java, 119]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.firstTileX   (Variable)
+  Declared as: int=pixelsToTiles
+    Define [TileMapDrawer.java, 116]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 116]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 117]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 120]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.g   (Parameter)
+  Declared as: Graphics2D
+    Define [TileMapDrawer.java, 79]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 100]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 101]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 111]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 123]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 132]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 143]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.i   (Variable)
+  Declared as: Iterator=map.getSprites
+    Define [TileMapDrawer.java, 138]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 138]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 139]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 140]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.iam   (Variable)
+  Declared as: boolean=sprite instanceof Creature
+    Define [TileMapDrawer.java, 145]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 145]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 148]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.lastTileX   (Variable)
+  Declared as: int=firstTileX + pixelsToTiles + 1
+    Define [TileMapDrawer.java, 117]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 117]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 120]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.map   (Parameter)
+  Declared as: TileMap
+    Define [TileMapDrawer.java, 79]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 82]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 83]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 94]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 119]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 121]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 138]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.mapWidth   (Variable)
+  Declared as: int=tilesToPixels
+    Define [TileMapDrawer.java, 83]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 83]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 90]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 108]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.offsetX   (Variable)
+  Declared as: int=screenWidth / 2 - Math.round - TILE_SIZE
+    Define [TileMapDrawer.java, 87]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 87]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 89]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 89]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 90]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 90]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 106]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 116]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 124]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 133]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 141]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.offsetY   (Variable)
+  Declared as: int=screenHeight - tilesToPixels
+    Define [TileMapDrawer.java, 93]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 93]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 125]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 134]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 142]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.player   (Variable)
+  Declared as: Sprite=map.getPlayer
+    Define [TileMapDrawer.java, 82]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 82]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 88]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 132]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 133]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 134]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.position   (Variable)
+  Declared as: boolean=x >= 0 && x < screenWidth
+    Define [TileMapDrawer.java, 146]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 146]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 148]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.screenHeight   (Parameter)
+  Declared as: int
+    Define [TileMapDrawer.java, 80]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 93]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 98]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 101]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 109]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.screenWidth   (Parameter)
+  Declared as: int
+    Define [TileMapDrawer.java, 80]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 87]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 90]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 101]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 107]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 108]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 118]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 146]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.sprite   (Variable)
+  Declared as: Sprite=Sprite
+    Define [TileMapDrawer.java, 140]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 140]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 141]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 142]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 143]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 145]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 150]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.x   (Variable)
+  Declared as: int=offsetX * (screenWidth - background.getWidth) / (screenWi...
+    Define [TileMapDrawer.java, 106]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 106]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 111]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.x   (Variable)
+  Declared as: int=Math.round + offsetX
+    Define [TileMapDrawer.java, 141]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 141]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 143]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 146]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 146]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.y   (Variable)
+  Declared as: int=screenHeight - background.getHeight
+    Define [TileMapDrawer.java, 109]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 109]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 111]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.y   (Variable)
+  Declared as: int=Math.round + offsetY
+    Define [TileMapDrawer.java, 142]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Set [TileMapDrawer.java, 142]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [TileMapDrawer.java, 143]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.pixelsToTiles.pixels   (Parameter)
+  Declared as: float
+    Define [TileMapDrawer.java, 36]   com.TETOSOFT.tilegame.TileMapDrawer.pixelsToTiles
+    Use [TileMapDrawer.java, 37]     com.TETOSOFT.tilegame.TileMapDrawer.pixelsToTiles
+
+com.TETOSOFT.tilegame.TileMapDrawer.pixelsToTiles.pixels   (Parameter)
+  Declared as: int
+    Define [TileMapDrawer.java, 44]   com.TETOSOFT.tilegame.TileMapDrawer.pixelsToTiles
+    Use [TileMapDrawer.java, 46]     com.TETOSOFT.tilegame.TileMapDrawer.pixelsToTiles
+
+com.TETOSOFT.tilegame.TileMapDrawer.setBackground.background   (Parameter)
+  Declared as: Image
+    Define [TileMapDrawer.java, 71]   com.TETOSOFT.tilegame.TileMapDrawer.setBackground
+    Use [TileMapDrawer.java, 72]     com.TETOSOFT.tilegame.TileMapDrawer.setBackground
+
+com.TETOSOFT.tilegame.TileMapDrawer.TILE_SIZE   (Private Static Variable)
+  Declared as: int=64
+    Define [TileMapDrawer.java, 26]   com.TETOSOFT.tilegame.TileMapDrawer
+    Set [TileMapDrawer.java, 26]     com.TETOSOFT.tilegame.TileMapDrawer
+    Use [TileMapDrawer.java, 88]     com.TETOSOFT.tilegame.TileMapDrawer.draw
+
+com.TETOSOFT.tilegame.TileMapDrawer.TILE_SIZE_BITS   (Private Static Variable)
+  Declared as: int=6
+    Define [TileMapDrawer.java, 29]   com.TETOSOFT.tilegame.TileMapDrawer
+    Set [TileMapDrawer.java, 29]     com.TETOSOFT.tilegame.TileMapDrawer
+    Use [TileMapDrawer.java, 46]     com.TETOSOFT.tilegame.TileMapDrawer.pixelsToTiles
+    Use [TileMapDrawer.java, 61]     com.TETOSOFT.tilegame.TileMapDrawer.tilesToPixels
+
+com.TETOSOFT.tilegame.TileMapDrawer.tilesToPixels.numTiles   (Parameter)
+  Declared as: int
+    Define [TileMapDrawer.java, 57]   com.TETOSOFT.tilegame.TileMapDrawer.tilesToPixels
+    Use [TileMapDrawer.java, 61]     com.TETOSOFT.tilegame.TileMapDrawer.tilesToPixels
+
+EXIT_ON_CLOSE   (Unknown Variable)
+    Use [ScreenManager.java, 91]     com.TETOSOFT.graphics.ScreenManager.setFullScreen
+
+length   (Public Implicit Variable)
+    Use [InputManager.java, 107]     com.TETOSOFT.input.InputManager.getKeyAction
+    Use [TileMap.java, 43]           com.TETOSOFT.tilegame.TileMap.getHeight
+    Use [TileMap.java, 35]           com.TETOSOFT.tilegame.TileMap.getWidth
+    Use [MapLoader.java, 264]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 265]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 266]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [MapLoader.java, 268]        com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Use [ScreenManager.java, 32]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Use [ScreenManager.java, 34]     com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+
+REFRESH_RATE_UNKNOWN   (Unknown Variable)
+    Use [ScreenManager.java, 64]     com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+    Use [ScreenManager.java, 66]     com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+
+VK_ESCAPE   (Unknown Variable)
+    Use [GameEngine.java, 78]        com.TETOSOFT.tilegame.GameEngine.initInput
+
+VK_LEFT   (Unknown Variable)
+    Use [GameEngine.java, 75]        com.TETOSOFT.tilegame.GameEngine.initInput
+
+VK_RIGHT   (Unknown Variable)
+    Use [GameEngine.java, 76]        com.TETOSOFT.tilegame.GameEngine.initInput
+
+VK_SPACE   (Unknown Variable)
+    Use [GameEngine.java, 77]        com.TETOSOFT.tilegame.GameEngine.initInput
+
+x   (Unknown Variable)
+    Use [Mouse.java, 29]             com.TETOSOFT.input.Mouse.getMouseLocationX
+    Use [Mouse.java, 37]             com.TETOSOFT.input.Mouse.setMouseLocationX
+    Use [InputManager.java, 201]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 96]      com.TETOSOFT.input.InputManager.recenterMouse
+    Use [InputManager.java, 101]     com.TETOSOFT.input.InputManager.recenterMouse
+    Use [GameEngine.java, 286]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 290]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+
+y   (Unknown Variable)
+    Use [Mouse.java, 33]             com.TETOSOFT.input.Mouse.getMouseLocationY
+    Use [Mouse.java, 41]             com.TETOSOFT.input.Mouse.setMouseLocationY
+    Use [InputManager.java, 202]     com.TETOSOFT.input.InputManager.mouseMoved
+    Use [InputManager.java, 97]      com.TETOSOFT.input.InputManager.recenterMouse
+    Use [InputManager.java, 101]     com.TETOSOFT.input.InputManager.recenterMouse
+    Use [GameEngine.java, 309]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 313]       com.TETOSOFT.tilegame.GameEngine.updateCreature

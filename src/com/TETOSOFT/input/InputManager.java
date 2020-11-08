@@ -17,17 +17,6 @@ public class InputManager implements KeyListener, MouseListener,
             new Point(0,0),
             "invisible");
 
-    
-    public static final int MOUSE_MOVE_LEFT = 0;
-    public static final int MOUSE_MOVE_RIGHT = 1;
-    public static final int MOUSE_MOVE_UP = 2;
-    public static final int MOUSE_MOVE_DOWN = 3;
-    public static final int MOUSE_WHEEL_UP = 4;
-    public static final int MOUSE_WHEEL_DOWN = 5;
-    public static final int MOUSE_BUTTON_1 = 6;
-    public static final int MOUSE_BUTTON_2 = 7;
-    public static final int MOUSE_BUTTON_3 = 8;
-
     private static final int NUM_MOUSE_CODES = 9;
 
     private static final int NUM_KEY_CODES = 600;
@@ -37,7 +26,8 @@ public class InputManager implements KeyListener, MouseListener,
     private GameAction[] mouseActions =
         new GameAction[NUM_MOUSE_CODES];
 
-    private Point mouseLocation;
+    private static Mouse mouse;
+    //private Point mouseLocation;
     private Point centerLocation;
     private Component comp;
     private Robot robot;
@@ -46,7 +36,7 @@ public class InputManager implements KeyListener, MouseListener,
   
     public InputManager(Component comp) {
         this.comp = comp;
-        mouseLocation = new Point();
+        mouse = new Mouse();
         centerLocation = new Point();
 
         comp.addKeyListener(this);
@@ -101,96 +91,7 @@ public class InputManager implements KeyListener, MouseListener,
     {
         mouseActions[mouseCode] = gameAction;
     }
-
-
-    public void clearMap(GameAction gameAction) 
-    {
-        for (int i=0; i<keyActions.length; i++) {
-            if (keyActions[i] == gameAction) {
-                keyActions[i] = null;
-            }
-        }
-
-        for (int i=0; i<mouseActions.length; i++) {
-            if (mouseActions[i] == gameAction) {
-                mouseActions[i] = null;
-            }
-        }
-
-        gameAction.reset();
-    }
-
-
-   
-    public List getMaps(GameAction gameCode) {
-        ArrayList list = new ArrayList();
-
-        for (int i=0; i<keyActions.length; i++) {
-            if (keyActions[i] == gameCode) {
-                list.add(getKeyName(i));
-            }
-        }
-
-        for (int i=0; i<mouseActions.length; i++) {
-            if (mouseActions[i] == gameCode) {
-                list.add(getMouseName(i));
-            }
-        }
-        return list;
-    }
-
-
     
-    public void resetAllGameActions() {
-        for (int i=0; i<keyActions.length; i++) {
-            if (keyActions[i] != null) {
-                keyActions[i].reset();
-            }
-        }
-
-        for (int i=0; i<mouseActions.length; i++) {
-            if (mouseActions[i] != null) {
-                mouseActions[i].reset();
-            }
-        }
-    }
-
-
-    
-    public static String getKeyName(int keyCode) {
-        return KeyEvent.getKeyText(keyCode);
-    }
-
-
-   
-    public static String getMouseName(int mouseCode) {
-        switch (mouseCode) {
-            case MOUSE_MOVE_LEFT: return "Mouse Left";
-            case MOUSE_MOVE_RIGHT: return "Mouse Right";
-            case MOUSE_MOVE_UP: return "Mouse Up";
-            case MOUSE_MOVE_DOWN: return "Mouse Down";
-            case MOUSE_WHEEL_UP: return "Mouse Wheel Up";
-            case MOUSE_WHEEL_DOWN: return "Mouse Wheel Down";
-            case MOUSE_BUTTON_1: return "Mouse Button 1";
-            case MOUSE_BUTTON_2: return "Mouse Button 2";
-            case MOUSE_BUTTON_3: return "Mouse Button 3";
-            default: return "Unknown mouse code " + mouseCode;
-        }
-    }
-
-
-   
-    public int getMouseX() {
-        return mouseLocation.x;
-    }
-
-
-    public int getMouseY() {
-        return mouseLocation.y;
-    }
-
-
-   
     private synchronized void recenterMouse() {
         if (robot != null && comp.isShowing()) {
             centerLocation.x = comp.getWidth() / 2;
@@ -202,7 +103,6 @@ public class InputManager implements KeyListener, MouseListener,
         }
     }
 
-
     private GameAction getKeyAction(KeyEvent e) {
         int keyCode = e.getKeyCode();
         if (keyCode < keyActions.length) {
@@ -213,23 +113,8 @@ public class InputManager implements KeyListener, MouseListener,
         }
     }
 
-  
-    public static int getMouseButtonCode(MouseEvent e) {
-         switch (e.getButton()) {
-            case MouseEvent.BUTTON1:
-                return MOUSE_BUTTON_1;
-            case MouseEvent.BUTTON2:
-                return MOUSE_BUTTON_2;
-            case MouseEvent.BUTTON3:
-                return MOUSE_BUTTON_3;
-            default:
-                return -1;
-        }
-    }
-
-
     private GameAction getMouseButtonAction(MouseEvent e) {
-        int mouseCode = getMouseButtonCode(e);
+        int mouseCode = mouse.getMouseButtonCode(e);
         if (mouseCode != -1) {
              return mouseActions[mouseCode];
         }
@@ -320,25 +205,24 @@ public class InputManager implements KeyListener, MouseListener,
             isRecentering = false;
         }
         else {
-            int dx = e.getX() - mouseLocation.x;
-            int dy = e.getY() - mouseLocation.y;
-            mouseHelper(MOUSE_MOVE_LEFT, MOUSE_MOVE_RIGHT, dx);
-            mouseHelper(MOUSE_MOVE_UP, MOUSE_MOVE_DOWN, dy);
+            int dx = e.getX() - mouse.getMouseLocationX();
+            int dy = e.getY() - mouse.getMouseLocationY();
+            mouseHelper(mouse.MOUSE_MOVE_LEFT, mouse.MOUSE_MOVE_RIGHT, dx);
+            mouseHelper(mouse.MOUSE_MOVE_UP, mouse.MOUSE_MOVE_DOWN, dy);
 
             if (isRelativeMouseMode()) {
                 recenterMouse();
             }
         }
 
-        mouseLocation.x = e.getX();
-        mouseLocation.y = e.getY();
-
+        mouse.setMouseLocationX(e.getX());
+        mouse.setMouseLocationY(e.getY());
     }
 
 
     // from the MouseWheelListener interface
     public void mouseWheelMoved(MouseWheelEvent e) {
-        mouseHelper(MOUSE_WHEEL_UP, MOUSE_WHEEL_DOWN,
+        mouseHelper(mouse.MOUSE_WHEEL_UP, mouse.MOUSE_WHEEL_DOWN,
             e.getWheelRotation());
     }
 

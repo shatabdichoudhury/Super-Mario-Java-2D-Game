@@ -1,0 +1,42 @@
+                          Unused Program Units Report
+===============================================================================
+
+ScreenManager.java
+    com.TETOSOFT.graphics.ScreenManager.createCompatibleImage         209
+    com.TETOSOFT.graphics.ScreenManager.getCompatibleDisplayModes      22
+    com.TETOSOFT.graphics.ScreenManager.getCurrentDisplayMode          46
+    com.TETOSOFT.graphics.ScreenManager.setFullScreen.(Anon_1).run    111
+
+GameAction.java
+    com.TETOSOFT.input.GameAction.getName                              37
+    com.TETOSOFT.input.GameAction.tap                                  51
+
+InputManager.java
+    com.TETOSOFT.input.InputManager.keyPressed                        127
+    com.TETOSOFT.input.InputManager.keyReleased                       138
+    com.TETOSOFT.input.InputManager.keyTyped                          149
+    com.TETOSOFT.input.InputManager.mapToMouse                         88
+    com.TETOSOFT.input.InputManager.mouseClicked                      174
+    com.TETOSOFT.input.InputManager.mouseDragged                      192
+    com.TETOSOFT.input.InputManager.mouseEntered                      180
+    com.TETOSOFT.input.InputManager.mouseExited                       186
+    com.TETOSOFT.input.InputManager.mousePressed                      156
+    com.TETOSOFT.input.InputManager.mouseReleased                     165
+    com.TETOSOFT.input.InputManager.mouseWheelMoved                   223
+    com.TETOSOFT.input.InputManager.setRelativeMouseMode               56
+
+Mouse.java
+    com.TETOSOFT.input.Mouse.getMouseLocation                          24
+    com.TETOSOFT.input.Mouse.getMouseName                              44
+
+GameCore.java
+    com.TETOSOFT.test.GameCore.lazilyExit.(Anon_1).run                 65
+    com.TETOSOFT.test.GameCore.loadImage                               99
+
+GameEngine.java
+    com.TETOSOFT.tilegame.GameEngine.getMap                           127
+
+PowerUp.java
+    com.TETOSOFT.tilegame.sprites.PowerUp.Goal.Goal                    54
+    com.TETOSOFT.tilegame.sprites.PowerUp.Music.Music                  44
+    com.TETOSOFT.tilegame.sprites.PowerUp.Star.Star                    34

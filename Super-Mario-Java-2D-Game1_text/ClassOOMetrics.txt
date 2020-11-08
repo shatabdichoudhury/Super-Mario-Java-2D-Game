@@ -1,0 +1,244 @@
+                            Class OO Metrics Report
+===============================================================================
+com.TETOSOFT.graphics.Animation:
+  LCOM   (Percent Lack of Cohesion)        53
+  DIT    (Max Inheritance Tree)             1
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         1
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)             8
+  NIM    (Count of Instance Methods)        8
+  NIV    (Count of Instance Variables)      4
+  WMC    (Count of Methods)                 8
+
+com.TETOSOFT.graphics.Animation.AnimFrame:
+  LCOM   (Percent Lack of Cohesion)         0
+  DIT    (Max Inheritance Tree)             1
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         0
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)             1
+  NIM    (Count of Instance Methods)        1
+  NIV    (Count of Instance Variables)      2
+  WMC    (Count of Methods)                 1
+
+com.TETOSOFT.graphics.ScreenManager:
+  LCOM   (Percent Lack of Cohesion)        14
+  DIT    (Max Inheritance Tree)             1
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         0
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)            14
+  NIM    (Count of Instance Methods)       14
+  NIV    (Count of Instance Variables)      1
+  WMC    (Count of Methods)                14
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.(Anon_1):
+  LCOM   (Percent Lack of Cohesion)         0
+  DIT    (Max Inheritance Tree)             2
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         1
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)             1
+  NIM    (Count of Instance Methods)        1
+  NIV    (Count of Instance Variables)      0
+  WMC    (Count of Methods)                 1
+
+com.TETOSOFT.graphics.Sprite:
+  LCOM   (Percent Lack of Cohesion)        74
+  DIT    (Max Inheritance Tree)             1
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         1
+  NOC    (Count of Derived Classes)         2
+  RFC    (Count of All Methods)            14
+  NIM    (Count of Instance Methods)       14
+  NIV    (Count of Instance Variables)      5
+  WMC    (Count of Methods)                14
+
+com.TETOSOFT.input.GameAction:
+  LCOM   (Percent Lack of Cohesion)        72
+  DIT    (Max Inheritance Tree)             1
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         0
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)            10
+  NIM    (Count of Instance Methods)       10
+  NIV    (Count of Instance Variables)      4
+  WMC    (Count of Methods)                10
+
+com.TETOSOFT.input.InputManager:
+  LCOM   (Percent Lack of Cohesion)        86
+  DIT    (Max Inheritance Tree)             1
+  IFANIN (Count of Base Classes)            5
+  CBO    (Count of Coupled Classes)         2
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)            21
+  NIM    (Count of Instance Methods)       21
+  NIV    (Count of Instance Variables)      6
+  WMC    (Count of Methods)                21
+
+com.TETOSOFT.input.Mouse:
+  LCOM   (Percent Lack of Cohesion)        78
+  DIT    (Max Inheritance Tree)             1
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         0
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)             8
+  NIM    (Count of Instance Methods)        7
+  NIV    (Count of Instance Variables)      7
+  WMC    (Count of Methods)                 8
+
+com.TETOSOFT.test.GameCore:
+  LCOM   (Percent Lack of Cohesion)        57
+  DIT    (Max Inheritance Tree)             1
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         1
+  NOC    (Count of Derived Classes)         1
+  RFC    (Count of All Methods)             8
+  NIM    (Count of Instance Methods)        8
+  NIV    (Count of Instance Variables)      2
+  WMC    (Count of Methods)                 8
+
+com.TETOSOFT.test.GameCore.lazilyExit.(Anon_1):
+  LCOM   (Percent Lack of Cohesion)         0
+  DIT    (Max Inheritance Tree)             2
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         1
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)             1
+  NIM    (Count of Instance Methods)        1
+  NIV    (Count of Instance Variables)      0
+  WMC    (Count of Methods)                 1
+
+com.TETOSOFT.tilegame.GameEngine:
+  LCOM   (Percent Lack of Cohesion)        81
+  DIT    (Max Inheritance Tree)             2
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)        13
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)            22
+  NIM    (Count of Instance Methods)       13
+  NIV    (Count of Instance Variables)     11
+  WMC    (Count of Methods)                14
+
+com.TETOSOFT.tilegame.MapLoader:
+  LCOM   (Percent Lack of Cohesion)        86
+  DIT    (Max Inheritance Tree)             1
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)        11
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)            15
+  NIM    (Count of Instance Methods)       15
+  NIV    (Count of Instance Variables)      9
+  WMC    (Count of Methods)                15
+
+com.TETOSOFT.tilegame.sprites.Creature:
+  LCOM   (Percent Lack of Cohesion)        71
+  DIT    (Max Inheritance Tree)             2
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         1
+  NOC    (Count of Derived Classes)         3
+  RFC    (Count of All Methods)            25
+  NIM    (Count of Instance Methods)       11
+  NIV    (Count of Instance Variables)      6
+  WMC    (Count of Methods)                11
+
+com.TETOSOFT.tilegame.sprites.Fly:
+  LCOM   (Percent Lack of Cohesion)         0
+  DIT    (Max Inheritance Tree)             3
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         1
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)            28
+  NIM    (Count of Instance Methods)        3
+  NIV    (Count of Instance Variables)      0
+  WMC    (Count of Methods)                 3
+
+com.TETOSOFT.tilegame.sprites.Grub:
+  LCOM   (Percent Lack of Cohesion)         0
+  DIT    (Max Inheritance Tree)             3
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         1
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)            27
+  NIM    (Count of Instance Methods)        2
+  NIV    (Count of Instance Variables)      0
+  WMC    (Count of Methods)                 2
+
+com.TETOSOFT.tilegame.sprites.Player:
+  LCOM   (Percent Lack of Cohesion)        57
+  DIT    (Max Inheritance Tree)             3
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         1
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)            32
+  NIM    (Count of Instance Methods)        7
+  NIV    (Count of Instance Variables)      1
+  WMC    (Count of Methods)                 7
+
+com.TETOSOFT.tilegame.sprites.PowerUp:
+  LCOM   (Percent Lack of Cohesion)         0
+  DIT    (Max Inheritance Tree)             2
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         1
+  NOC    (Count of Derived Classes)         3
+  RFC    (Count of All Methods)            16
+  NIM    (Count of Instance Methods)        2
+  NIV    (Count of Instance Variables)      0
+  WMC    (Count of Methods)                 2
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Goal:
+  LCOM   (Percent Lack of Cohesion)         0
+  DIT    (Max Inheritance Tree)             3
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         1
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)            17
+  NIM    (Count of Instance Methods)        1
+  NIV    (Count of Instance Variables)      0
+  WMC    (Count of Methods)                 1
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Music:
+  LCOM   (Percent Lack of Cohesion)         0
+  DIT    (Max Inheritance Tree)             3
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         1
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)            17
+  NIM    (Count of Instance Methods)        1
+  NIV    (Count of Instance Variables)      0
+  WMC    (Count of Methods)                 1
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Star:
+  LCOM   (Percent Lack of Cohesion)         0
+  DIT    (Max Inheritance Tree)             3
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         1
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)            17
+  NIM    (Count of Instance Methods)        1
+  NIV    (Count of Instance Variables)      0
+  WMC    (Count of Methods)                 1
+
+com.TETOSOFT.tilegame.TileMap:
+  LCOM   (Percent Lack of Cohesion)        63
+  DIT    (Max Inheritance Tree)             1
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         1
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)            10
+  NIM    (Count of Instance Methods)       10
+  NIV    (Count of Instance Variables)      3
+  WMC    (Count of Methods)                10
+
+com.TETOSOFT.tilegame.TileMapDrawer:
+  LCOM   (Percent Lack of Cohesion)        60
+  DIT    (Max Inheritance Tree)             1
+  IFANIN (Count of Base Classes)            1
+  CBO    (Count of Coupled Classes)         3
+  NOC    (Count of Derived Classes)         0
+  RFC    (Count of All Methods)             5
+  NIM    (Count of Instance Methods)        2
+  NIV    (Count of Instance Variables)      1
+  WMC    (Count of Methods)                 5
+

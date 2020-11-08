@@ -1,0 +1,1893 @@
+                         Data Dictionary Summary Report
+===============================================================================
+
+abs   (Unknown Method)
+
+add   (Unknown Method)
+
+addKeyListener   (Unknown Method)
+
+addMouseListener   (Unknown Method)
+
+addMouseMotionListener   (Unknown Method)
+
+addMouseWheelListener   (Unknown Method)
+
+AWTException   (Unknown Class)
+
+BIT_DEPTH_MULTI   (Unknown Variable)
+
+BufferedReader   (Unknown Class)
+
+BUTTON1   (Unknown Variable)
+
+BUTTON2   (Unknown Variable)
+
+BUTTON3   (Unknown Variable)
+
+charAt   (Unknown Method)
+
+close   (Unknown Method)
+
+com   (Package)
+   [Creature.java, 1]
+
+com.TETOSOFT   (Package)
+   [Creature.java, 1]
+
+com.TETOSOFT.graphics   (Package)
+   [Animation.java, 1]
+
+com.TETOSOFT.graphics.Animation   (Public Class)
+   [Animation.java, 6]
+
+com.TETOSOFT.graphics.Animation.addFrame   (Public Method)
+   [Animation.java, 35]
+
+com.TETOSOFT.graphics.Animation.addFrame.duration   (Parameter)
+   [Animation.java, 35]
+
+com.TETOSOFT.graphics.Animation.addFrame.image   (Parameter)
+   [Animation.java, 35]
+
+com.TETOSOFT.graphics.Animation.Animation   (Public Constructor)
+   [Animation.java, 15]
+
+com.TETOSOFT.graphics.Animation.Animation   (Private Constructor)
+   [Animation.java, 21]
+
+com.TETOSOFT.graphics.Animation.Animation.frames   (Parameter)
+   [Animation.java, 21]
+
+com.TETOSOFT.graphics.Animation.Animation.totalDuration   (Parameter)
+   [Animation.java, 21]
+
+com.TETOSOFT.graphics.Animation.AnimFrame   (Private Class)
+   [Animation.java, 87]
+
+com.TETOSOFT.graphics.Animation.AnimFrame.AnimFrame   (Public Constructor)
+   [Animation.java, 92]
+
+com.TETOSOFT.graphics.Animation.AnimFrame.AnimFrame.endTime   (Parameter)
+   [Animation.java, 92]
+
+com.TETOSOFT.graphics.Animation.AnimFrame.AnimFrame.image   (Parameter)
+   [Animation.java, 92]
+
+com.TETOSOFT.graphics.Animation.AnimFrame.endTime   (Variable)
+   [Animation.java, 90]
+
+com.TETOSOFT.graphics.Animation.AnimFrame.image   (Variable)
+   [Animation.java, 89]
+
+com.TETOSOFT.graphics.Animation.animTime   (Private Variable)
+   [Animation.java, 11]
+
+com.TETOSOFT.graphics.Animation.clone   (Public Method)
+   [Animation.java, 29]
+
+com.TETOSOFT.graphics.Animation.currFrameIndex   (Private Variable)
+   [Animation.java, 10]
+
+com.TETOSOFT.graphics.Animation.frames   (Private Variable)
+   [Animation.java, 9]
+
+com.TETOSOFT.graphics.Animation.getFrame   (Private Method)
+   [Animation.java, 82]
+
+com.TETOSOFT.graphics.Animation.getFrame.i   (Parameter)
+   [Animation.java, 82]
+
+com.TETOSOFT.graphics.Animation.getImage   (Public Method)
+   [Animation.java, 69]
+
+com.TETOSOFT.graphics.Animation.start   (Public Method)
+   [Animation.java, 42]
+
+com.TETOSOFT.graphics.Animation.totalDuration   (Private Variable)
+   [Animation.java, 12]
+
+com.TETOSOFT.graphics.Animation.update   (Public Method)
+   [Animation.java, 49]
+
+com.TETOSOFT.graphics.Animation.update.elapsedTime   (Parameter)
+   [Animation.java, 49]
+
+com.TETOSOFT.graphics.ScreenManager   (Public Class)
+   [ScreenManager.java, 9]
+
+com.TETOSOFT.graphics.ScreenManager.checkBitDepth   (Private Method)
+   [ScreenManager.java, 75]
+
+com.TETOSOFT.graphics.ScreenManager.checkBitDepth.mode1   (Parameter)
+   [ScreenManager.java, 75]
+
+com.TETOSOFT.graphics.ScreenManager.checkBitDepth.mode1_bit   (Variable)
+   [ScreenManager.java, 76]
+
+com.TETOSOFT.graphics.ScreenManager.checkBitDepth.mode2   (Parameter)
+   [ScreenManager.java, 75]
+
+com.TETOSOFT.graphics.ScreenManager.checkBitDepth.mode2_bit   (Variable)
+   [ScreenManager.java, 77]
+
+com.TETOSOFT.graphics.ScreenManager.checkBitDepth.mode_notequals   (Variable)
+   [ScreenManager.java, 78]
+
+com.TETOSOFT.graphics.ScreenManager.createCompatibleImage   (Public Method)
+   [ScreenManager.java, 209]
+
+com.TETOSOFT.graphics.ScreenManager.createCompatibleImage.gc   (Variable)
+   [ScreenManager.java, 214]
+
+com.TETOSOFT.graphics.ScreenManager.createCompatibleImage.h   (Parameter)
+   [ScreenManager.java, 209]
+
+com.TETOSOFT.graphics.ScreenManager.createCompatibleImage.transparancy   (Parameter)
+   [ScreenManager.java, 210]
+
+com.TETOSOFT.graphics.ScreenManager.createCompatibleImage.w   (Parameter)
+   [ScreenManager.java, 209]
+
+com.TETOSOFT.graphics.ScreenManager.createCompatibleImage.window   (Variable)
+   [ScreenManager.java, 212]
+
+com.TETOSOFT.graphics.ScreenManager.device   (Private Variable)
+   [ScreenManager.java, 11]
+
+com.TETOSOFT.graphics.ScreenManager.displayModesMatch   (Public Method)
+   [ScreenManager.java, 51]
+
+com.TETOSOFT.graphics.ScreenManager.displayModesMatch.mode1   (Parameter)
+   [ScreenManager.java, 51]
+
+com.TETOSOFT.graphics.ScreenManager.displayModesMatch.mode2   (Parameter)
+   [ScreenManager.java, 51]
+
+com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode   (Public Method)
+   [ScreenManager.java, 29]
+
+com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode.(for_loop_1).(for_loop_2).j   (Variable)
+   [ScreenManager.java, 34]
+
+com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode.(for_loop_1).i   (Variable)
+   [ScreenManager.java, 32]
+
+com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode.goodModes   (Variable)
+   [ScreenManager.java, 31]
+
+com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode.modes   (Parameter)
+   [ScreenManager.java, 29]
+
+com.TETOSOFT.graphics.ScreenManager.getCompatibleDisplayModes   (Public Method)
+   [ScreenManager.java, 22]
+
+com.TETOSOFT.graphics.ScreenManager.getCurrentDisplayMode   (Public Method)
+   [ScreenManager.java, 46]
+
+com.TETOSOFT.graphics.ScreenManager.getFullScreenWindow   (Public Method)
+   [ScreenManager.java, 162]
+
+com.TETOSOFT.graphics.ScreenManager.getGraphics   (Public Method)
+   [ScreenManager.java, 130]
+
+com.TETOSOFT.graphics.ScreenManager.getGraphics.strategy   (Variable)
+   [ScreenManager.java, 135]
+
+com.TETOSOFT.graphics.ScreenManager.getGraphics.window   (Variable)
+   [ScreenManager.java, 132]
+
+com.TETOSOFT.graphics.ScreenManager.getHeight   (Public Method)
+   [ScreenManager.java, 183]
+
+com.TETOSOFT.graphics.ScreenManager.getHeight.window   (Variable)
+   [ScreenManager.java, 185]
+
+com.TETOSOFT.graphics.ScreenManager.getWidth   (Public Method)
+   [ScreenManager.java, 168]
+
+com.TETOSOFT.graphics.ScreenManager.getWidth.window   (Variable)
+   [ScreenManager.java, 170]
+
+com.TETOSOFT.graphics.ScreenManager.restoreScreen   (Public Method)
+   [ScreenManager.java, 198]
+
+com.TETOSOFT.graphics.ScreenManager.restoreScreen.window   (Variable)
+   [ScreenManager.java, 200]
+
+com.TETOSOFT.graphics.ScreenManager.ScreenManager   (Public Constructor)
+   [ScreenManager.java, 14]
+
+com.TETOSOFT.graphics.ScreenManager.ScreenManager.environment   (Variable)
+   [ScreenManager.java, 16]
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen   (Public Method)
+   [ScreenManager.java, 88]
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.(Anon_1)   (Anonymous Class)
+   [ScreenManager.java, 110]
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.(Anon_1).run   (Public Method)
+   [ScreenManager.java, 111]
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.(catch_1).ex   (Catch Parameter)
+   [ScreenManager.java, 103]
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.(catch_2).ex   (Catch Parameter)
+   [ScreenManager.java, 117]
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.(catch_3).ex   (Catch Parameter)
+   [ScreenManager.java, 121]
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.displayMode   (Parameter)
+   [ScreenManager.java, 88]
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.frame   (Variable)
+   [ScreenManager.java, 90]
+
+com.TETOSOFT.graphics.ScreenManager.update   (Public Method)
+   [ScreenManager.java, 145]
+
+com.TETOSOFT.graphics.ScreenManager.update.strategy   (Variable)
+   [ScreenManager.java, 150]
+
+com.TETOSOFT.graphics.ScreenManager.update.window   (Variable)
+   [ScreenManager.java, 147]
+
+com.TETOSOFT.graphics.Sprite   (Public Class)
+   [Sprite.java, 5]
+
+com.TETOSOFT.graphics.Sprite.anim   (Protected Variable)
+   [Sprite.java, 7]
+
+com.TETOSOFT.graphics.Sprite.clone   (Public Method)
+   [Sprite.java, 96]
+
+com.TETOSOFT.graphics.Sprite.dx   (Private Variable)
+   [Sprite.java, 12]
+
+com.TETOSOFT.graphics.Sprite.dy   (Private Variable)
+   [Sprite.java, 13]
+
+com.TETOSOFT.graphics.Sprite.getHeight   (Public Method)
+   [Sprite.java, 60]
+
+com.TETOSOFT.graphics.Sprite.getImage   (Public Method)
+   [Sprite.java, 90]
+
+com.TETOSOFT.graphics.Sprite.getVelocityX   (Public Method)
+   [Sprite.java, 66]
+
+com.TETOSOFT.graphics.Sprite.getVelocityY   (Public Method)
+   [Sprite.java, 72]
+
+com.TETOSOFT.graphics.Sprite.getWidth   (Public Method)
+   [Sprite.java, 54]
+
+com.TETOSOFT.graphics.Sprite.getX   (Public Method)
+   [Sprite.java, 31]
+
+com.TETOSOFT.graphics.Sprite.getY   (Public Method)
+   [Sprite.java, 37]
+
+com.TETOSOFT.graphics.Sprite.setVelocityX   (Public Method)
+   [Sprite.java, 78]
+
+com.TETOSOFT.graphics.Sprite.setVelocityX.dx   (Parameter)
+   [Sprite.java, 78]
+
+com.TETOSOFT.graphics.Sprite.setVelocityY   (Public Method)
+   [Sprite.java, 84]
+
+com.TETOSOFT.graphics.Sprite.setVelocityY.dy   (Parameter)
+   [Sprite.java, 84]
+
+com.TETOSOFT.graphics.Sprite.setX   (Public Method)
+   [Sprite.java, 42]
+
+com.TETOSOFT.graphics.Sprite.setX.x   (Parameter)
+   [Sprite.java, 42]
+
+com.TETOSOFT.graphics.Sprite.setY   (Public Method)
+   [Sprite.java, 48]
+
+com.TETOSOFT.graphics.Sprite.setY.y   (Parameter)
+   [Sprite.java, 48]
+
+com.TETOSOFT.graphics.Sprite.Sprite   (Public Constructor)
+   [Sprite.java, 16]
+
+com.TETOSOFT.graphics.Sprite.Sprite.anim   (Parameter)
+   [Sprite.java, 16]
+
+com.TETOSOFT.graphics.Sprite.update   (Public Method)
+   [Sprite.java, 23]
+
+com.TETOSOFT.graphics.Sprite.update.elapsedTime   (Parameter)
+   [Sprite.java, 23]
+
+com.TETOSOFT.graphics.Sprite.x   (Private Variable)
+   [Sprite.java, 9]
+
+com.TETOSOFT.graphics.Sprite.y   (Private Variable)
+   [Sprite.java, 10]
+
+com.TETOSOFT.input   (Package)
+   [GameAction.java, 1]
+
+com.TETOSOFT.input.GameAction   (Public Class)
+   [GameAction.java, 4]
+
+com.TETOSOFT.input.GameAction.amount   (Private Variable)
+   [GameAction.java, 19]
+
+com.TETOSOFT.input.GameAction.behavior   (Private Variable)
+   [GameAction.java, 18]
+
+com.TETOSOFT.input.GameAction.DETECT_INITAL_PRESS_ONLY   (Public Static Variable)
+   [GameAction.java, 11]
+
+com.TETOSOFT.input.GameAction.GameAction   (Public Constructor)
+   [GameAction.java, 23]
+
+com.TETOSOFT.input.GameAction.GameAction   (Public Constructor)
+   [GameAction.java, 29]
+
+com.TETOSOFT.input.GameAction.GameAction.behavior   (Parameter)
+   [GameAction.java, 29]
+
+com.TETOSOFT.input.GameAction.GameAction.name   (Parameter)
+   [GameAction.java, 23]
+
+com.TETOSOFT.input.GameAction.GameAction.name   (Parameter)
+   [GameAction.java, 29]
+
+com.TETOSOFT.input.GameAction.getAmount   (Public Method)
+   [GameAction.java, 88]
+
+com.TETOSOFT.input.GameAction.getAmount.retVal   (Variable)
+   [GameAction.java, 90]
+
+com.TETOSOFT.input.GameAction.getName   (Public Method)
+   [GameAction.java, 37]
+
+com.TETOSOFT.input.GameAction.isPressed   (Public Method)
+   [GameAction.java, 82]
+
+com.TETOSOFT.input.GameAction.name   (Private Variable)
+   [GameAction.java, 17]
+
+com.TETOSOFT.input.GameAction.NORMAL   (Public Static Variable)
+   [GameAction.java, 8]
+
+com.TETOSOFT.input.GameAction.press   (Public Method)
+   [GameAction.java, 58]
+
+com.TETOSOFT.input.GameAction.press   (Public Method)
+   [GameAction.java, 65]
+
+com.TETOSOFT.input.GameAction.press.amount   (Parameter)
+   [GameAction.java, 65]
+
+com.TETOSOFT.input.GameAction.release   (Public Method)
+   [GameAction.java, 76]
+
+com.TETOSOFT.input.GameAction.reset   (Public Method)
+   [GameAction.java, 43]
+
+com.TETOSOFT.input.GameAction.state   (Private Variable)
+   [GameAction.java, 20]
+
+com.TETOSOFT.input.GameAction.STATE_PRESSED   (Private Static Variable)
+   [GameAction.java, 14]
+
+com.TETOSOFT.input.GameAction.STATE_RELEASED   (Private Static Variable)
+   [GameAction.java, 13]
+
+com.TETOSOFT.input.GameAction.STATE_WAITING_FOR_RELEASE   (Private Static Variable)
+   [GameAction.java, 15]
+
+com.TETOSOFT.input.GameAction.tap   (Public Method)
+   [GameAction.java, 51]
+
+com.TETOSOFT.input.InputManager   (Public Class)
+   [InputManager.java, 10]
+
+com.TETOSOFT.input.InputManager.centerLocation   (Private Variable)
+   [InputManager.java, 30]
+
+com.TETOSOFT.input.InputManager.comp   (Private Variable)
+   [InputManager.java, 31]
+
+com.TETOSOFT.input.InputManager.getKeyAction   (Private Method)
+   [InputManager.java, 105]
+
+com.TETOSOFT.input.InputManager.getKeyAction.e   (Parameter)
+   [InputManager.java, 105]
+
+com.TETOSOFT.input.InputManager.getKeyAction.keyCode   (Variable)
+   [InputManager.java, 106]
+
+com.TETOSOFT.input.InputManager.getMouseButtonAction   (Private Method)
+   [InputManager.java, 115]
+
+com.TETOSOFT.input.InputManager.getMouseButtonAction.e   (Parameter)
+   [InputManager.java, 115]
+
+com.TETOSOFT.input.InputManager.getMouseButtonAction.mouseCode   (Variable)
+   [InputManager.java, 116]
+
+com.TETOSOFT.input.InputManager.InputManager   (Public Constructor)
+   [InputManager.java, 36]
+
+com.TETOSOFT.input.InputManager.InputManager.comp   (Parameter)
+   [InputManager.java, 36]
+
+com.TETOSOFT.input.InputManager.INVISIBLE_CURSOR   (Public Static Variable)
+   [InputManager.java, 14]
+
+com.TETOSOFT.input.InputManager.isRecentering   (Private Variable)
+   [InputManager.java, 33]
+
+com.TETOSOFT.input.InputManager.isRelativeMouseMode   (Public Method)
+   [InputManager.java, 78]
+
+com.TETOSOFT.input.InputManager.keyActions   (Private Variable)
+   [InputManager.java, 24]
+
+com.TETOSOFT.input.InputManager.keyPressed   (Public Method)
+   [InputManager.java, 127]
+
+com.TETOSOFT.input.InputManager.keyPressed.e   (Parameter)
+   [InputManager.java, 127]
+
+com.TETOSOFT.input.InputManager.keyPressed.gameAction   (Variable)
+   [InputManager.java, 128]
+
+com.TETOSOFT.input.InputManager.keyReleased   (Public Method)
+   [InputManager.java, 138]
+
+com.TETOSOFT.input.InputManager.keyReleased.e   (Parameter)
+   [InputManager.java, 138]
+
+com.TETOSOFT.input.InputManager.keyReleased.gameAction   (Variable)
+   [InputManager.java, 139]
+
+com.TETOSOFT.input.InputManager.keyTyped   (Public Method)
+   [InputManager.java, 149]
+
+com.TETOSOFT.input.InputManager.keyTyped.e   (Parameter)
+   [InputManager.java, 149]
+
+com.TETOSOFT.input.InputManager.mapToKey   (Public Method)
+   [InputManager.java, 83]
+
+com.TETOSOFT.input.InputManager.mapToKey.gameAction   (Parameter)
+   [InputManager.java, 83]
+
+com.TETOSOFT.input.InputManager.mapToKey.keyCode   (Parameter)
+   [InputManager.java, 83]
+
+com.TETOSOFT.input.InputManager.mapToMouse   (Public Method)
+   [InputManager.java, 88]
+
+com.TETOSOFT.input.InputManager.mapToMouse.gameAction   (Parameter)
+   [InputManager.java, 88]
+
+com.TETOSOFT.input.InputManager.mapToMouse.mouseCode   (Parameter)
+   [InputManager.java, 89]
+
+com.TETOSOFT.input.InputManager.mouse   (Private Static Variable)
+   [InputManager.java, 29]
+
+com.TETOSOFT.input.InputManager.mouseActions   (Private Variable)
+   [InputManager.java, 26]
+
+com.TETOSOFT.input.InputManager.mouseClicked   (Public Method)
+   [InputManager.java, 174]
+
+com.TETOSOFT.input.InputManager.mouseClicked.e   (Parameter)
+   [InputManager.java, 174]
+
+com.TETOSOFT.input.InputManager.mouseDragged   (Public Method)
+   [InputManager.java, 192]
+
+com.TETOSOFT.input.InputManager.mouseDragged.e   (Parameter)
+   [InputManager.java, 192]
+
+com.TETOSOFT.input.InputManager.mouseEntered   (Public Method)
+   [InputManager.java, 180]
+
+com.TETOSOFT.input.InputManager.mouseEntered.e   (Parameter)
+   [InputManager.java, 180]
+
+com.TETOSOFT.input.InputManager.mouseExited   (Public Method)
+   [InputManager.java, 186]
+
+com.TETOSOFT.input.InputManager.mouseExited.e   (Parameter)
+   [InputManager.java, 186]
+
+com.TETOSOFT.input.InputManager.mouseHelper   (Private Method)
+   [InputManager.java, 228]
+
+com.TETOSOFT.input.InputManager.mouseHelper.amount   (Parameter)
+   [InputManager.java, 229]
+
+com.TETOSOFT.input.InputManager.mouseHelper.codeNeg   (Parameter)
+   [InputManager.java, 228]
+
+com.TETOSOFT.input.InputManager.mouseHelper.codePos   (Parameter)
+   [InputManager.java, 228]
+
+com.TETOSOFT.input.InputManager.mouseHelper.gameAction   (Variable)
+   [InputManager.java, 231]
+
+com.TETOSOFT.input.InputManager.mouseMoved   (Public Method)
+   [InputManager.java, 198]
+
+com.TETOSOFT.input.InputManager.mouseMoved.dx   (Variable)
+   [InputManager.java, 207]
+
+com.TETOSOFT.input.InputManager.mouseMoved.dy   (Variable)
+   [InputManager.java, 208]
+
+com.TETOSOFT.input.InputManager.mouseMoved.e   (Parameter)
+   [InputManager.java, 198]
+
+com.TETOSOFT.input.InputManager.mousePressed   (Public Method)
+   [InputManager.java, 156]
+
+com.TETOSOFT.input.InputManager.mousePressed.e   (Parameter)
+   [InputManager.java, 156]
+
+com.TETOSOFT.input.InputManager.mousePressed.gameAction   (Variable)
+   [InputManager.java, 157]
+
+com.TETOSOFT.input.InputManager.mouseReleased   (Public Method)
+   [InputManager.java, 165]
+
+com.TETOSOFT.input.InputManager.mouseReleased.e   (Parameter)
+   [InputManager.java, 165]
+
+com.TETOSOFT.input.InputManager.mouseReleased.gameAction   (Variable)
+   [InputManager.java, 166]
+
+com.TETOSOFT.input.InputManager.mouseWheelMoved   (Public Method)
+   [InputManager.java, 223]
+
+com.TETOSOFT.input.InputManager.mouseWheelMoved.e   (Parameter)
+   [InputManager.java, 223]
+
+com.TETOSOFT.input.InputManager.NUM_KEY_CODES   (Private Static Variable)
+   [InputManager.java, 22]
+
+com.TETOSOFT.input.InputManager.NUM_MOUSE_CODES   (Private Static Variable)
+   [InputManager.java, 20]
+
+com.TETOSOFT.input.InputManager.recenterMouse   (Private Method)
+   [InputManager.java, 94]
+
+com.TETOSOFT.input.InputManager.robot   (Private Variable)
+   [InputManager.java, 32]
+
+com.TETOSOFT.input.InputManager.setCursor   (Public Method)
+   [InputManager.java, 50]
+
+com.TETOSOFT.input.InputManager.setCursor.cursor   (Parameter)
+   [InputManager.java, 50]
+
+com.TETOSOFT.input.InputManager.setRelativeMouseMode   (Public Method)
+   [InputManager.java, 56]
+
+com.TETOSOFT.input.InputManager.setRelativeMouseMode.(catch_1).ex   (Catch Parameter)
+   [InputManager.java, 67]
+
+com.TETOSOFT.input.InputManager.setRelativeMouseMode.mode   (Parameter)
+   [InputManager.java, 56]
+
+com.TETOSOFT.input.Mouse   (Public Class)
+   [Mouse.java, 6]
+
+com.TETOSOFT.input.Mouse.getMouseButtonCode   (Public Static Method)
+   [Mouse.java, 59]
+
+com.TETOSOFT.input.Mouse.getMouseButtonCode.e   (Parameter)
+   [Mouse.java, 59]
+
+com.TETOSOFT.input.Mouse.getMouseLocation   (Public Method)
+   [Mouse.java, 24]
+
+com.TETOSOFT.input.Mouse.getMouseLocationX   (Public Method)
+   [Mouse.java, 28]
+
+com.TETOSOFT.input.Mouse.getMouseLocationY   (Public Method)
+   [Mouse.java, 32]
+
+com.TETOSOFT.input.Mouse.getMouseName   (Public Method)
+   [Mouse.java, 44]
+
+com.TETOSOFT.input.Mouse.getMouseName.mouseCode   (Parameter)
+   [Mouse.java, 44]
+
+com.TETOSOFT.input.Mouse.Mouse   (Public Constructor)
+   [Mouse.java, 20]
+
+com.TETOSOFT.input.Mouse.MOUSE_BUTTON_1   (Protected Static Variable)
+   [Mouse.java, 14]
+
+com.TETOSOFT.input.Mouse.MOUSE_BUTTON_2   (Protected Static Variable)
+   [Mouse.java, 15]
+
+com.TETOSOFT.input.Mouse.MOUSE_BUTTON_3   (Protected Static Variable)
+   [Mouse.java, 16]
+
+com.TETOSOFT.input.Mouse.MOUSE_MOVE_DOWN   (Protected Variable)
+   [Mouse.java, 11]
+
+com.TETOSOFT.input.Mouse.MOUSE_MOVE_LEFT   (Protected Variable)
+   [Mouse.java, 8]
+
+com.TETOSOFT.input.Mouse.MOUSE_MOVE_RIGHT   (Protected Variable)
+   [Mouse.java, 9]
+
+com.TETOSOFT.input.Mouse.MOUSE_MOVE_UP   (Protected Variable)
+   [Mouse.java, 10]
+
+com.TETOSOFT.input.Mouse.MOUSE_WHEEL_DOWN   (Protected Variable)
+   [Mouse.java, 13]
+
+com.TETOSOFT.input.Mouse.MOUSE_WHEEL_UP   (Protected Variable)
+   [Mouse.java, 12]
+
+com.TETOSOFT.input.Mouse.mouseLocation   (Private Variable)
+   [Mouse.java, 18]
+
+com.TETOSOFT.input.Mouse.setMouseLocationX   (Public Method)
+   [Mouse.java, 36]
+
+com.TETOSOFT.input.Mouse.setMouseLocationX.x   (Parameter)
+   [Mouse.java, 36]
+
+com.TETOSOFT.input.Mouse.setMouseLocationY   (Public Method)
+   [Mouse.java, 40]
+
+com.TETOSOFT.input.Mouse.setMouseLocationY.y   (Parameter)
+   [Mouse.java, 40]
+
+com.TETOSOFT.test   (Package)
+   [GameCore.java, 1]
+
+com.TETOSOFT.test.GameCore   (Public Abstract Class)
+   [GameCore.java, 12]
+
+com.TETOSOFT.test.GameCore.draw   (Public Abstract Method)
+   [GameCore.java, 147]
+
+com.TETOSOFT.test.GameCore.draw.g   (Parameter)
+   [GameCore.java, 147]
+
+com.TETOSOFT.test.GameCore.FONT_SIZE   (Protected Static Variable)
+   [GameCore.java, 14]
+
+com.TETOSOFT.test.GameCore.gameLoop   (Public Method)
+   [GameCore.java, 107]
+
+com.TETOSOFT.test.GameCore.gameLoop.currTime   (Variable)
+   [GameCore.java, 109]
+
+com.TETOSOFT.test.GameCore.gameLoop.elapsedTime   (Variable)
+   [GameCore.java, 112]
+
+com.TETOSOFT.test.GameCore.gameLoop.g   (Variable)
+   [GameCore.java, 120]
+
+com.TETOSOFT.test.GameCore.gameLoop.startTime   (Variable)
+   [GameCore.java, 108]
+
+com.TETOSOFT.test.GameCore.init   (Public Method)
+   [GameCore.java, 83]
+
+com.TETOSOFT.test.GameCore.init.displayMode   (Variable)
+   [GameCore.java, 86]
+
+com.TETOSOFT.test.GameCore.init.window   (Variable)
+   [GameCore.java, 90]
+
+com.TETOSOFT.test.GameCore.isRunning   (Private Variable)
+   [GameCore.java, 29]
+
+com.TETOSOFT.test.GameCore.LAZILY_CONSTANT   (Private Static Variable)
+   [GameCore.java, 15]
+
+com.TETOSOFT.test.GameCore.lazilyExit   (Public Method)
+   [GameCore.java, 63]
+
+com.TETOSOFT.test.GameCore.lazilyExit.(Anon_1)   (Anonymous Class)
+   [GameCore.java, 64]
+
+com.TETOSOFT.test.GameCore.lazilyExit.(Anon_1).run   (Public Method)
+   [GameCore.java, 65]
+
+com.TETOSOFT.test.GameCore.lazilyExit.(Anon_1).run.(catch_1).ex   (Catch Parameter)
+   [GameCore.java, 70]
+
+com.TETOSOFT.test.GameCore.lazilyExit.thread   (Variable)
+   [GameCore.java, 64]
+
+com.TETOSOFT.test.GameCore.loadImage   (Public Method)
+   [GameCore.java, 99]
+
+com.TETOSOFT.test.GameCore.loadImage.fileName   (Parameter)
+   [GameCore.java, 99]
+
+com.TETOSOFT.test.GameCore.POSSIBLE_MODES   (Private Static Variable)
+   [GameCore.java, 17]
+
+com.TETOSOFT.test.GameCore.run   (Public Method)
+   [GameCore.java, 44]
+
+com.TETOSOFT.test.GameCore.screen   (Protected Variable)
+   [GameCore.java, 30]
+
+com.TETOSOFT.test.GameCore.stop   (Public Method)
+   [GameCore.java, 36]
+
+com.TETOSOFT.test.GameCore.update   (Public Method)
+   [GameCore.java, 138]
+
+com.TETOSOFT.test.GameCore.update.elapsedTime   (Parameter)
+   [GameCore.java, 138]
+
+com.TETOSOFT.tilegame   (Package)
+   [GameEngine.java, 1]
+
+com.TETOSOFT.tilegame.GameEngine   (Public Class)
+   [GameEngine.java, 15]
+
+com.TETOSOFT.tilegame.GameEngine.acquirePowerUp   (Public Method)
+   [GameEngine.java, 368]
+
+com.TETOSOFT.tilegame.GameEngine.acquirePowerUp.powerUp   (Parameter)
+   [GameEngine.java, 368]
+
+com.TETOSOFT.tilegame.GameEngine.checkInput   (Private Method)
+   [GameEngine.java, 82]
+
+com.TETOSOFT.tilegame.GameEngine.checkInput.elapsedTime   (Parameter)
+   [GameEngine.java, 82]
+
+com.TETOSOFT.tilegame.GameEngine.checkInput.player   (Variable)
+   [GameEngine.java, 89]
+
+com.TETOSOFT.tilegame.GameEngine.checkInput.velocityX   (Variable)
+   [GameEngine.java, 92]
+
+com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision   (Public Method)
+   [GameEngine.java, 330]
+
+com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision.(catch_1).ex   (Catch Parameter)
+   [GameEngine.java, 354]
+
+com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision.badguy   (Variable)
+   [GameEngine.java, 341]
+
+com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision.canKill   (Parameter)
+   [GameEngine.java, 331]
+
+com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision.collisionSprite   (Variable)
+   [GameEngine.java, 337]
+
+com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision.player   (Parameter)
+   [GameEngine.java, 330]
+
+com.TETOSOFT.tilegame.GameEngine.collectedStars   (Private Variable)
+   [GameEngine.java, 35]
+
+com.TETOSOFT.tilegame.GameEngine.draw   (Public Method)
+   [GameEngine.java, 109]
+
+com.TETOSOFT.tilegame.GameEngine.draw.g   (Parameter)
+   [GameEngine.java, 109]
+
+com.TETOSOFT.tilegame.GameEngine.drawer   (Private Variable)
+   [GameEngine.java, 29]
+
+com.TETOSOFT.tilegame.GameEngine.exit   (Private Variable)
+   [GameEngine.java, 34]
+
+com.TETOSOFT.tilegame.GameEngine.getMap   (Public Method)
+   [GameEngine.java, 127]
+
+com.TETOSOFT.tilegame.GameEngine.getSpriteCollision   (Public Method)
+   [GameEngine.java, 205]
+
+com.TETOSOFT.tilegame.GameEngine.getSpriteCollision.i   (Variable)
+   [GameEngine.java, 208]
+
+com.TETOSOFT.tilegame.GameEngine.getSpriteCollision.otherSprite   (Variable)
+   [GameEngine.java, 210]
+
+com.TETOSOFT.tilegame.GameEngine.getSpriteCollision.sprite   (Parameter)
+   [GameEngine.java, 205]
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision   (Public Method)
+   [GameEngine.java, 136]
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.(for_loop_1).(for_loop_2).y   (Variable)
+   [GameEngine.java, 153]
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.(for_loop_1).x   (Variable)
+   [GameEngine.java, 152]
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.fromTileX   (Variable)
+   [GameEngine.java, 144]
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.fromTileY   (Variable)
+   [GameEngine.java, 145]
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.fromX   (Variable)
+   [GameEngine.java, 138]
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.fromY   (Variable)
+   [GameEngine.java, 139]
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.newX   (Parameter)
+   [GameEngine.java, 136]
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.newY   (Parameter)
+   [GameEngine.java, 136]
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.sprite   (Parameter)
+   [GameEngine.java, 136]
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.toTileX   (Variable)
+   [GameEngine.java, 146]
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.toTileY   (Variable)
+   [GameEngine.java, 148]
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.toX   (Variable)
+   [GameEngine.java, 140]
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision.toY   (Variable)
+   [GameEngine.java, 141]
+
+com.TETOSOFT.tilegame.GameEngine.GRAVITY   (Private Static Variable)
+   [GameEngine.java, 23]
+
+com.TETOSOFT.tilegame.GameEngine.init   (Public Method)
+   [GameEngine.java, 38]
+
+com.TETOSOFT.tilegame.GameEngine.initInput   (Private Method)
+   [GameEngine.java, 66]
+
+com.TETOSOFT.tilegame.GameEngine.inputManager   (Private Variable)
+   [GameEngine.java, 28]
+
+com.TETOSOFT.tilegame.GameEngine.isCollision   (Public Method)
+   [GameEngine.java, 173]
+
+com.TETOSOFT.tilegame.GameEngine.isCollision.s1   (Parameter)
+   [GameEngine.java, 173]
+
+com.TETOSOFT.tilegame.GameEngine.isCollision.s1x   (Variable)
+   [GameEngine.java, 188]
+
+com.TETOSOFT.tilegame.GameEngine.isCollision.s1y   (Variable)
+   [GameEngine.java, 189]
+
+com.TETOSOFT.tilegame.GameEngine.isCollision.s2   (Parameter)
+   [GameEngine.java, 173]
+
+com.TETOSOFT.tilegame.GameEngine.isCollision.s2x   (Variable)
+   [GameEngine.java, 190]
+
+com.TETOSOFT.tilegame.GameEngine.isCollision.s2y   (Variable)
+   [GameEngine.java, 191]
+
+com.TETOSOFT.tilegame.GameEngine.jump   (Private Variable)
+   [GameEngine.java, 33]
+
+com.TETOSOFT.tilegame.GameEngine.main   (Public Static Method)
+   [GameEngine.java, 18]
+
+com.TETOSOFT.tilegame.GameEngine.main.args   (Parameter)
+   [GameEngine.java, 18]
+
+com.TETOSOFT.tilegame.GameEngine.map   (Private Variable)
+   [GameEngine.java, 26]
+
+com.TETOSOFT.tilegame.GameEngine.mapLoader   (Private Variable)
+   [GameEngine.java, 27]
+
+com.TETOSOFT.tilegame.GameEngine.moveLeft   (Private Variable)
+   [GameEngine.java, 31]
+
+com.TETOSOFT.tilegame.GameEngine.moveRight   (Private Variable)
+   [GameEngine.java, 32]
+
+com.TETOSOFT.tilegame.GameEngine.numLives   (Private Variable)
+   [GameEngine.java, 36]
+
+com.TETOSOFT.tilegame.GameEngine.pointCache   (Private Variable)
+   [GameEngine.java, 25]
+
+com.TETOSOFT.tilegame.GameEngine.stop   (Public Method)
+   [GameEngine.java, 60]
+
+com.TETOSOFT.tilegame.GameEngine.update   (Public Method)
+   [GameEngine.java, 226]
+
+com.TETOSOFT.tilegame.GameEngine.update.creature   (Variable)
+   [GameEngine.java, 248]
+
+com.TETOSOFT.tilegame.GameEngine.update.elapsedTime   (Parameter)
+   [GameEngine.java, 226]
+
+com.TETOSOFT.tilegame.GameEngine.update.i   (Variable)
+   [GameEngine.java, 244]
+
+com.TETOSOFT.tilegame.GameEngine.update.player   (Variable)
+   [GameEngine.java, 227]
+
+com.TETOSOFT.tilegame.GameEngine.update.sprite   (Variable)
+   [GameEngine.java, 246]
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature   (Private Method)
+   [GameEngine.java, 265]
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.canKill   (Variable)
+   [GameEngine.java, 318]
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.creature   (Parameter)
+   [GameEngine.java, 265]
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.dx   (Variable)
+   [GameEngine.java, 275]
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.dy   (Variable)
+   [GameEngine.java, 299]
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.elapsedTime   (Parameter)
+   [GameEngine.java, 266]
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.newX   (Variable)
+   [GameEngine.java, 277]
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.newY   (Variable)
+   [GameEngine.java, 301]
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.oldX   (Variable)
+   [GameEngine.java, 276]
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.oldY   (Variable)
+   [GameEngine.java, 300]
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature.tile   (Variable)
+   [GameEngine.java, 278]
+
+com.TETOSOFT.tilegame.MapLoader   (Public Class)
+   [MapLoader.java, 18]
+
+com.TETOSOFT.tilegame.MapLoader.addSprite   (Private Method)
+   [MapLoader.java, 199]
+
+com.TETOSOFT.tilegame.MapLoader.addSprite.hostSprite   (Parameter)
+   [MapLoader.java, 200]
+
+com.TETOSOFT.tilegame.MapLoader.addSprite.map   (Parameter)
+   [MapLoader.java, 199]
+
+com.TETOSOFT.tilegame.MapLoader.addSprite.sprite   (Variable)
+   [MapLoader.java, 204]
+
+com.TETOSOFT.tilegame.MapLoader.addSprite.tileX   (Parameter)
+   [MapLoader.java, 200]
+
+com.TETOSOFT.tilegame.MapLoader.addSprite.tileY   (Parameter)
+   [MapLoader.java, 200]
+
+com.TETOSOFT.tilegame.MapLoader.coinSprite   (Private Variable)
+   [MapLoader.java, 27]
+
+com.TETOSOFT.tilegame.MapLoader.createFlyAnim   (Private Method)
+   [MapLoader.java, 306]
+
+com.TETOSOFT.tilegame.MapLoader.createFlyAnim.anim   (Variable)
+   [MapLoader.java, 308]
+
+com.TETOSOFT.tilegame.MapLoader.createFlyAnim.img1   (Parameter)
+   [MapLoader.java, 306]
+
+com.TETOSOFT.tilegame.MapLoader.createFlyAnim.img2   (Parameter)
+   [MapLoader.java, 306]
+
+com.TETOSOFT.tilegame.MapLoader.createFlyAnim.img3   (Parameter)
+   [MapLoader.java, 306]
+
+com.TETOSOFT.tilegame.MapLoader.createGrubAnim   (Private Method)
+   [MapLoader.java, 317]
+
+com.TETOSOFT.tilegame.MapLoader.createGrubAnim.anim   (Variable)
+   [MapLoader.java, 319]
+
+com.TETOSOFT.tilegame.MapLoader.createGrubAnim.img1   (Parameter)
+   [MapLoader.java, 317]
+
+com.TETOSOFT.tilegame.MapLoader.createGrubAnim.img2   (Parameter)
+   [MapLoader.java, 317]
+
+com.TETOSOFT.tilegame.MapLoader.createPlayerAnim   (Private Method)
+   [MapLoader.java, 297]
+
+com.TETOSOFT.tilegame.MapLoader.createPlayerAnim.anim   (Variable)
+   [MapLoader.java, 299]
+
+com.TETOSOFT.tilegame.MapLoader.createPlayerAnim.player   (Parameter)
+   [MapLoader.java, 297]
+
+com.TETOSOFT.tilegame.MapLoader.currentMap   (Protected Variable)
+   [MapLoader.java, 21]
+
+com.TETOSOFT.tilegame.MapLoader.flySprite   (Private Variable)
+   [MapLoader.java, 30]
+
+com.TETOSOFT.tilegame.MapLoader.gc   (Private Variable)
+   [MapLoader.java, 22]
+
+com.TETOSOFT.tilegame.MapLoader.getFlippedImage   (Public Method)
+   [MapLoader.java, 61]
+
+com.TETOSOFT.tilegame.MapLoader.getFlippedImage.image   (Parameter)
+   [MapLoader.java, 61]
+
+com.TETOSOFT.tilegame.MapLoader.getMirrorImage   (Public Method)
+   [MapLoader.java, 55]
+
+com.TETOSOFT.tilegame.MapLoader.getMirrorImage.image   (Parameter)
+   [MapLoader.java, 55]
+
+com.TETOSOFT.tilegame.MapLoader.getScaledImage   (Private Method)
+   [MapLoader.java, 67]
+
+com.TETOSOFT.tilegame.MapLoader.getScaledImage.g   (Variable)
+   [MapLoader.java, 84]
+
+com.TETOSOFT.tilegame.MapLoader.getScaledImage.image   (Parameter)
+   [MapLoader.java, 67]
+
+com.TETOSOFT.tilegame.MapLoader.getScaledImage.newImage   (Variable)
+   [MapLoader.java, 78]
+
+com.TETOSOFT.tilegame.MapLoader.getScaledImage.transform   (Variable)
+   [MapLoader.java, 71]
+
+com.TETOSOFT.tilegame.MapLoader.getScaledImage.x   (Parameter)
+   [MapLoader.java, 67]
+
+com.TETOSOFT.tilegame.MapLoader.getScaledImage.y   (Parameter)
+   [MapLoader.java, 67]
+
+com.TETOSOFT.tilegame.MapLoader.goalSprite   (Private Variable)
+   [MapLoader.java, 28]
+
+com.TETOSOFT.tilegame.MapLoader.grubSprite   (Private Variable)
+   [MapLoader.java, 29]
+
+com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites   (Public Method)
+   [MapLoader.java, 249]
+
+com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.(for_loop_3).i   (Variable)
+   [MapLoader.java, 268]
+
+com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.(for_loop_4).i   (Variable)
+   [MapLoader.java, 283]
+
+com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.flyAnim   (Variable)
+   [MapLoader.java, 280]
+
+com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.grubAnim   (Variable)
+   [MapLoader.java, 281]
+
+com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.images   (Variable)
+   [MapLoader.java, 252]
+
+com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.playerAnim   (Variable)
+   [MapLoader.java, 279]
+
+com.TETOSOFT.tilegame.MapLoader.loadImage   (Public Method)
+   [MapLoader.java, 48]
+
+com.TETOSOFT.tilegame.MapLoader.loadImage.filename   (Variable)
+   [MapLoader.java, 50]
+
+com.TETOSOFT.tilegame.MapLoader.loadImage.name   (Parameter)
+   [MapLoader.java, 48]
+
+com.TETOSOFT.tilegame.MapLoader.loadMap   (Private Method)
+   [MapLoader.java, 131]
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.(for_loop_1).(for_loop_2).ch   (Variable)
+   [MapLoader.java, 162]
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.(for_loop_1).(for_loop_2).tile   (Variable)
+   [MapLoader.java, 165]
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.(for_loop_1).(for_loop_2).x   (Variable)
+   [MapLoader.java, 161]
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.(for_loop_1).line   (Variable)
+   [MapLoader.java, 160]
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.(for_loop_1).y   (Variable)
+   [MapLoader.java, 159]
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.filename   (Parameter)
+   [MapLoader.java, 131]
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.height   (Variable)
+   [MapLoader.java, 136]
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.line   (Variable)
+   [MapLoader.java, 142]
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.lines   (Variable)
+   [MapLoader.java, 134]
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.newMap   (Variable)
+   [MapLoader.java, 158]
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.player   (Variable)
+   [MapLoader.java, 190]
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.reader   (Variable)
+   [MapLoader.java, 139]
+
+com.TETOSOFT.tilegame.MapLoader.loadMap.width   (Variable)
+   [MapLoader.java, 135]
+
+com.TETOSOFT.tilegame.MapLoader.loadNextMap   (Public Method)
+   [MapLoader.java, 92]
+
+com.TETOSOFT.tilegame.MapLoader.loadNextMap.(catch_1).ex   (Catch Parameter)
+   [MapLoader.java, 102]
+
+com.TETOSOFT.tilegame.MapLoader.loadNextMap.map   (Variable)
+   [MapLoader.java, 94]
+
+com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites   (Private Method)
+   [MapLoader.java, 326]
+
+com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites.anim   (Variable)
+   [MapLoader.java, 329]
+
+com.TETOSOFT.tilegame.MapLoader.loadTileImages   (Public Method)
+   [MapLoader.java, 228]
+
+com.TETOSOFT.tilegame.MapLoader.loadTileImages.ch   (Variable)
+   [MapLoader.java, 233]
+
+com.TETOSOFT.tilegame.MapLoader.loadTileImages.file   (Variable)
+   [MapLoader.java, 238]
+
+com.TETOSOFT.tilegame.MapLoader.loadTileImages.name   (Variable)
+   [MapLoader.java, 237]
+
+com.TETOSOFT.tilegame.MapLoader.MapLoader   (Public Constructor)
+   [MapLoader.java, 36]
+
+com.TETOSOFT.tilegame.MapLoader.MapLoader.gc   (Parameter)
+   [MapLoader.java, 36]
+
+com.TETOSOFT.tilegame.MapLoader.musicSprite   (Private Variable)
+   [MapLoader.java, 26]
+
+com.TETOSOFT.tilegame.MapLoader.playerSprite   (Private Variable)
+   [MapLoader.java, 25]
+
+com.TETOSOFT.tilegame.MapLoader.reloadMap   (Public Method)
+   [MapLoader.java, 118]
+
+com.TETOSOFT.tilegame.MapLoader.reloadMap.(catch_2).ex   (Catch Parameter)
+   [MapLoader.java, 124]
+
+com.TETOSOFT.tilegame.MapLoader.tiles   (Private Variable)
+   [MapLoader.java, 20]
+
+com.TETOSOFT.tilegame.sprites   (Package)
+   [Creature.java, 1]
+
+com.TETOSOFT.tilegame.sprites.Creature   (Public Abstract Class)
+   [Creature.java, 11]
+
+com.TETOSOFT.tilegame.sprites.Creature.clone   (Public Method)
+   [Creature.java, 44]
+
+com.TETOSOFT.tilegame.sprites.Creature.clone.(catch_1).ex   (Catch Parameter)
+   [Creature.java, 55]
+
+com.TETOSOFT.tilegame.sprites.Creature.clone.constructor   (Variable)
+   [Creature.java, 46]
+
+com.TETOSOFT.tilegame.sprites.Creature.collideHorizontal   (Public Method)
+   [Creature.java, 127]
+
+com.TETOSOFT.tilegame.sprites.Creature.collideVertical   (Public Method)
+   [Creature.java, 136]
+
+com.TETOSOFT.tilegame.sprites.Creature.Creature   (Public Constructor)
+   [Creature.java, 32]
+
+com.TETOSOFT.tilegame.sprites.Creature.Creature.deadLeft   (Parameter)
+   [Creature.java, 33]
+
+com.TETOSOFT.tilegame.sprites.Creature.Creature.deadRight   (Parameter)
+   [Creature.java, 33]
+
+com.TETOSOFT.tilegame.sprites.Creature.Creature.left   (Parameter)
+   [Creature.java, 32]
+
+com.TETOSOFT.tilegame.sprites.Creature.Creature.right   (Parameter)
+   [Creature.java, 32]
+
+com.TETOSOFT.tilegame.sprites.Creature.deadLeft   (Private Variable)
+   [Creature.java, 24]
+
+com.TETOSOFT.tilegame.sprites.Creature.deadRight   (Private Variable)
+   [Creature.java, 25]
+
+com.TETOSOFT.tilegame.sprites.Creature.DIE_TIME   (Private Static Variable)
+   [Creature.java, 16]
+
+com.TETOSOFT.tilegame.sprites.Creature.getMaxSpeed   (Public Method)
+   [Creature.java, 66]
+
+com.TETOSOFT.tilegame.sprites.Creature.getState   (Public Method)
+   [Creature.java, 86]
+
+com.TETOSOFT.tilegame.sprites.Creature.isAlive   (Public Method)
+   [Creature.java, 110]
+
+com.TETOSOFT.tilegame.sprites.Creature.isFlying   (Public Method)
+   [Creature.java, 118]
+
+com.TETOSOFT.tilegame.sprites.Creature.left   (Private Variable)
+   [Creature.java, 22]
+
+com.TETOSOFT.tilegame.sprites.Creature.right   (Private Variable)
+   [Creature.java, 23]
+
+com.TETOSOFT.tilegame.sprites.Creature.setState   (Public Method)
+   [Creature.java, 95]
+
+com.TETOSOFT.tilegame.sprites.Creature.setState.state   (Parameter)
+   [Creature.java, 95]
+
+com.TETOSOFT.tilegame.sprites.Creature.state   (Private Variable)
+   [Creature.java, 26]
+
+com.TETOSOFT.tilegame.sprites.Creature.STATE_DEAD   (Public Static Variable)
+   [Creature.java, 20]
+
+com.TETOSOFT.tilegame.sprites.Creature.STATE_DYING   (Public Static Variable)
+   [Creature.java, 19]
+
+com.TETOSOFT.tilegame.sprites.Creature.STATE_NORMAL   (Public Static Variable)
+   [Creature.java, 18]
+
+com.TETOSOFT.tilegame.sprites.Creature.stateTime   (Private Variable)
+   [Creature.java, 27]
+
+com.TETOSOFT.tilegame.sprites.Creature.update   (Public Method)
+   [Creature.java, 144]
+
+com.TETOSOFT.tilegame.sprites.Creature.update.elapsedTime   (Parameter)
+   [Creature.java, 144]
+
+com.TETOSOFT.tilegame.sprites.Creature.update.newAnim   (Variable)
+   [Creature.java, 146]
+
+com.TETOSOFT.tilegame.sprites.Creature.wakeUp   (Public Method)
+   [Creature.java, 75]
+
+com.TETOSOFT.tilegame.sprites.Fly   (Public Class)
+   [Fly.java, 8]
+
+com.TETOSOFT.tilegame.sprites.Fly.Fly   (Public Constructor)
+   [Fly.java, 10]
+
+com.TETOSOFT.tilegame.sprites.Fly.Fly.deadLeft   (Parameter)
+   [Fly.java, 11]
+
+com.TETOSOFT.tilegame.sprites.Fly.Fly.deadRight   (Parameter)
+   [Fly.java, 11]
+
+com.TETOSOFT.tilegame.sprites.Fly.Fly.left   (Parameter)
+   [Fly.java, 10]
+
+com.TETOSOFT.tilegame.sprites.Fly.Fly.right   (Parameter)
+   [Fly.java, 10]
+
+com.TETOSOFT.tilegame.sprites.Fly.getMaxSpeed   (Public Method)
+   [Fly.java, 17]
+
+com.TETOSOFT.tilegame.sprites.Fly.isFlying   (Public Method)
+   [Fly.java, 22]
+
+com.TETOSOFT.tilegame.sprites.Grub   (Public Class)
+   [Grub.java, 8]
+
+com.TETOSOFT.tilegame.sprites.Grub.getMaxSpeed   (Public Method)
+   [Grub.java, 17]
+
+com.TETOSOFT.tilegame.sprites.Grub.Grub   (Public Constructor)
+   [Grub.java, 10]
+
+com.TETOSOFT.tilegame.sprites.Grub.Grub.deadLeft   (Parameter)
+   [Grub.java, 11]
+
+com.TETOSOFT.tilegame.sprites.Grub.Grub.deadRight   (Parameter)
+   [Grub.java, 11]
+
+com.TETOSOFT.tilegame.sprites.Grub.Grub.left   (Parameter)
+   [Grub.java, 10]
+
+com.TETOSOFT.tilegame.sprites.Grub.Grub.right   (Parameter)
+   [Grub.java, 10]
+
+com.TETOSOFT.tilegame.sprites.Player   (Public Class)
+   [Player.java, 8]
+
+com.TETOSOFT.tilegame.sprites.Player.collideHorizontal   (Public Method)
+   [Player.java, 21]
+
+com.TETOSOFT.tilegame.sprites.Player.collideVertical   (Public Method)
+   [Player.java, 26]
+
+com.TETOSOFT.tilegame.sprites.Player.getMaxSpeed   (Public Method)
+   [Player.java, 61]
+
+com.TETOSOFT.tilegame.sprites.Player.jump   (Public Method)
+   [Player.java, 53]
+
+com.TETOSOFT.tilegame.sprites.Player.jump.forceJump   (Parameter)
+   [Player.java, 53]
+
+com.TETOSOFT.tilegame.sprites.Player.JUMP_SPEED   (Private Static Variable)
+   [Player.java, 11]
+
+com.TETOSOFT.tilegame.sprites.Player.onGround   (Private Variable)
+   [Player.java, 13]
+
+com.TETOSOFT.tilegame.sprites.Player.Player   (Public Constructor)
+   [Player.java, 15]
+
+com.TETOSOFT.tilegame.sprites.Player.Player.deadLeft   (Parameter)
+   [Player.java, 15]
+
+com.TETOSOFT.tilegame.sprites.Player.Player.deadRight   (Parameter)
+   [Player.java, 15]
+
+com.TETOSOFT.tilegame.sprites.Player.Player.left   (Parameter)
+   [Player.java, 15]
+
+com.TETOSOFT.tilegame.sprites.Player.Player.right   (Parameter)
+   [Player.java, 15]
+
+com.TETOSOFT.tilegame.sprites.Player.setY   (Public Method)
+   [Player.java, 35]
+
+com.TETOSOFT.tilegame.sprites.Player.setY.y   (Parameter)
+   [Player.java, 35]
+
+com.TETOSOFT.tilegame.sprites.Player.wakeUp   (Public Method)
+   [Player.java, 44]
+
+com.TETOSOFT.tilegame.sprites.PowerUp   (Public Abstract Class)
+   [PowerUp.java, 9]
+
+com.TETOSOFT.tilegame.sprites.PowerUp.clone   (Public Method)
+   [PowerUp.java, 15]
+
+com.TETOSOFT.tilegame.sprites.PowerUp.clone.(catch_1).ex   (Catch Parameter)
+   [PowerUp.java, 22]
+
+com.TETOSOFT.tilegame.sprites.PowerUp.clone.constructor   (Variable)
+   [PowerUp.java, 17]
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Goal   (Public Static Class)
+   [PowerUp.java, 53]
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Goal.Goal   (Public Constructor)
+   [PowerUp.java, 54]
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Goal.Goal.anim   (Parameter)
+   [PowerUp.java, 54]
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Music   (Public Static Class)
+   [PowerUp.java, 43]
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Music.Music   (Public Constructor)
+   [PowerUp.java, 44]
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Music.Music.anim   (Parameter)
+   [PowerUp.java, 44]
+
+com.TETOSOFT.tilegame.sprites.PowerUp.PowerUp   (Public Constructor)
+   [PowerUp.java, 11]
+
+com.TETOSOFT.tilegame.sprites.PowerUp.PowerUp.anim   (Parameter)
+   [PowerUp.java, 11]
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Star   (Public Static Class)
+   [PowerUp.java, 33]
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Star.Star   (Public Constructor)
+   [PowerUp.java, 34]
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Star.Star.anim   (Parameter)
+   [PowerUp.java, 34]
+
+com.TETOSOFT.tilegame.TileMap   (Public Class)
+   [TileMap.java, 15]
+
+com.TETOSOFT.tilegame.TileMap.addSprite   (Public Method)
+   [TileMap.java, 91]
+
+com.TETOSOFT.tilegame.TileMap.addSprite.sprite   (Parameter)
+   [TileMap.java, 91]
+
+com.TETOSOFT.tilegame.TileMap.getHeight   (Public Method)
+   [TileMap.java, 42]
+
+com.TETOSOFT.tilegame.TileMap.getPlayer   (Public Method)
+   [TileMap.java, 75]
+
+com.TETOSOFT.tilegame.TileMap.getSprites   (Public Method)
+   [TileMap.java, 108]
+
+com.TETOSOFT.tilegame.TileMap.getTile   (Public Method)
+   [TileMap.java, 52]
+
+com.TETOSOFT.tilegame.TileMap.getTile.x   (Parameter)
+   [TileMap.java, 52]
+
+com.TETOSOFT.tilegame.TileMap.getTile.y   (Parameter)
+   [TileMap.java, 52]
+
+com.TETOSOFT.tilegame.TileMap.getWidth   (Public Method)
+   [TileMap.java, 34]
+
+com.TETOSOFT.tilegame.TileMap.player   (Private Variable)
+   [TileMap.java, 19]
+
+com.TETOSOFT.tilegame.TileMap.removeSprite   (Public Method)
+   [TileMap.java, 99]
+
+com.TETOSOFT.tilegame.TileMap.removeSprite.sprite   (Parameter)
+   [TileMap.java, 99]
+
+com.TETOSOFT.tilegame.TileMap.setPlayer   (Public Method)
+   [TileMap.java, 83]
+
+com.TETOSOFT.tilegame.TileMap.setPlayer.player   (Parameter)
+   [TileMap.java, 83]
+
+com.TETOSOFT.tilegame.TileMap.setTile   (Public Method)
+   [TileMap.java, 67]
+
+com.TETOSOFT.tilegame.TileMap.setTile.tile   (Parameter)
+   [TileMap.java, 67]
+
+com.TETOSOFT.tilegame.TileMap.setTile.x   (Parameter)
+   [TileMap.java, 67]
+
+com.TETOSOFT.tilegame.TileMap.setTile.y   (Parameter)
+   [TileMap.java, 67]
+
+com.TETOSOFT.tilegame.TileMap.sprites   (Private Variable)
+   [TileMap.java, 18]
+
+com.TETOSOFT.tilegame.TileMap.TileMap   (Public Constructor)
+   [TileMap.java, 25]
+
+com.TETOSOFT.tilegame.TileMap.TileMap.height   (Parameter)
+   [TileMap.java, 25]
+
+com.TETOSOFT.tilegame.TileMap.TileMap.width   (Parameter)
+   [TileMap.java, 25]
+
+com.TETOSOFT.tilegame.TileMap.tiles   (Private Variable)
+   [TileMap.java, 17]
+
+com.TETOSOFT.tilegame.TileMapDrawer   (Public Class)
+   [TileMapDrawer.java, 23]
+
+com.TETOSOFT.tilegame.TileMapDrawer.background   (Private Variable)
+   [TileMapDrawer.java, 31]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw   (Public Method)
+   [TileMapDrawer.java, 79]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.(for_loop_1).(for_loop_2).image   (Variable)
+   [TileMapDrawer.java, 121]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.(for_loop_1).(for_loop_2).x   (Variable)
+   [TileMapDrawer.java, 120]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.(for_loop_1).y   (Variable)
+   [TileMapDrawer.java, 119]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.firstTileX   (Variable)
+   [TileMapDrawer.java, 116]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.g   (Parameter)
+   [TileMapDrawer.java, 79]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.i   (Variable)
+   [TileMapDrawer.java, 138]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.iam   (Variable)
+   [TileMapDrawer.java, 145]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.lastTileX   (Variable)
+   [TileMapDrawer.java, 117]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.map   (Parameter)
+   [TileMapDrawer.java, 79]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.mapWidth   (Variable)
+   [TileMapDrawer.java, 83]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.offsetX   (Variable)
+   [TileMapDrawer.java, 87]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.offsetY   (Variable)
+   [TileMapDrawer.java, 93]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.player   (Variable)
+   [TileMapDrawer.java, 82]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.position   (Variable)
+   [TileMapDrawer.java, 146]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.screenHeight   (Parameter)
+   [TileMapDrawer.java, 80]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.screenWidth   (Parameter)
+   [TileMapDrawer.java, 80]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.sprite   (Variable)
+   [TileMapDrawer.java, 140]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.x   (Variable)
+   [TileMapDrawer.java, 106]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.x   (Variable)
+   [TileMapDrawer.java, 141]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.y   (Variable)
+   [TileMapDrawer.java, 109]
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw.y   (Variable)
+   [TileMapDrawer.java, 142]
+
+com.TETOSOFT.tilegame.TileMapDrawer.pixelsToTiles   (Public Static Method)
+   [TileMapDrawer.java, 36]
+
+com.TETOSOFT.tilegame.TileMapDrawer.pixelsToTiles   (Public Static Method)
+   [TileMapDrawer.java, 44]
+
+com.TETOSOFT.tilegame.TileMapDrawer.pixelsToTiles.pixels   (Parameter)
+   [TileMapDrawer.java, 36]
+
+com.TETOSOFT.tilegame.TileMapDrawer.pixelsToTiles.pixels   (Parameter)
+   [TileMapDrawer.java, 44]
+
+com.TETOSOFT.tilegame.TileMapDrawer.setBackground   (Public Method)
+   [TileMapDrawer.java, 71]
+
+com.TETOSOFT.tilegame.TileMapDrawer.setBackground.background   (Parameter)
+   [TileMapDrawer.java, 71]
+
+com.TETOSOFT.tilegame.TileMapDrawer.TILE_SIZE   (Private Static Variable)
+   [TileMapDrawer.java, 26]
+
+com.TETOSOFT.tilegame.TileMapDrawer.TILE_SIZE_BITS   (Private Static Variable)
+   [TileMapDrawer.java, 29]
+
+com.TETOSOFT.tilegame.TileMapDrawer.tilesToPixels   (Public Static Method)
+   [TileMapDrawer.java, 57]
+
+com.TETOSOFT.tilegame.TileMapDrawer.tilesToPixels.numTiles   (Parameter)
+   [TileMapDrawer.java, 57]
+
+Component   (Unknown Class)
+
+consume   (Unknown Method)
+
+contentsLost   (Unknown Method)
+
+convertPointToScreen   (Unknown Method)
+
+createBufferStrategy   (Unknown Method)
+
+createCompatibleImage   (Unknown Method)
+
+createCustomCursor   (Unknown Method)
+
+currentTimeMillis   (Unknown Method)
+
+Cursor   (Unknown Class)
+
+DisplayMode   (Unknown Class)
+
+dispose   (Unknown Method)
+
+drawImage   (Unknown Method)
+
+drawString   (Unknown Method)
+
+Exception   (Unknown Class)
+
+exists   (Unknown Method)
+
+exit   (Unknown Method)
+
+EXIT_ON_CLOSE   (Unknown Variable)
+
+File   (Unknown Class)
+
+FileReader   (Unknown Class)
+
+fillRect   (Unknown Method)
+
+Font   (Unknown Class)
+
+get   (Unknown Method)
+
+getBitDepth   (Unknown Method)
+
+getBufferStrategy   (Unknown Method)
+
+getButton   (Unknown Method)
+
+getClass   (Unknown Method)
+
+getConstructors   (Unknown Method)
+
+getDefaultScreenDevice   (Unknown Method)
+
+getDefaultToolkit   (Unknown Method)
+
+getDisplayMode   (Unknown Method)
+
+getDisplayModes   (Unknown Method)
+
+getDrawGraphics   (Unknown Method)
+
+getFullScreenWindow   (Unknown Method)
+
+getGraphics   (Unknown Method)
+
+getGraphicsConfiguration   (Unknown Method)
+
+getHeight   (Unknown Method)
+
+getImage   (Unknown Method)
+
+getKeyCode   (Unknown Method)
+
+getLocalGraphicsEnvironment   (Unknown Method)
+
+getRefreshRate   (Unknown Method)
+
+getWheelRotation   (Unknown Method)
+
+getWidth   (Unknown Method)
+
+getX   (Unknown Method)
+
+getY   (Unknown Method)
+
+Graphics2D   (Unknown Class)
+
+GraphicsConfiguration   (Unknown Class)
+
+GraphicsDevice   (Unknown Class)
+
+GraphicsEnvironment   (Unknown Class)
+
+hasNext   (Unknown Method)
+
+IllegalArgumentException   (Unknown Class)
+
+Image   (Unknown Class)
+
+InterruptedException   (Unknown Class)
+
+invokeAndWait   (Unknown Method)
+
+IOException   (Unknown Class)
+
+isDisplayChangeSupported   (Unknown Method)
+
+isShowing   (Unknown Method)
+
+iterator   (Unknown Method)
+
+java.awt   (Unknown Package)
+
+java.awt.event   (Unknown Package)
+
+java.awt.event.KeyEvent   (Unknown Class)
+
+java.awt.event.MouseEvent   (Unknown Class)
+
+java.awt.geom   (Unknown Package)
+
+java.awt.geom.AffineTransform   (Unknown Class)
+
+java.awt.Image   (Unknown Class)
+
+java.awt.image   (Unknown Package)
+
+java.awt.image.BufferedImage   (Unknown Class)
+
+java.awt.image.BufferStrategy   (Unknown Class)
+
+java.io   (Unknown Package)
+
+java.lang.reflect   (Unknown Package)
+
+java.lang.reflect.Constructor   (Unknown Class)
+
+java.lang.reflect.InvocationTargetException   (Unknown Class)
+
+java.util   (Unknown Package)
+
+java.util.ArrayList   (Unknown Class)
+
+java.util.Iterator   (Unknown Class)
+
+java.util.LinkedList   (Unknown Class)
+
+java.util.List   (Unknown Class)
+
+javax.swing   (Unknown Package)
+
+javax.swing.ImageIcon   (Unknown Class)
+
+javax.swing.JFrame   (Unknown Class)
+
+javax.swing.SwingUtilities   (Unknown Class)
+
+KeyEvent   (Unknown Class)
+
+KeyListener   (Unknown Class)
+
+length   (Public Implicit Variable)
+
+length   (Unknown Method)
+
+max   (Unknown Method)
+
+min   (Unknown Method)
+
+MouseEvent   (Unknown Class)
+
+MouseListener   (Unknown Class)
+
+MouseMotionListener   (Unknown Class)
+
+mouseMove   (Unknown Method)
+
+MouseWheelEvent   (Unknown Class)
+
+MouseWheelListener   (Unknown Class)
+
+newInstance   (Unknown Method)
+
+next   (Unknown Method)
+
+pixelsToTiles   (Unknown Method)
+
+Point   (Unknown Class)
+
+printStackTrace   (Unknown Method)
+
+readLine   (Unknown Method)
+
+REFRESH_RATE_UNKNOWN   (Unknown Variable)
+
+remove   (Unknown Method)
+
+Robot   (Unknown Class)
+
+round   (Unknown Method)
+
+Runnable   (Unknown Class)
+
+scale   (Unknown Method)
+
+setBackground   (Unknown Method)
+
+setColor   (Unknown Method)
+
+setCursor   (Unknown Method)
+
+setDaemon   (Unknown Method)
+
+setDefaultCloseOperation   (Unknown Method)
+
+setDisplayMode   (Unknown Method)
+
+setFocusTraversalKeysEnabled   (Unknown Method)
+
+setFont   (Unknown Method)
+
+setForeground   (Unknown Method)
+
+setFullScreenWindow   (Unknown Method)
+
+setIgnoreRepaint   (Unknown Method)
+
+setLocation   (Unknown Method)
+
+setResizable   (Unknown Method)
+
+setSize   (Unknown Method)
+
+setUndecorated   (Unknown Method)
+
+show   (Unknown Method)
+
+size   (Unknown Method)
+
+sleep   (Unknown Method)
+
+start   (Unknown Method)
+
+startsWith   (Unknown Method)
+
+String   (Unknown Class)
+
+sync   (Unknown Method)
+
+Thread   (Unknown Class)
+
+translate   (Unknown Method)
+
+VK_ESCAPE   (Unknown Variable)
+
+VK_LEFT   (Unknown Variable)
+
+VK_RIGHT   (Unknown Variable)
+
+VK_SPACE   (Unknown Variable)
+
+Window   (Unknown Class)
+
+x   (Unknown Variable)
+
+y   (Unknown Variable)

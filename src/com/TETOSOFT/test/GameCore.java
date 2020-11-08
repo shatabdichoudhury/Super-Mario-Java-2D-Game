@@ -12,6 +12,7 @@ import com.TETOSOFT.graphics.ScreenManager;
 public abstract class GameCore {
 
     protected static final int FONT_SIZE = 18;
+    private static final int LAZILY_CONSTANT = 2000;
 
     private static final DisplayMode POSSIBLE_MODES[] = {
         new DisplayMode(800, 600, 32, 0),
@@ -64,7 +65,7 @@ public abstract class GameCore {
             public void run() {
                 // first, wait for the VM exit on its own.
                 try {
-                    Thread.sleep(2000);
+                    Thread.sleep(LAZILY_CONSTANT);
                 }
                 catch (InterruptedException ex) { }
                 // system is still running, so force an exit

@@ -1,0 +1,202 @@
+                          File Average Metrics Report
+===============================================================================
+
+Animation.java
+   Cyclomatic                         1
+   Modified                           1
+   Strict                             1
+   Essential                          1
+   Lines                              6
+   Code                               6
+   Comment                            0
+   Blank                              0
+
+build-impl.xml
+   Cyclomatic                         0
+   Modified                           0
+   Strict                             0
+   Essential                          0
+   Lines                              627
+   Code                               519
+   Comment                            105
+   Blank                              3
+
+build.xml
+   Cyclomatic                         0
+   Modified                           0
+   Strict                             0
+   Essential                          0
+   Lines                              69
+   Code                               5
+   Comment                            51
+   Blank                              13
+
+Creature.java
+   Cyclomatic                         1
+   Modified                           1
+   Strict                             2
+   Essential                          1
+   Lines                              11
+   Code                               7
+   Comment                            3
+   Blank                              0
+
+Fly.java
+   Cyclomatic                         1
+   Modified                           1
+   Strict                             1
+   Essential                          1
+   Lines                              3
+   Code                               3
+   Comment                            0
+   Blank                              0
+
+GameAction.java
+   Cyclomatic                         1
+   Modified                           1
+   Strict                             1
+   Essential                          1
+   Lines                              6
+   Code                               6
+   Comment                            0
+   Blank                              0
+
+GameCore.java
+   Cyclomatic                         1
+   Modified                           1
+   Strict                             1
+   Essential                          1
+   Lines                              13
+   Code                               8
+   Comment                            4
+   Blank                              0
+
+GameEngine.java
+   Cyclomatic                         3
+   Modified                           3
+   Strict                             4
+   Essential                          1
+   Lines                              23
+   Code                               16
+   Comment                            4
+   Blank                              2
+
+Grub.java
+   Cyclomatic                         1
+   Modified                           1
+   Strict                             1
+   Essential                          1
+   Lines                              4
+   Code                               4
+   Comment                            0
+   Blank                              0
+
+InputManager.java
+   Cyclomatic                         1
+   Modified                           1
+   Strict                             1
+   Essential                          1
+   Lines                              7
+   Code                               7
+   Comment                            0
+   Blank                              0
+
+MapLoader.java
+   Cyclomatic                         2
+   Modified                           2
+   Strict                             2
+   Essential                          1
+   Lines                              19
+   Code                               15
+   Comment                            2
+   Blank                              1
+
+Mouse.java
+   Cyclomatic                         2
+   Modified                           1
+   Strict                             2
+   Essential                          1
+   Lines                              5
+   Code                               5
+   Comment                            0
+   Blank                              0
+
+Player.java
+   Cyclomatic                         1
+   Modified                           1
+   Strict                             1
+   Essential                          1
+   Lines                              5
+   Code                               4
+   Comment                            1
+   Blank                              0
+
+PowerUp.java
+   Cyclomatic                         1
+   Modified                           1
+   Strict                             1
+   Essential                          1
+   Lines                              5
+   Code                               4
+   Comment                            0
+   Blank                              0
+
+private.xml
+   Cyclomatic                         0
+   Modified                           0
+   Strict                             0
+   Essential                          0
+   Lines                              4
+   Code                               4
+   Comment                            0
+   Blank                              0
+
+project.xml
+   Cyclomatic                         0
+   Modified                           0
+   Strict                             0
+   Essential                          0
+   Lines                              16
+   Code                               16
+   Comment                            0
+   Blank                              0
+
+ScreenManager.java
+   Cyclomatic                         2
+   Modified                           2
+   Strict                             2
+   Essential                          1
+   Lines                              12
+   Code                               11
+   Comment                            0
+   Blank                              0
+
+Sprite.java
+   Cyclomatic                         1
+   Modified                           1
+   Strict                             1
+   Essential                          1
+   Lines                              4
+   Code                               4
+   Comment                            0
+   Blank                              0
+
+TileMap.java
+   Cyclomatic                         1
+   Modified                           1
+   Strict                             1
+   Essential                          1
+   Lines                              7
+   Code                               3
+   Comment                            3
+   Blank                              0
+
+TileMapDrawer.java
+   Cyclomatic                         2
+   Modified                           2
+   Strict                             3
+   Essential                          1
+   Lines                              22
+   Code                               13
+   Comment                            6
+   Blank                              2
