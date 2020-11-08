@@ -20,7 +20,7 @@ public class GameEngine extends GameCore
         new GameEngine().run();
     }
     
-    public static final float GRAVITY = 0.002f;
+    private static final float GRAVITY = 0.002f;
     
     private Point pointCache = new Point();
     private TileMap map;
