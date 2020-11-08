@@ -14,6 +14,7 @@ Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,getCompatibleDispla
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,findFirstCompatibleMode,11,4,1
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,getCurrentDisplayMode,3,1,0
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,displayModesMatch,12,4,2
+Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,checkBitDepth,10,2,2
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,setFullScreen,28,2,1
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,run,3,1,0
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,getGraphics,8,2,0
