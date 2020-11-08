@@ -13,9 +13,7 @@ Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,recenterMouse,Magic Num
 Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,getMouseButtonCode,Missing default,The following switch statement is missing a default case: switch (e.getButton()) {
 Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,mouseMoved,Complex Conditional,The conditional expression isRecentering && centerLocation.x == e.getX() && centerLocation.y == e.getY() is complex.
 Super-Mario-Java-2D-Game,com.TETOSOFT.test,GameCore,lazilyExit,Empty catch clause,The method has an empty catch block.
-Super-Mario-Java-2D-Game,com.TETOSOFT.test,GameCore,lazilyExit,Magic Number,The method contains a magic number: 2000
 Super-Mario-Java-2D-Game,com.TETOSOFT.test,GameCore,run,Empty catch clause,The method has an empty catch block.
-Super-Mario-Java-2D-Game,com.TETOSOFT.test,GameCore,run,Magic Number,The method contains a magic number: 2000
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,draw,Magic Number,The method contains a magic number: 10.0f
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,draw,Magic Number,The method contains a magic number: 20.0f
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,draw,Magic Number,The method contains a magic number: 300.0f
