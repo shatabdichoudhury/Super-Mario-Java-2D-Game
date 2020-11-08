@@ -55,7 +55,9 @@ public class ScreenManager
             return false;
         }
 
-        if (!checkBitDepth(mode1, mode2))
+        if (mode1.getBitDepth() != DisplayMode.BIT_DEPTH_MULTI &&
+            mode2.getBitDepth() != DisplayMode.BIT_DEPTH_MULTI &&
+            mode1.getBitDepth() != mode2.getBitDepth())
         {
             return false;
         }
@@ -70,17 +72,6 @@ public class ScreenManager
          }
 
          return true;
-    }
-    
-    private boolean checkBitDepth(DisplayMode mode1,DisplayMode mode2) {
-        boolean mode1_bitDepth = mode1.getBitDepth() != DisplayMode.BIT_DEPTH_MULTI;
-        boolean mode2_bitDepth = mode2.getBitDepth() != DisplayMode.BIT_DEPTH_MULTI;
-        boolean modes_notequal = mode1.getBitDepth() != mode2.getBitDepth();
-        mode1_bitDepth = mode1_bitDepth && modes_notequal;
-        if (mode1_bitDepth && mode2_bitDepth) {
-        	return false;
-        }
-        return true;
     }
 
 

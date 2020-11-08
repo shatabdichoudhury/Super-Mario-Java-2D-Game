@@ -1,7 +1,7 @@
 Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,Animation,6,0,9,7,56,13,0,0,0.2222222222222222,1,2,C:\Users\Dana Myers\Desktop\SE433 Software Quality\Project\Super-Mario-Java-2D-Game\src\com\TETOSOFT\graphics\Animation.java
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,AnimFrame,2,0,1,1,8,1,0,0,0.0,1,0,C:\Users\Dana Myers\Desktop\SE433 Software Quality\Project\Super-Mario-Java-2D-Game\src\com\TETOSOFT\graphics\Animation.java
-Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,1,0,15,14,128,30,0,0,0.13333333333333333,0,0,C:\Users\Dana Myers\Desktop\SE433 Software Quality\Project\Super-Mario-Java-2D-Game\src\com\TETOSOFT\graphics\ScreenManager.java
+Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,1,0,14,14,118,28,0,0,0.14285714285714285,0,0,C:\Users\Dana Myers\Desktop\SE433 Software Quality\Project\Super-Mario-Java-2D-Game\src\com\TETOSOFT\graphics\ScreenManager.java
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,Sprite,5,0,14,14,51,14,2,0,0.0,0,0,C:\Users\Dana Myers\Desktop\SE433 Software Quality\Project\Super-Mario-Java-2D-Game\src\com\TETOSOFT\graphics\Sprite.java
 Super-Mario-Java-2D-Game,com.TETOSOFT.input,GameAction,9,2,10,10,58,14,0,0,0.0,0,0,C:\Users\Dana Myers\Desktop\SE433 Software Quality\Project\Super-Mario-Java-2D-Game\src\com\TETOSOFT\input\GameAction.java
 Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,19,10,29,25,243,66,0,0,0.41379310344827586,0,0,C:\Users\Dana Myers\Desktop\SE433 Software Quality\Project\Super-Mario-Java-2D-Game\src\com\TETOSOFT\input\InputManager.java
