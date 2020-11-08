@@ -1,0 +1,570 @@
+                          Type Cross Reference Report
+===============================================================================
+
+AWTException   (Unknown Class)
+    Typed [InputManager.java, 67]    com.TETOSOFT.input.InputManager.setRelativeMouseMode.(catch_1).ex
+
+BufferedReader   (Unknown Class)
+    Create [MapLoader.java, 139]     com.TETOSOFT.tilegame.MapLoader.loadMap
+    Typed [MapLoader.java, 139]      com.TETOSOFT.tilegame.MapLoader.loadMap.reader
+
+com.TETOSOFT.graphics.Animation   (Public Class)
+    Define [Animation.java, 6]       Animation.java
+    Create [Animation.java, 31]      com.TETOSOFT.graphics.Animation.clone
+    Typed [PowerUp.java, 54]         com.TETOSOFT.tilegame.sprites.PowerUp.Goal.Goal.anim
+    Typed [PowerUp.java, 44]         com.TETOSOFT.tilegame.sprites.PowerUp.Music.Music.anim
+    Typed [PowerUp.java, 34]         com.TETOSOFT.tilegame.sprites.PowerUp.Star.Star.anim
+    Typed [PowerUp.java, 11]         com.TETOSOFT.tilegame.sprites.PowerUp.PowerUp.anim
+    Cast [PowerUp.java, 20]          com.TETOSOFT.tilegame.sprites.PowerUp.clone
+    Import [Fly.java, 3]             Fly.java
+    Typed [Fly.java, 11]             com.TETOSOFT.tilegame.sprites.Fly.Fly.deadLeft
+    Typed [Fly.java, 11]             com.TETOSOFT.tilegame.sprites.Fly.Fly.deadRight
+    Typed [Fly.java, 10]             com.TETOSOFT.tilegame.sprites.Fly.Fly.left
+    Typed [Fly.java, 10]             com.TETOSOFT.tilegame.sprites.Fly.Fly.right
+    Typed [MapLoader.java, 306]      com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+    Create [MapLoader.java, 308]     com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+    Typed [MapLoader.java, 308]      com.TETOSOFT.tilegame.MapLoader.createFlyAnim.anim
+    Typed [MapLoader.java, 317]      com.TETOSOFT.tilegame.MapLoader.createGrubAnim
+    Create [MapLoader.java, 319]     com.TETOSOFT.tilegame.MapLoader.createGrubAnim
+    Typed [MapLoader.java, 319]      com.TETOSOFT.tilegame.MapLoader.createGrubAnim.anim
+    Typed [MapLoader.java, 297]      com.TETOSOFT.tilegame.MapLoader.createPlayerAnim
+    Create [MapLoader.java, 299]     com.TETOSOFT.tilegame.MapLoader.createPlayerAnim
+    Typed [MapLoader.java, 299]      com.TETOSOFT.tilegame.MapLoader.createPlayerAnim.anim
+    Create [MapLoader.java, 279]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Create [MapLoader.java, 280]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Create [MapLoader.java, 281]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Typed [MapLoader.java, 280]      com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.flyAnim
+    Typed [MapLoader.java, 281]      com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.grubAnim
+    Typed [MapLoader.java, 279]      com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.playerAnim
+    Create [MapLoader.java, 329]     com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Create [MapLoader.java, 334]     com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Create [MapLoader.java, 343]     com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Typed [MapLoader.java, 329]      com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites.anim
+    Import [Player.java, 3]          Player.java
+    Typed [Player.java, 15]          com.TETOSOFT.tilegame.sprites.Player.Player.deadLeft
+    Typed [Player.java, 15]          com.TETOSOFT.tilegame.sprites.Player.Player.deadRight
+    Typed [Player.java, 15]          com.TETOSOFT.tilegame.sprites.Player.Player.left
+    Typed [Player.java, 15]          com.TETOSOFT.tilegame.sprites.Player.Player.right
+    Typed [Sprite.java, 16]          com.TETOSOFT.graphics.Sprite.Sprite.anim
+    Typed [Sprite.java, 7]           com.TETOSOFT.graphics.Sprite.anim
+    Import [Grub.java, 3]            Grub.java
+    Typed [Grub.java, 11]            com.TETOSOFT.tilegame.sprites.Grub.Grub.deadLeft
+    Typed [Grub.java, 11]            com.TETOSOFT.tilegame.sprites.Grub.Grub.deadRight
+    Typed [Grub.java, 10]            com.TETOSOFT.tilegame.sprites.Grub.Grub.left
+    Typed [Grub.java, 10]            com.TETOSOFT.tilegame.sprites.Grub.Grub.right
+    Typed [Creature.java, 33]        com.TETOSOFT.tilegame.sprites.Creature.Creature.deadLeft
+    Typed [Creature.java, 33]        com.TETOSOFT.tilegame.sprites.Creature.Creature.deadRight
+    Typed [Creature.java, 32]        com.TETOSOFT.tilegame.sprites.Creature.Creature.left
+    Typed [Creature.java, 32]        com.TETOSOFT.tilegame.sprites.Creature.Creature.right
+    Cast [Creature.java, 49]         com.TETOSOFT.tilegame.sprites.Creature.clone
+    Cast [Creature.java, 50]         com.TETOSOFT.tilegame.sprites.Creature.clone
+    Cast [Creature.java, 51]         com.TETOSOFT.tilegame.sprites.Creature.clone
+    Cast [Creature.java, 52]         com.TETOSOFT.tilegame.sprites.Creature.clone
+    Typed [Creature.java, 146]       com.TETOSOFT.tilegame.sprites.Creature.update.newAnim
+    Typed [Creature.java, 24]        com.TETOSOFT.tilegame.sprites.Creature.deadLeft
+    Typed [Creature.java, 25]        com.TETOSOFT.tilegame.sprites.Creature.deadRight
+    Typed [Creature.java, 22]        com.TETOSOFT.tilegame.sprites.Creature.left
+    Typed [Creature.java, 23]        com.TETOSOFT.tilegame.sprites.Creature.right
+
+com.TETOSOFT.graphics.Animation.AnimFrame   (Private Class)
+    Define [Animation.java, 87]      com.TETOSOFT.graphics.Animation
+    Create [Animation.java, 38]      com.TETOSOFT.graphics.Animation.addFrame
+    Typed [Animation.java, 82]       com.TETOSOFT.graphics.Animation.getFrame
+    Cast [Animation.java, 84]        com.TETOSOFT.graphics.Animation.getFrame
+
+com.TETOSOFT.graphics.ScreenManager   (Public Class)
+    Define [ScreenManager.java, 9]   ScreenManager.java
+    Import [GameCore.java, 6]        GameCore.java
+    Create [GameCore.java, 85]       com.TETOSOFT.test.GameCore.init
+    Typed [GameCore.java, 30]        com.TETOSOFT.test.GameCore.screen
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.(Anon_1)   (Anonymous Class)
+    Define [ScreenManager.java, 110]   com.TETOSOFT.graphics.ScreenManager.setFullScreen
+
+com.TETOSOFT.graphics.Sprite   (Public Class)
+    Define [Sprite.java, 5]          Sprite.java
+    Create [Sprite.java, 98]         com.TETOSOFT.graphics.Sprite.clone
+    Extend [PowerUp.java, 9]         com.TETOSOFT.tilegame.sprites.PowerUp
+    Cast [MapLoader.java, 204]       com.TETOSOFT.tilegame.MapLoader.addSprite
+    Typed [MapLoader.java, 200]      com.TETOSOFT.tilegame.MapLoader.addSprite.hostSprite
+    Typed [MapLoader.java, 204]      com.TETOSOFT.tilegame.MapLoader.addSprite.sprite
+    Cast [MapLoader.java, 190]       com.TETOSOFT.tilegame.MapLoader.loadMap
+    Typed [MapLoader.java, 190]      com.TETOSOFT.tilegame.MapLoader.loadMap.player
+    Typed [MapLoader.java, 27]       com.TETOSOFT.tilegame.MapLoader.coinSprite
+    Typed [MapLoader.java, 30]       com.TETOSOFT.tilegame.MapLoader.flySprite
+    Typed [MapLoader.java, 28]       com.TETOSOFT.tilegame.MapLoader.goalSprite
+    Typed [MapLoader.java, 29]       com.TETOSOFT.tilegame.MapLoader.grubSprite
+    Typed [MapLoader.java, 26]       com.TETOSOFT.tilegame.MapLoader.musicSprite
+    Typed [MapLoader.java, 25]       com.TETOSOFT.tilegame.MapLoader.playerSprite
+    Import [TileMapDrawer.java, 6]   TileMapDrawer.java
+    Cast [TileMapDrawer.java, 140]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Typed [TileMapDrawer.java, 82]   com.TETOSOFT.tilegame.TileMapDrawer.draw.player
+    Typed [TileMapDrawer.java, 140]   com.TETOSOFT.tilegame.TileMapDrawer.draw.sprite
+    Import [TileMap.java, 7]         TileMap.java
+    Typed [TileMap.java, 91]         com.TETOSOFT.tilegame.TileMap.addSprite.sprite
+    Typed [TileMap.java, 75]         com.TETOSOFT.tilegame.TileMap.getPlayer
+    Typed [TileMap.java, 99]         com.TETOSOFT.tilegame.TileMap.removeSprite.sprite
+    Typed [TileMap.java, 83]         com.TETOSOFT.tilegame.TileMap.setPlayer.player
+    Typed [TileMap.java, 19]         com.TETOSOFT.tilegame.TileMap.player
+    Typed [GameEngine.java, 337]     com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision.collisionSprite
+    Typed [GameEngine.java, 205]     com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+    Cast [GameEngine.java, 210]      com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+    Typed [GameEngine.java, 210]     com.TETOSOFT.tilegame.GameEngine.getSpriteCollision.otherSprite
+    Typed [GameEngine.java, 205]     com.TETOSOFT.tilegame.GameEngine.getSpriteCollision.sprite
+    Typed [GameEngine.java, 136]     com.TETOSOFT.tilegame.GameEngine.getTileCollision.sprite
+    Typed [GameEngine.java, 173]     com.TETOSOFT.tilegame.GameEngine.isCollision.s1
+    Typed [GameEngine.java, 173]     com.TETOSOFT.tilegame.GameEngine.isCollision.s2
+    Cast [GameEngine.java, 246]      com.TETOSOFT.tilegame.GameEngine.update
+    Typed [GameEngine.java, 246]     com.TETOSOFT.tilegame.GameEngine.update.sprite
+    Extend [Creature.java, 11]       com.TETOSOFT.tilegame.sprites.Creature
+
+com.TETOSOFT.input.GameAction   (Public Class)
+    Define [GameAction.java, 4]      GameAction.java
+    Create [InputManager.java, 25]   com.TETOSOFT.input.InputManager
+    Create [InputManager.java, 27]   com.TETOSOFT.input.InputManager
+    Typed [InputManager.java, 105]   com.TETOSOFT.input.InputManager.getKeyAction
+    Typed [InputManager.java, 115]   com.TETOSOFT.input.InputManager.getMouseButtonAction
+    Typed [InputManager.java, 128]   com.TETOSOFT.input.InputManager.keyPressed.gameAction
+    Typed [InputManager.java, 139]   com.TETOSOFT.input.InputManager.keyReleased.gameAction
+    Typed [InputManager.java, 83]    com.TETOSOFT.input.InputManager.mapToKey.gameAction
+    Typed [InputManager.java, 88]    com.TETOSOFT.input.InputManager.mapToMouse.gameAction
+    Typed [InputManager.java, 231]   com.TETOSOFT.input.InputManager.mouseHelper.gameAction
+    Typed [InputManager.java, 157]   com.TETOSOFT.input.InputManager.mousePressed.gameAction
+    Typed [InputManager.java, 166]   com.TETOSOFT.input.InputManager.mouseReleased.gameAction
+    Typed [InputManager.java, 24]    com.TETOSOFT.input.InputManager.keyActions
+    Typed [InputManager.java, 26]    com.TETOSOFT.input.InputManager.mouseActions
+    Create [GameEngine.java, 67]     com.TETOSOFT.tilegame.GameEngine.initInput
+    Create [GameEngine.java, 68]     com.TETOSOFT.tilegame.GameEngine.initInput
+    DotRef [GameEngine.java, 69]     com.TETOSOFT.tilegame.GameEngine.initInput
+    Create [GameEngine.java, 69]     com.TETOSOFT.tilegame.GameEngine.initInput
+    DotRef [GameEngine.java, 70]     com.TETOSOFT.tilegame.GameEngine.initInput
+    Create [GameEngine.java, 70]     com.TETOSOFT.tilegame.GameEngine.initInput
+    Typed [GameEngine.java, 34]      com.TETOSOFT.tilegame.GameEngine.exit
+    Typed [GameEngine.java, 33]      com.TETOSOFT.tilegame.GameEngine.jump
+    Typed [GameEngine.java, 31]      com.TETOSOFT.tilegame.GameEngine.moveLeft
+    Typed [GameEngine.java, 32]      com.TETOSOFT.tilegame.GameEngine.moveRight
+
+com.TETOSOFT.input.InputManager   (Public Class)
+    Define [InputManager.java, 10]   InputManager.java
+    Create [GameEngine.java, 72]     com.TETOSOFT.tilegame.GameEngine.initInput
+    DotRef [GameEngine.java, 73]     com.TETOSOFT.tilegame.GameEngine.initInput
+    Typed [GameEngine.java, 28]      com.TETOSOFT.tilegame.GameEngine.inputManager
+
+com.TETOSOFT.input.Mouse   (Public Class)
+    Define [Mouse.java, 6]           Mouse.java
+    Create [InputManager.java, 38]   com.TETOSOFT.input.InputManager.InputManager
+    Typed [InputManager.java, 29]    com.TETOSOFT.input.InputManager.mouse
+
+com.TETOSOFT.test.GameCore   (Public Abstract Class)
+    Define [GameCore.java, 12]       GameCore.java
+    Import [GameEngine.java, 9]      GameEngine.java
+    Extend [GameEngine.java, 15]     com.TETOSOFT.tilegame.GameEngine
+
+com.TETOSOFT.test.GameCore.lazilyExit.(Anon_1)   (Anonymous Class)
+    Define [GameCore.java, 64]       com.TETOSOFT.test.GameCore.lazilyExit
+
+com.TETOSOFT.tilegame.GameEngine   (Public Class)
+    Define [GameEngine.java, 15]     GameEngine.java
+    Create [GameEngine.java, 20]     com.TETOSOFT.tilegame.GameEngine.main
+
+com.TETOSOFT.tilegame.MapLoader   (Public Class)
+    Define [MapLoader.java, 18]      MapLoader.java
+    Create [GameEngine.java, 46]     com.TETOSOFT.tilegame.GameEngine.init
+    Typed [GameEngine.java, 27]      com.TETOSOFT.tilegame.GameEngine.mapLoader
+
+com.TETOSOFT.tilegame.sprites.Creature   (Public Abstract Class)
+    Define [Creature.java, 11]       Creature.java
+    Extend [Fly.java, 8]             com.TETOSOFT.tilegame.sprites.Fly
+    Extend [Player.java, 8]          com.TETOSOFT.tilegame.sprites.Player
+    Extend [Grub.java, 8]            com.TETOSOFT.tilegame.sprites.Grub
+    Import [TileMapDrawer.java, 7]   TileMapDrawer.java
+    Use [TileMapDrawer.java, 145]    com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Cast [TileMapDrawer.java, 150]   com.TETOSOFT.tilegame.TileMapDrawer.draw
+    Use [GameEngine.java, 340]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Cast [GameEngine.java, 341]      com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    DotRef [GameEngine.java, 344]    com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    DotRef [GameEngine.java, 349]    com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Typed [GameEngine.java, 341]     com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision.badguy
+    Use [GameEngine.java, 180]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Cast [GameEngine.java, 180]      com.TETOSOFT.tilegame.GameEngine.isCollision
+    Use [GameEngine.java, 183]       com.TETOSOFT.tilegame.GameEngine.isCollision
+    Cast [GameEngine.java, 183]      com.TETOSOFT.tilegame.GameEngine.isCollision
+    Cast [GameEngine.java, 227]      com.TETOSOFT.tilegame.GameEngine.update
+    Use [GameEngine.java, 247]       com.TETOSOFT.tilegame.GameEngine.update
+    Cast [GameEngine.java, 248]      com.TETOSOFT.tilegame.GameEngine.update
+    DotRef [GameEngine.java, 231]    com.TETOSOFT.tilegame.GameEngine.update
+    DotRef [GameEngine.java, 249]    com.TETOSOFT.tilegame.GameEngine.update
+    Typed [GameEngine.java, 248]     com.TETOSOFT.tilegame.GameEngine.update.creature
+    Typed [GameEngine.java, 227]     com.TETOSOFT.tilegame.GameEngine.update.player
+    Typed [GameEngine.java, 265]     com.TETOSOFT.tilegame.GameEngine.updateCreature.creature
+
+com.TETOSOFT.tilegame.sprites.Fly   (Public Class)
+    Define [Fly.java, 8]             Fly.java
+    Create [MapLoader.java, 292]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+
+com.TETOSOFT.tilegame.sprites.Grub   (Public Class)
+    Define [Grub.java, 8]            Grub.java
+    Create [MapLoader.java, 293]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+
+com.TETOSOFT.tilegame.sprites.Player   (Public Class)
+    Define [Player.java, 8]          Player.java
+    Create [MapLoader.java, 291]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Cast [GameEngine.java, 89]       com.TETOSOFT.tilegame.GameEngine.checkInput
+    Typed [GameEngine.java, 89]      com.TETOSOFT.tilegame.GameEngine.checkInput.player
+    Typed [GameEngine.java, 330]     com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision.player
+    Use [GameEngine.java, 294]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Cast [GameEngine.java, 295]      com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Use [GameEngine.java, 317]       com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Cast [GameEngine.java, 319]      com.TETOSOFT.tilegame.GameEngine.updateCreature
+
+com.TETOSOFT.tilegame.sprites.PowerUp   (Public Abstract Class)
+    Define [PowerUp.java, 9]         PowerUp.java
+    Extend [PowerUp.java, 53]        com.TETOSOFT.tilegame.sprites.PowerUp.Goal
+    Extend [PowerUp.java, 43]        com.TETOSOFT.tilegame.sprites.PowerUp.Music
+    Extend [PowerUp.java, 33]        com.TETOSOFT.tilegame.sprites.PowerUp.Star
+    DotRef [MapLoader.java, 331]     com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    DotRef [MapLoader.java, 340]     com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    DotRef [MapLoader.java, 348]     com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    DotRef [MapLoader.java, 349]     com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    DotRef [GameEngine.java, 372]    com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+    DotRef [GameEngine.java, 381]    com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+    DotRef [GameEngine.java, 384]    com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+    Typed [GameEngine.java, 368]     com.TETOSOFT.tilegame.GameEngine.acquirePowerUp.powerUp
+    Use [GameEngine.java, 338]       com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+    Cast [GameEngine.java, 339]      com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Goal   (Public Static Class)
+    Define [PowerUp.java, 53]        com.TETOSOFT.tilegame.sprites.PowerUp
+    Create [MapLoader.java, 331]     com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [GameEngine.java, 384]       com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Music   (Public Static Class)
+    Define [PowerUp.java, 43]        com.TETOSOFT.tilegame.sprites.PowerUp
+    Create [MapLoader.java, 348]     com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Create [MapLoader.java, 349]     com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [GameEngine.java, 381]       com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Star   (Public Static Class)
+    Define [PowerUp.java, 33]        com.TETOSOFT.tilegame.sprites.PowerUp
+    Create [MapLoader.java, 340]     com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+    Use [GameEngine.java, 372]       com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+
+com.TETOSOFT.tilegame.TileMap   (Public Class)
+    Define [TileMap.java, 15]        TileMap.java
+    Typed [MapLoader.java, 199]      com.TETOSOFT.tilegame.MapLoader.addSprite.map
+    Typed [MapLoader.java, 131]      com.TETOSOFT.tilegame.MapLoader.loadMap
+    Create [MapLoader.java, 158]     com.TETOSOFT.tilegame.MapLoader.loadMap
+    Typed [MapLoader.java, 158]      com.TETOSOFT.tilegame.MapLoader.loadMap.newMap
+    Typed [MapLoader.java, 92]       com.TETOSOFT.tilegame.MapLoader.loadNextMap
+    Typed [MapLoader.java, 94]       com.TETOSOFT.tilegame.MapLoader.loadNextMap.map
+    Typed [MapLoader.java, 118]      com.TETOSOFT.tilegame.MapLoader.reloadMap
+    Typed [TileMapDrawer.java, 79]   com.TETOSOFT.tilegame.TileMapDrawer.draw.map
+    Typed [GameEngine.java, 127]     com.TETOSOFT.tilegame.GameEngine.getMap
+    Typed [GameEngine.java, 26]      com.TETOSOFT.tilegame.GameEngine.map
+
+com.TETOSOFT.tilegame.TileMapDrawer   (Public Class)
+    Define [TileMapDrawer.java, 23]   TileMapDrawer.java
+    DotRef [MapLoader.java, 208]     com.TETOSOFT.tilegame.MapLoader.addSprite
+    DotRef [MapLoader.java, 209]     com.TETOSOFT.tilegame.MapLoader.addSprite
+    DotRef [MapLoader.java, 214]     com.TETOSOFT.tilegame.MapLoader.addSprite
+    DotRef [MapLoader.java, 191]     com.TETOSOFT.tilegame.MapLoader.loadMap
+    DotRef [GameEngine.java, 144]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    DotRef [GameEngine.java, 145]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    DotRef [GameEngine.java, 146]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    DotRef [GameEngine.java, 148]    com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Create [GameEngine.java, 49]     com.TETOSOFT.tilegame.GameEngine.init
+    DotRef [GameEngine.java, 286]    com.TETOSOFT.tilegame.GameEngine.updateCreature
+    DotRef [GameEngine.java, 290]    com.TETOSOFT.tilegame.GameEngine.updateCreature
+    DotRef [GameEngine.java, 309]    com.TETOSOFT.tilegame.GameEngine.updateCreature
+    DotRef [GameEngine.java, 313]    com.TETOSOFT.tilegame.GameEngine.updateCreature
+    Typed [GameEngine.java, 29]      com.TETOSOFT.tilegame.GameEngine.drawer
+
+Component   (Unknown Class)
+    Typed [InputManager.java, 36]    com.TETOSOFT.input.InputManager.InputManager.comp
+    Typed [InputManager.java, 31]    com.TETOSOFT.input.InputManager.comp
+
+Cursor   (Unknown Class)
+    Typed [InputManager.java, 50]    com.TETOSOFT.input.InputManager.setCursor.cursor
+    Typed [InputManager.java, 14]    com.TETOSOFT.input.InputManager.INVISIBLE_CURSOR
+
+DisplayMode   (Unknown Class)
+    DotRef [ScreenManager.java, 76]   com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    DotRef [ScreenManager.java, 77]   com.TETOSOFT.graphics.ScreenManager.checkBitDepth
+    Typed [ScreenManager.java, 75]   com.TETOSOFT.graphics.ScreenManager.checkBitDepth.mode1
+    Typed [ScreenManager.java, 75]   com.TETOSOFT.graphics.ScreenManager.checkBitDepth.mode2
+    DotRef [ScreenManager.java, 64]   com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+    DotRef [ScreenManager.java, 66]   com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+    Typed [ScreenManager.java, 51]   com.TETOSOFT.graphics.ScreenManager.displayModesMatch.mode1
+    Typed [ScreenManager.java, 51]   com.TETOSOFT.graphics.ScreenManager.displayModesMatch.mode2
+    Typed [ScreenManager.java, 29]   com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+    Typed [ScreenManager.java, 31]   com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode.goodModes
+    Typed [ScreenManager.java, 29]   com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode.modes
+    Typed [ScreenManager.java, 22]   com.TETOSOFT.graphics.ScreenManager.getCompatibleDisplayModes
+    Typed [ScreenManager.java, 46]   com.TETOSOFT.graphics.ScreenManager.getCurrentDisplayMode
+    Typed [ScreenManager.java, 88]   com.TETOSOFT.graphics.ScreenManager.setFullScreen.displayMode
+    Create [GameCore.java, 18]       com.TETOSOFT.test.GameCore
+    Create [GameCore.java, 19]       com.TETOSOFT.test.GameCore
+    Create [GameCore.java, 20]       com.TETOSOFT.test.GameCore
+    Create [GameCore.java, 21]       com.TETOSOFT.test.GameCore
+    Create [GameCore.java, 22]       com.TETOSOFT.test.GameCore
+    Create [GameCore.java, 23]       com.TETOSOFT.test.GameCore
+    Create [GameCore.java, 24]       com.TETOSOFT.test.GameCore
+    Create [GameCore.java, 25]       com.TETOSOFT.test.GameCore
+    Create [GameCore.java, 26]       com.TETOSOFT.test.GameCore
+    Typed [GameCore.java, 86]        com.TETOSOFT.test.GameCore.init.displayMode
+    Typed [GameCore.java, 17]        com.TETOSOFT.test.GameCore.POSSIBLE_MODES
+
+Exception   (Unknown Class)
+    Typed [PowerUp.java, 22]         com.TETOSOFT.tilegame.sprites.PowerUp.clone.(catch_1).ex
+    Typed [Creature.java, 55]        com.TETOSOFT.tilegame.sprites.Creature.clone.(catch_1).ex
+
+File   (Unknown Class)
+    Create [MapLoader.java, 238]     com.TETOSOFT.tilegame.MapLoader.loadTileImages
+    Typed [MapLoader.java, 238]      com.TETOSOFT.tilegame.MapLoader.loadTileImages.file
+
+FileReader   (Unknown Class)
+    Create [MapLoader.java, 140]     com.TETOSOFT.tilegame.MapLoader.loadMap
+
+Font   (Unknown Class)
+    Create [GameCore.java, 91]       com.TETOSOFT.test.GameCore.init
+
+Graphics2D   (Unknown Class)
+    Typed [ScreenManager.java, 130]   com.TETOSOFT.graphics.ScreenManager.getGraphics
+    Cast [ScreenManager.java, 136]   com.TETOSOFT.graphics.ScreenManager.getGraphics
+    Cast [MapLoader.java, 84]        com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Typed [MapLoader.java, 84]       com.TETOSOFT.tilegame.MapLoader.getScaledImage.g
+    Typed [TileMapDrawer.java, 79]   com.TETOSOFT.tilegame.TileMapDrawer.draw.g
+    Typed [GameEngine.java, 109]     com.TETOSOFT.tilegame.GameEngine.draw.g
+    Typed [GameCore.java, 147]       com.TETOSOFT.test.GameCore.draw.g
+    Typed [GameCore.java, 120]       com.TETOSOFT.test.GameCore.gameLoop.g
+
+GraphicsConfiguration   (Unknown Class)
+    Typed [ScreenManager.java, 214]   com.TETOSOFT.graphics.ScreenManager.createCompatibleImage.gc
+    Typed [MapLoader.java, 36]       com.TETOSOFT.tilegame.MapLoader.MapLoader.gc
+    Typed [MapLoader.java, 22]       com.TETOSOFT.tilegame.MapLoader.gc
+
+GraphicsDevice   (Unknown Class)
+    Typed [ScreenManager.java, 11]   com.TETOSOFT.graphics.ScreenManager.device
+
+GraphicsEnvironment   (Unknown Class)
+    DotRef [ScreenManager.java, 16]   com.TETOSOFT.graphics.ScreenManager.ScreenManager
+    Typed [ScreenManager.java, 16]   com.TETOSOFT.graphics.ScreenManager.ScreenManager.environment
+
+IllegalArgumentException   (Unknown Class)
+    Typed [ScreenManager.java, 103]   com.TETOSOFT.graphics.ScreenManager.setFullScreen.(catch_1).ex
+
+Image   (Unknown Class)
+    Typed [MapLoader.java, 306]      com.TETOSOFT.tilegame.MapLoader.createFlyAnim.img1
+    Typed [MapLoader.java, 306]      com.TETOSOFT.tilegame.MapLoader.createFlyAnim.img2
+    Typed [MapLoader.java, 306]      com.TETOSOFT.tilegame.MapLoader.createFlyAnim.img3
+    Typed [MapLoader.java, 317]      com.TETOSOFT.tilegame.MapLoader.createGrubAnim.img1
+    Typed [MapLoader.java, 317]      com.TETOSOFT.tilegame.MapLoader.createGrubAnim.img2
+    Typed [MapLoader.java, 297]      com.TETOSOFT.tilegame.MapLoader.createPlayerAnim.player
+    Typed [MapLoader.java, 61]       com.TETOSOFT.tilegame.MapLoader.getFlippedImage
+    Typed [MapLoader.java, 61]       com.TETOSOFT.tilegame.MapLoader.getFlippedImage.image
+    Typed [MapLoader.java, 55]       com.TETOSOFT.tilegame.MapLoader.getMirrorImage
+    Typed [MapLoader.java, 55]       com.TETOSOFT.tilegame.MapLoader.getMirrorImage.image
+    Typed [MapLoader.java, 67]       com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Typed [MapLoader.java, 67]       com.TETOSOFT.tilegame.MapLoader.getScaledImage.image
+    Typed [MapLoader.java, 78]       com.TETOSOFT.tilegame.MapLoader.getScaledImage.newImage
+    Create [MapLoader.java, 252]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Create [MapLoader.java, 255]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Create [MapLoader.java, 264]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Create [MapLoader.java, 265]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Create [MapLoader.java, 266]     com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+    Typed [MapLoader.java, 252]      com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites.images
+    Typed [MapLoader.java, 48]       com.TETOSOFT.tilegame.MapLoader.loadImage
+    Cast [MapLoader.java, 167]       com.TETOSOFT.tilegame.MapLoader.loadMap
+    Typed [TileMapDrawer.java, 121]   com.TETOSOFT.tilegame.TileMapDrawer.draw.(for_loop_1).(for_loop_2).image
+    Typed [TileMapDrawer.java, 71]   com.TETOSOFT.tilegame.TileMapDrawer.setBackground.background
+    Typed [TileMapDrawer.java, 31]   com.TETOSOFT.tilegame.TileMapDrawer.background
+    Typed [GameCore.java, 99]        com.TETOSOFT.test.GameCore.loadImage
+
+InterruptedException   (Unknown Class)
+    Typed [ScreenManager.java, 117]   com.TETOSOFT.graphics.ScreenManager.setFullScreen.(catch_2).ex
+    Typed [GameEngine.java, 354]     com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision.(catch_1).ex
+    Typed [GameCore.java, 70]        com.TETOSOFT.test.GameCore.lazilyExit.(Anon_1).run.(catch_1).ex
+
+IOException   (Unknown Class)
+    Throw [MapLoader.java, 132]      com.TETOSOFT.tilegame.MapLoader.loadMap
+    Typed [MapLoader.java, 102]      com.TETOSOFT.tilegame.MapLoader.loadNextMap.(catch_1).ex
+    Typed [MapLoader.java, 124]      com.TETOSOFT.tilegame.MapLoader.reloadMap.(catch_2).ex
+
+java.awt.event.KeyEvent   (Unknown Class)
+    Import [GameEngine.java, 4]      GameEngine.java
+    DotRef [GameEngine.java, 75]     com.TETOSOFT.tilegame.GameEngine.initInput
+    DotRef [GameEngine.java, 76]     com.TETOSOFT.tilegame.GameEngine.initInput
+    DotRef [GameEngine.java, 77]     com.TETOSOFT.tilegame.GameEngine.initInput
+    DotRef [GameEngine.java, 78]     com.TETOSOFT.tilegame.GameEngine.initInput
+
+java.awt.event.MouseEvent   (Unknown Class)
+    Import [Mouse.java, 4]           Mouse.java
+    DotRef [Mouse.java, 61]          com.TETOSOFT.input.Mouse.getMouseButtonCode
+    DotRef [Mouse.java, 63]          com.TETOSOFT.input.Mouse.getMouseButtonCode
+    DotRef [Mouse.java, 65]          com.TETOSOFT.input.Mouse.getMouseButtonCode
+    Typed [Mouse.java, 59]           com.TETOSOFT.input.Mouse.getMouseButtonCode.e
+
+java.awt.geom.AffineTransform   (Unknown Class)
+    Import [MapLoader.java, 4]       MapLoader.java
+    Create [MapLoader.java, 71]      com.TETOSOFT.tilegame.MapLoader.getScaledImage
+    Typed [MapLoader.java, 71]       com.TETOSOFT.tilegame.MapLoader.getScaledImage.transform
+
+java.awt.Image   (Unknown Class)
+    Import [Animation.java, 3]       Animation.java
+    Typed [Animation.java, 92]       com.TETOSOFT.graphics.Animation.AnimFrame.AnimFrame.image
+    Typed [Animation.java, 89]       com.TETOSOFT.graphics.Animation.AnimFrame.image
+    Typed [Animation.java, 35]       com.TETOSOFT.graphics.Animation.addFrame.image
+    Typed [Animation.java, 69]       com.TETOSOFT.graphics.Animation.getImage
+    Import [Sprite.java, 3]          Sprite.java
+    Typed [Sprite.java, 90]          com.TETOSOFT.graphics.Sprite.getImage
+    Import [TileMap.java, 3]         TileMap.java
+    Create [TileMap.java, 26]        com.TETOSOFT.tilegame.TileMap.TileMap
+    Typed [TileMap.java, 52]         com.TETOSOFT.tilegame.TileMap.getTile
+    Typed [TileMap.java, 67]         com.TETOSOFT.tilegame.TileMap.setTile.tile
+    Typed [TileMap.java, 17]         com.TETOSOFT.tilegame.TileMap.tiles
+
+java.awt.image.BufferedImage   (Unknown Class)
+    Import [ScreenManager.java, 5]   ScreenManager.java
+    Typed [ScreenManager.java, 209]   com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+
+java.awt.image.BufferStrategy   (Unknown Class)
+    Import [ScreenManager.java, 4]   ScreenManager.java
+    Typed [ScreenManager.java, 135]   com.TETOSOFT.graphics.ScreenManager.getGraphics.strategy
+    Typed [ScreenManager.java, 150]   com.TETOSOFT.graphics.ScreenManager.update.strategy
+
+java.lang.reflect.Constructor   (Unknown Class)
+    Import [PowerUp.java, 3]         PowerUp.java
+    Typed [PowerUp.java, 17]         com.TETOSOFT.tilegame.sprites.PowerUp.clone.constructor
+    Import [Creature.java, 3]        Creature.java
+    Typed [Creature.java, 46]        com.TETOSOFT.tilegame.sprites.Creature.clone.constructor
+
+java.lang.reflect.InvocationTargetException   (Unknown Class)
+    Import [ScreenManager.java, 6]   ScreenManager.java
+    Typed [ScreenManager.java, 121]   com.TETOSOFT.graphics.ScreenManager.setFullScreen.(catch_3).ex
+
+java.util.ArrayList   (Unknown Class)
+    Import [Animation.java, 4]       Animation.java
+    Create [Animation.java, 17]      com.TETOSOFT.graphics.Animation.Animation
+    Typed [Animation.java, 21]       com.TETOSOFT.graphics.Animation.Animation.frames
+    Typed [Animation.java, 9]        com.TETOSOFT.graphics.Animation.frames
+    Import [MapLoader.java, 6]       MapLoader.java
+    Create [MapLoader.java, 134]     com.TETOSOFT.tilegame.MapLoader.loadMap
+    Typed [MapLoader.java, 134]      com.TETOSOFT.tilegame.MapLoader.loadMap.lines
+    Create [MapLoader.java, 232]     com.TETOSOFT.tilegame.MapLoader.loadTileImages
+    Typed [MapLoader.java, 20]       com.TETOSOFT.tilegame.MapLoader.tiles
+    Import [InputManager.java, 6]    InputManager.java
+
+java.util.Iterator   (Unknown Class)
+    Import [TileMapDrawer.java, 4]   TileMapDrawer.java
+    Typed [TileMapDrawer.java, 138]   com.TETOSOFT.tilegame.TileMapDrawer.draw.i
+    Import [TileMap.java, 5]         TileMap.java
+    Typed [TileMap.java, 108]        com.TETOSOFT.tilegame.TileMap.getSprites
+    Import [GameEngine.java, 5]      GameEngine.java
+    Typed [GameEngine.java, 208]     com.TETOSOFT.tilegame.GameEngine.getSpriteCollision.i
+    Typed [GameEngine.java, 244]     com.TETOSOFT.tilegame.GameEngine.update.i
+
+java.util.LinkedList   (Unknown Class)
+    Import [TileMap.java, 4]         TileMap.java
+    Create [TileMap.java, 27]        com.TETOSOFT.tilegame.TileMap.TileMap
+    Typed [TileMap.java, 18]         com.TETOSOFT.tilegame.TileMap.sprites
+
+java.util.List   (Unknown Class)
+    Import [InputManager.java, 5]    InputManager.java
+
+javax.swing.ImageIcon   (Unknown Class)
+    Import [MapLoader.java, 7]       MapLoader.java
+    Create [MapLoader.java, 51]      com.TETOSOFT.tilegame.MapLoader.loadImage
+    Import [GameCore.java, 4]        GameCore.java
+    Create [GameCore.java, 100]      com.TETOSOFT.test.GameCore.loadImage
+
+javax.swing.JFrame   (Unknown Class)
+    Import [ScreenManager.java, 7]   ScreenManager.java
+    Typed [ScreenManager.java, 162]   com.TETOSOFT.graphics.ScreenManager.getFullScreenWindow
+    Cast [ScreenManager.java, 163]   com.TETOSOFT.graphics.ScreenManager.getFullScreenWindow
+    Create [ScreenManager.java, 90]   com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    DotRef [ScreenManager.java, 91]   com.TETOSOFT.graphics.ScreenManager.setFullScreen
+    Typed [ScreenManager.java, 90]   com.TETOSOFT.graphics.ScreenManager.setFullScreen.frame
+
+javax.swing.SwingUtilities   (Unknown Class)
+    Import [InputManager.java, 7]    InputManager.java
+    DotRef [InputManager.java, 98]   com.TETOSOFT.input.InputManager.recenterMouse
+
+KeyEvent   (Unknown Class)
+    Typed [InputManager.java, 105]   com.TETOSOFT.input.InputManager.getKeyAction.e
+    Typed [InputManager.java, 127]   com.TETOSOFT.input.InputManager.keyPressed.e
+    Typed [InputManager.java, 138]   com.TETOSOFT.input.InputManager.keyReleased.e
+    Typed [InputManager.java, 149]   com.TETOSOFT.input.InputManager.keyTyped.e
+
+KeyListener   (Unknown Class)
+    Implement [InputManager.java, 10]   com.TETOSOFT.input.InputManager
+
+MouseEvent   (Unknown Class)
+    Typed [InputManager.java, 115]   com.TETOSOFT.input.InputManager.getMouseButtonAction.e
+    Typed [InputManager.java, 174]   com.TETOSOFT.input.InputManager.mouseClicked.e
+    Typed [InputManager.java, 192]   com.TETOSOFT.input.InputManager.mouseDragged.e
+    Typed [InputManager.java, 180]   com.TETOSOFT.input.InputManager.mouseEntered.e
+    Typed [InputManager.java, 186]   com.TETOSOFT.input.InputManager.mouseExited.e
+    Typed [InputManager.java, 198]   com.TETOSOFT.input.InputManager.mouseMoved.e
+    Typed [InputManager.java, 156]   com.TETOSOFT.input.InputManager.mousePressed.e
+    Typed [InputManager.java, 165]   com.TETOSOFT.input.InputManager.mouseReleased.e
+
+MouseListener   (Unknown Class)
+    Implement [InputManager.java, 10]   com.TETOSOFT.input.InputManager
+
+MouseMotionListener   (Unknown Class)
+    Implement [InputManager.java, 11]   com.TETOSOFT.input.InputManager
+
+MouseWheelEvent   (Unknown Class)
+    Typed [InputManager.java, 223]   com.TETOSOFT.input.InputManager.mouseWheelMoved.e
+
+MouseWheelListener   (Unknown Class)
+    Implement [InputManager.java, 11]   com.TETOSOFT.input.InputManager
+
+Point   (Unknown Class)
+    Create [Mouse.java, 21]          com.TETOSOFT.input.Mouse.Mouse
+    Typed [Mouse.java, 24]           com.TETOSOFT.input.Mouse.getMouseLocation
+    Typed [Mouse.java, 18]           com.TETOSOFT.input.Mouse.mouseLocation
+    Create [InputManager.java, 17]   com.TETOSOFT.input.InputManager
+    Create [InputManager.java, 39]   com.TETOSOFT.input.InputManager.InputManager
+    Typed [InputManager.java, 30]    com.TETOSOFT.input.InputManager.centerLocation
+    Create [GameEngine.java, 25]     com.TETOSOFT.tilegame.GameEngine
+    Typed [GameEngine.java, 136]     com.TETOSOFT.tilegame.GameEngine.getTileCollision
+    Typed [GameEngine.java, 278]     com.TETOSOFT.tilegame.GameEngine.updateCreature.tile
+    Typed [GameEngine.java, 25]      com.TETOSOFT.tilegame.GameEngine.pointCache
+
+Robot   (Unknown Class)
+    Create [InputManager.java, 64]   com.TETOSOFT.input.InputManager.setRelativeMouseMode
+    Typed [InputManager.java, 32]    com.TETOSOFT.input.InputManager.robot
+
+Runnable   (Unknown Class)
+    Extend [ScreenManager.java, 109]   com.TETOSOFT.graphics.ScreenManager.setFullScreen.(Anon_1)
+
+String   (Unknown Class)
+    Typed [MapLoader.java, 50]       com.TETOSOFT.tilegame.MapLoader.loadImage.filename
+    Typed [MapLoader.java, 48]       com.TETOSOFT.tilegame.MapLoader.loadImage.name
+    Cast [MapLoader.java, 160]       com.TETOSOFT.tilegame.MapLoader.loadMap
+    Typed [MapLoader.java, 160]      com.TETOSOFT.tilegame.MapLoader.loadMap.(for_loop_1).line
+    Typed [MapLoader.java, 131]      com.TETOSOFT.tilegame.MapLoader.loadMap.filename
+    Typed [MapLoader.java, 142]      com.TETOSOFT.tilegame.MapLoader.loadMap.line
+    Typed [MapLoader.java, 237]      com.TETOSOFT.tilegame.MapLoader.loadTileImages.name
+    Typed [Mouse.java, 44]           com.TETOSOFT.input.Mouse.getMouseName
+    Typed [GameAction.java, 23]      com.TETOSOFT.input.GameAction.GameAction.name
+    Typed [GameAction.java, 29]      com.TETOSOFT.input.GameAction.GameAction.name
+    Typed [GameAction.java, 37]      com.TETOSOFT.input.GameAction.getName
+    Typed [GameAction.java, 17]      com.TETOSOFT.input.GameAction.name
+    Typed [GameEngine.java, 18]      com.TETOSOFT.tilegame.GameEngine.main.args
+    Typed [GameCore.java, 99]        com.TETOSOFT.test.GameCore.loadImage.fileName
+
+Thread   (Unknown Class)
+    Extend [GameCore.java, 64]       com.TETOSOFT.test.GameCore.lazilyExit.(Anon_1)
+    DotRef [GameCore.java, 68]       com.TETOSOFT.test.GameCore.lazilyExit.(Anon_1).run
+    Typed [GameCore.java, 64]        com.TETOSOFT.test.GameCore.lazilyExit.thread
+
+Window   (Unknown Class)
+    Typed [ScreenManager.java, 212]   com.TETOSOFT.graphics.ScreenManager.createCompatibleImage.window
+    Typed [ScreenManager.java, 132]   com.TETOSOFT.graphics.ScreenManager.getGraphics.window
+    Typed [ScreenManager.java, 185]   com.TETOSOFT.graphics.ScreenManager.getHeight.window
+    Typed [ScreenManager.java, 170]   com.TETOSOFT.graphics.ScreenManager.getWidth.window
+    Typed [ScreenManager.java, 200]   com.TETOSOFT.graphics.ScreenManager.restoreScreen.window
+    Typed [ScreenManager.java, 147]   com.TETOSOFT.graphics.ScreenManager.update.window
+    Typed [GameCore.java, 90]        com.TETOSOFT.test.GameCore.init.window

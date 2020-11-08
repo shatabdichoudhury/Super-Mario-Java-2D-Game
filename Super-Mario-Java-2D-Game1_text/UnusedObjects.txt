@@ -1,0 +1,12 @@
+                             Unused Objects Report
+===============================================================================
+
+InputManager.java
+    com.TETOSOFT.input.InputManager.mouseClicked.e             174
+
+GameCore.java
+    com.TETOSOFT.test.GameCore.update.elapsedTime              138
+
+GameEngine.java
+    com.TETOSOFT.tilegame.GameEngine.checkInput.elapsedTime     82
+    com.TETOSOFT.tilegame.GameEngine.main.args                  18
