@@ -1,7 +1,5 @@
 Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell
-Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,displayModesMatch,Complex Conditional,The conditional expression mode1.getBitDepth() != DisplayMode.BIT_DEPTH_MULTI && mode2.getBitDepth() != DisplayMode.BIT_DEPTH_MULTI && mode1.getBitDepth() != mode2.getBitDepth() is complex.
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,displayModesMatch,Complex Conditional,The conditional expression mode1.getRefreshRate() != DisplayMode.REFRESH_RATE_UNKNOWN && mode2.getRefreshRate() != DisplayMode.REFRESH_RATE_UNKNOWN && mode1.getRefreshRate() != mode2.getRefreshRate() is complex.
-Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,displayModesMatch,Long Statement,The length of the statement "if (mode1.getBitDepth() != DisplayMode.BIT_DEPTH_MULTI && mode2.getBitDepth() != DisplayMode.BIT_DEPTH_MULTI && mode1.getBitDepth() != mode2.getBitDepth()) {" is 157.
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,displayModesMatch,Long Statement,The length of the statement "if (mode1.getRefreshRate() != DisplayMode.REFRESH_RATE_UNKNOWN && mode2.getRefreshRate() != DisplayMode.REFRESH_RATE_UNKNOWN && mode1.getRefreshRate() != mode2.getRefreshRate()) {" is 179.
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,setFullScreen,Empty catch clause,The method has an empty catch block.
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,setFullScreen,Empty catch clause,The method has an empty catch block.
