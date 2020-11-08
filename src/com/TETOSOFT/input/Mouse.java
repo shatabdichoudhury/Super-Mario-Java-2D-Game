@@ -5,15 +5,15 @@ import java.awt.event.MouseEvent;
 
 public class Mouse {
 	
-    public static final int MOUSE_MOVE_LEFT = 0;
-    public static final int MOUSE_MOVE_RIGHT = 1;
-    public static final int MOUSE_MOVE_UP = 2;
-    public static final int MOUSE_MOVE_DOWN = 3;
-    public static final int MOUSE_WHEEL_UP = 4;
-    public static final int MOUSE_WHEEL_DOWN = 5;
-    public static final int MOUSE_BUTTON_1 = 6;
-    public static final int MOUSE_BUTTON_2 = 7;
-    public static final int MOUSE_BUTTON_3 = 8;
+    protected final int MOUSE_MOVE_LEFT = 0;
+    protected final int MOUSE_MOVE_RIGHT = 1;
+    protected final int MOUSE_MOVE_UP = 2;
+    protected final int MOUSE_MOVE_DOWN = 3;
+    protected final int MOUSE_WHEEL_UP = 4;
+    protected final int MOUSE_WHEEL_DOWN = 5;
+    protected final static int MOUSE_BUTTON_1 = 6;
+    protected final static int MOUSE_BUTTON_2 = 7;
+    protected final static int MOUSE_BUTTON_3 = 8;
 
     private Point mouseLocation;
     
