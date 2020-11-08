@@ -6,12 +6,12 @@ Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,setFullScreen,Empty
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,setFullScreen,Empty catch clause,The method has an empty catch block.
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,setFullScreen,Magic Number,The method contains a magic number: 2
 Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,run,Magic Number,The method contains a magic number: 2
-Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,getMouseName,Complex Method,Cyclomatic complexity of the method is 10
-Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,getMouseName,Missing default,The following switch statement is missing a default case: switch (mouseCode) {
 Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,recenterMouse,Magic Number,The method contains a magic number: 2
 Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,recenterMouse,Magic Number,The method contains a magic number: 2
-Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,getMouseButtonCode,Missing default,The following switch statement is missing a default case: switch (e.getButton()) {
 Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,mouseMoved,Complex Conditional,The conditional expression isRecentering && centerLocation.x == e.getX() && centerLocation.y == e.getY() is complex.
+Super-Mario-Java-2D-Game,com.TETOSOFT.input,Mouse,getMouseName,Complex Method,Cyclomatic complexity of the method is 10
+Super-Mario-Java-2D-Game,com.TETOSOFT.input,Mouse,getMouseName,Missing default,The following switch statement is missing a default case: switch (mouseCode) {
+Super-Mario-Java-2D-Game,com.TETOSOFT.input,Mouse,getMouseButtonCode,Missing default,The following switch statement is missing a default case: switch (e.getButton()) {
 Super-Mario-Java-2D-Game,com.TETOSOFT.test,GameCore,lazilyExit,Empty catch clause,The method has an empty catch block.
 Super-Mario-Java-2D-Game,com.TETOSOFT.test,GameCore,run,Empty catch clause,The method has an empty catch block.
 Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,draw,Magic Number,The method contains a magic number: 10.0f
