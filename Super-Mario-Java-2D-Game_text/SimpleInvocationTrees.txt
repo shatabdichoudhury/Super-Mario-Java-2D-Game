@@ -1,0 +1,600 @@
+                         Simple Invocation Tree Report
+===============================================================================
+
+com.TETOSOFT.graphics.Animation.addFrame
+| com.TETOSOFT.graphics.Animation.AnimFrame.AnimFrame
+| add
+
+com.TETOSOFT.graphics.Animation.Animation
+| com.TETOSOFT.graphics.Animation.Animation
+
+com.TETOSOFT.graphics.Animation.Animation
+| com.TETOSOFT.graphics.Animation.start
+
+com.TETOSOFT.graphics.Animation.clone
+| com.TETOSOFT.graphics.Animation.Animation
+
+com.TETOSOFT.graphics.Animation.getFrame
+| get
+
+com.TETOSOFT.graphics.Animation.getImage
+| size
+| com.TETOSOFT.graphics.Animation.getFrame
+
+com.TETOSOFT.graphics.Animation.update
+| size
+| com.TETOSOFT.graphics.Animation.getFrame
+
+com.TETOSOFT.graphics.ScreenManager.createCompatibleImage
+| getFullScreenWindow
+| getGraphicsConfiguration
+| createCompatibleImage
+
+com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+| getWidth
+| getHeight
+| getBitDepth
+| getRefreshRate
+
+com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+| getDisplayModes
+| com.TETOSOFT.graphics.ScreenManager.displayModesMatch
+
+com.TETOSOFT.graphics.ScreenManager.getCompatibleDisplayModes
+| getDisplayModes
+
+com.TETOSOFT.graphics.ScreenManager.getCurrentDisplayMode
+| getDisplayMode
+
+com.TETOSOFT.graphics.ScreenManager.getFullScreenWindow
+| getFullScreenWindow
+
+com.TETOSOFT.graphics.ScreenManager.getGraphics
+| getFullScreenWindow
+| getBufferStrategy
+| getDrawGraphics
+
+com.TETOSOFT.graphics.ScreenManager.getHeight
+| getFullScreenWindow
+| getHeight
+
+com.TETOSOFT.graphics.ScreenManager.getWidth
+| getFullScreenWindow
+| getWidth
+
+com.TETOSOFT.graphics.ScreenManager.restoreScreen
+| getFullScreenWindow
+| dispose
+| setFullScreenWindow
+
+com.TETOSOFT.graphics.ScreenManager.ScreenManager
+| getLocalGraphicsEnvironment
+| getDefaultScreenDevice
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen
+| setDefaultCloseOperation
+| setUndecorated
+| setIgnoreRepaint
+| setResizable
+| setFullScreenWindow
+| isDisplayChangeSupported
+| setDisplayMode
+| getWidth
+| getHeight
+| setSize
+| invokeAndWait
+
+com.TETOSOFT.graphics.ScreenManager.setFullScreen.(Anon_1).run
+| createBufferStrategy
+
+com.TETOSOFT.graphics.ScreenManager.update
+| getFullScreenWindow
+| getBufferStrategy
+| contentsLost
+| show
+| getDefaultToolkit
+| sync
+
+com.TETOSOFT.graphics.Sprite.clone
+| com.TETOSOFT.graphics.Sprite.Sprite
+
+com.TETOSOFT.graphics.Sprite.getHeight
+| com.TETOSOFT.graphics.Animation.getImage
+| getHeight
+
+com.TETOSOFT.graphics.Sprite.getImage
+| com.TETOSOFT.graphics.Animation.getImage
+
+com.TETOSOFT.graphics.Sprite.getWidth
+| com.TETOSOFT.graphics.Animation.getImage
+| getWidth
+
+com.TETOSOFT.graphics.Sprite.update
+| com.TETOSOFT.graphics.Animation.update
+
+com.TETOSOFT.input.GameAction.GameAction
+| com.TETOSOFT.input.GameAction.GameAction
+
+com.TETOSOFT.input.GameAction.GameAction
+| com.TETOSOFT.input.GameAction.reset
+
+com.TETOSOFT.input.GameAction.isPressed
+| com.TETOSOFT.input.GameAction.getAmount
+
+com.TETOSOFT.input.GameAction.press
+| com.TETOSOFT.input.GameAction.press
+
+com.TETOSOFT.input.GameAction.tap
+| com.TETOSOFT.input.GameAction.press
+| com.TETOSOFT.input.GameAction.release
+
+com.TETOSOFT.input.InputManager
+| getDefaultToolkit
+| getImage
+| createCustomCursor
+
+com.TETOSOFT.input.InputManager.clearMap
+| com.TETOSOFT.input.GameAction.reset
+
+com.TETOSOFT.input.InputManager.getKeyAction
+| getKeyCode
+
+com.TETOSOFT.input.InputManager.getKeyName
+| getKeyText
+
+com.TETOSOFT.input.InputManager.getMaps
+| com.TETOSOFT.input.InputManager.getKeyName
+| add
+| com.TETOSOFT.input.InputManager.getMouseName
+
+com.TETOSOFT.input.InputManager.getMouseButtonAction
+| com.TETOSOFT.input.InputManager.getMouseButtonCode
+
+com.TETOSOFT.input.InputManager.getMouseButtonCode
+| getButton
+
+com.TETOSOFT.input.InputManager.InputManager
+| addKeyListener
+| addMouseListener
+| addMouseMotionListener
+| addMouseWheelListener
+| setFocusTraversalKeysEnabled
+
+com.TETOSOFT.input.InputManager.keyPressed
+| com.TETOSOFT.input.InputManager.getKeyAction
+| com.TETOSOFT.input.GameAction.press
+| consume
+
+com.TETOSOFT.input.InputManager.keyReleased
+| com.TETOSOFT.input.InputManager.getKeyAction
+| com.TETOSOFT.input.GameAction.release
+| consume
+
+com.TETOSOFT.input.InputManager.keyTyped
+| consume
+
+com.TETOSOFT.input.InputManager.mouseDragged
+| com.TETOSOFT.input.InputManager.mouseMoved
+
+com.TETOSOFT.input.InputManager.mouseEntered
+| com.TETOSOFT.input.InputManager.mouseMoved
+
+com.TETOSOFT.input.InputManager.mouseExited
+| com.TETOSOFT.input.InputManager.mouseMoved
+
+com.TETOSOFT.input.InputManager.mouseHelper
+| abs
+| com.TETOSOFT.input.GameAction.press
+| com.TETOSOFT.input.GameAction.release
+
+com.TETOSOFT.input.InputManager.mouseMoved
+| getX
+| getY
+| com.TETOSOFT.input.InputManager.mouseHelper
+| com.TETOSOFT.input.InputManager.isRelativeMouseMode
+| com.TETOSOFT.input.InputManager.recenterMouse
+
+com.TETOSOFT.input.InputManager.mousePressed
+| com.TETOSOFT.input.InputManager.getMouseButtonAction
+| com.TETOSOFT.input.GameAction.press
+
+com.TETOSOFT.input.InputManager.mouseReleased
+| com.TETOSOFT.input.InputManager.getMouseButtonAction
+| com.TETOSOFT.input.GameAction.release
+
+com.TETOSOFT.input.InputManager.mouseWheelMoved
+| getWheelRotation
+| com.TETOSOFT.input.InputManager.mouseHelper
+
+com.TETOSOFT.input.InputManager.recenterMouse
+| isShowing
+| getWidth
+| getHeight
+| convertPointToScreen
+| mouseMove
+
+com.TETOSOFT.input.InputManager.resetAllGameActions
+| com.TETOSOFT.input.GameAction.reset
+
+com.TETOSOFT.input.InputManager.setCursor
+| setCursor
+
+com.TETOSOFT.input.InputManager.setRelativeMouseMode
+| com.TETOSOFT.input.InputManager.isRelativeMouseMode
+| com.TETOSOFT.input.InputManager.recenterMouse
+
+com.TETOSOFT.test.GameCore.gameLoop
+| currentTimeMillis
+| com.TETOSOFT.test.GameCore.update  (Virtual)
+| com.TETOSOFT.tilegame.GameEngine.update  (Virtual)
+| com.TETOSOFT.graphics.ScreenManager.getGraphics
+| com.TETOSOFT.test.GameCore.draw  (Virtual)
+| com.TETOSOFT.tilegame.GameEngine.draw  (Virtual)
+| dispose
+| com.TETOSOFT.graphics.ScreenManager.update
+
+com.TETOSOFT.test.GameCore.init
+| com.TETOSOFT.graphics.ScreenManager.ScreenManager
+| com.TETOSOFT.graphics.ScreenManager.findFirstCompatibleMode
+| com.TETOSOFT.graphics.ScreenManager.setFullScreen
+| com.TETOSOFT.graphics.ScreenManager.getFullScreenWindow
+| setFont
+| setBackground
+| setForeground
+
+com.TETOSOFT.test.GameCore.lazilyExit
+| setDaemon
+| start
+
+com.TETOSOFT.test.GameCore.lazilyExit.(Anon_1).run
+| sleep
+| exit
+
+com.TETOSOFT.test.GameCore.loadImage
+| getImage
+
+com.TETOSOFT.test.GameCore.run
+| com.TETOSOFT.test.GameCore.init  (Virtual)
+| com.TETOSOFT.tilegame.GameEngine.init  (Virtual)
+| com.TETOSOFT.test.GameCore.gameLoop
+| com.TETOSOFT.graphics.ScreenManager.restoreScreen
+| com.TETOSOFT.test.GameCore.lazilyExit
+
+com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+| com.TETOSOFT.tilegame.TileMap.removeSprite
+| com.TETOSOFT.tilegame.MapLoader.loadNextMap
+
+com.TETOSOFT.tilegame.GameEngine.checkInput
+| com.TETOSOFT.input.GameAction.isPressed
+| com.TETOSOFT.tilegame.GameEngine.stop
+| com.TETOSOFT.tilegame.TileMap.getPlayer
+| com.TETOSOFT.tilegame.sprites.Creature.isAlive
+| com.TETOSOFT.tilegame.sprites.Player.getMaxSpeed
+| com.TETOSOFT.tilegame.sprites.Player.jump
+| com.TETOSOFT.graphics.Sprite.setVelocityX
+
+com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+| com.TETOSOFT.tilegame.sprites.Creature.isAlive
+| com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+| com.TETOSOFT.tilegame.GameEngine.acquirePowerUp
+| com.TETOSOFT.tilegame.sprites.Creature.setState
+| com.TETOSOFT.graphics.Sprite.getY
+| com.TETOSOFT.graphics.Sprite.getHeight
+| com.TETOSOFT.tilegame.sprites.Player.setY
+| com.TETOSOFT.tilegame.sprites.Player.jump
+| sleep
+| printStackTrace
+| com.TETOSOFT.tilegame.GameEngine.stop
+
+com.TETOSOFT.tilegame.GameEngine.draw
+| com.TETOSOFT.graphics.ScreenManager.getWidth
+| com.TETOSOFT.graphics.ScreenManager.getHeight
+| com.TETOSOFT.tilegame.TileMapDrawer.draw
+| setColor
+| drawString
+
+com.TETOSOFT.tilegame.GameEngine.getSpriteCollision
+| com.TETOSOFT.tilegame.TileMap.getSprites
+| hasNext
+| next
+| com.TETOSOFT.tilegame.GameEngine.isCollision
+
+com.TETOSOFT.tilegame.GameEngine.getTileCollision
+| com.TETOSOFT.graphics.Sprite.getX
+| min
+| com.TETOSOFT.graphics.Sprite.getY
+| max
+| com.TETOSOFT.tilegame.TileMapDrawer.pixelsToTiles
+| com.TETOSOFT.graphics.Sprite.getWidth
+| com.TETOSOFT.graphics.Sprite.getHeight
+| com.TETOSOFT.tilegame.TileMap.getWidth
+| com.TETOSOFT.tilegame.TileMap.getTile
+| setLocation
+
+com.TETOSOFT.tilegame.GameEngine.init
+| com.TETOSOFT.test.GameCore.init
+| com.TETOSOFT.tilegame.GameEngine.initInput
+| com.TETOSOFT.graphics.ScreenManager.getFullScreenWindow
+| getGraphicsConfiguration
+| com.TETOSOFT.tilegame.MapLoader.MapLoader
+| com.TETOSOFT.tilegame.MapLoader.loadImage
+| com.TETOSOFT.tilegame.TileMapDrawer.setBackground
+| com.TETOSOFT.tilegame.MapLoader.loadNextMap
+
+com.TETOSOFT.tilegame.GameEngine.initInput
+| com.TETOSOFT.input.GameAction.GameAction
+| com.TETOSOFT.input.GameAction.GameAction
+| com.TETOSOFT.graphics.ScreenManager.getFullScreenWindow
+| com.TETOSOFT.input.InputManager.InputManager
+| com.TETOSOFT.input.InputManager.setCursor
+| com.TETOSOFT.input.InputManager.mapToKey
+
+com.TETOSOFT.tilegame.GameEngine.isCollision
+| com.TETOSOFT.tilegame.sprites.Creature.isAlive
+| com.TETOSOFT.graphics.Sprite.getX
+| round
+| com.TETOSOFT.graphics.Sprite.getY
+| com.TETOSOFT.graphics.Sprite.getWidth
+| com.TETOSOFT.graphics.Sprite.getHeight
+
+com.TETOSOFT.tilegame.GameEngine.main
+| com.TETOSOFT.test.GameCore.run
+
+com.TETOSOFT.tilegame.GameEngine.stop
+| com.TETOSOFT.test.GameCore.stop
+
+com.TETOSOFT.tilegame.GameEngine.update
+| com.TETOSOFT.tilegame.TileMap.getPlayer
+| com.TETOSOFT.tilegame.sprites.Creature.getState
+| com.TETOSOFT.tilegame.MapLoader.reloadMap
+| com.TETOSOFT.tilegame.GameEngine.checkInput
+| com.TETOSOFT.tilegame.GameEngine.updateCreature
+| com.TETOSOFT.tilegame.sprites.Creature.update
+| com.TETOSOFT.tilegame.TileMap.getSprites
+| hasNext
+| next
+| remove
+| com.TETOSOFT.graphics.Sprite.update  (Virtual)
+| com.TETOSOFT.tilegame.sprites.Creature.update  (Virtual)
+
+com.TETOSOFT.tilegame.GameEngine.updateCreature
+| com.TETOSOFT.tilegame.sprites.Creature.isFlying  (Virtual)
+| com.TETOSOFT.tilegame.sprites.Fly.isFlying  (Virtual)
+| com.TETOSOFT.graphics.Sprite.getVelocityY
+| com.TETOSOFT.graphics.Sprite.setVelocityY
+| com.TETOSOFT.graphics.Sprite.getVelocityX
+| com.TETOSOFT.graphics.Sprite.getX
+| com.TETOSOFT.graphics.Sprite.getY
+| com.TETOSOFT.tilegame.GameEngine.getTileCollision
+| com.TETOSOFT.graphics.Sprite.setX
+| com.TETOSOFT.tilegame.TileMapDrawer.tilesToPixels
+| com.TETOSOFT.graphics.Sprite.getWidth
+| com.TETOSOFT.tilegame.sprites.Creature.collideHorizontal  (Virtual)
+| com.TETOSOFT.tilegame.sprites.Player.collideHorizontal  (Virtual)
+| com.TETOSOFT.tilegame.GameEngine.checkPlayerCollision
+| com.TETOSOFT.graphics.Sprite.setY  (Virtual)
+| com.TETOSOFT.tilegame.sprites.Player.setY  (Virtual)
+| com.TETOSOFT.graphics.Sprite.getHeight
+| com.TETOSOFT.tilegame.sprites.Creature.collideVertical  (Virtual)
+| com.TETOSOFT.tilegame.sprites.Player.collideVertical  (Virtual)
+
+com.TETOSOFT.tilegame.MapLoader.addSprite
+| com.TETOSOFT.graphics.Sprite.clone  (Virtual)
+| com.TETOSOFT.tilegame.sprites.PowerUp.clone  (Virtual)
+| com.TETOSOFT.tilegame.sprites.Creature.clone  (Virtual)
+| com.TETOSOFT.tilegame.TileMapDrawer.tilesToPixels
+| com.TETOSOFT.graphics.Sprite.getWidth
+| com.TETOSOFT.graphics.Sprite.setX
+| com.TETOSOFT.graphics.Sprite.getHeight
+| com.TETOSOFT.graphics.Sprite.setY  (Virtual)
+| com.TETOSOFT.tilegame.sprites.Player.setY  (Virtual)
+| com.TETOSOFT.tilegame.TileMap.addSprite
+
+com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+| com.TETOSOFT.graphics.Animation.Animation
+| com.TETOSOFT.graphics.Animation.addFrame
+
+com.TETOSOFT.tilegame.MapLoader.createGrubAnim
+| com.TETOSOFT.graphics.Animation.Animation
+| com.TETOSOFT.graphics.Animation.addFrame
+
+com.TETOSOFT.tilegame.MapLoader.createPlayerAnim
+| com.TETOSOFT.graphics.Animation.Animation
+| com.TETOSOFT.graphics.Animation.addFrame
+
+com.TETOSOFT.tilegame.MapLoader.getFlippedImage
+| com.TETOSOFT.tilegame.MapLoader.getScaledImage
+
+com.TETOSOFT.tilegame.MapLoader.getMirrorImage
+| com.TETOSOFT.tilegame.MapLoader.getScaledImage
+
+com.TETOSOFT.tilegame.MapLoader.getScaledImage
+| scale
+| getWidth
+| getHeight
+| translate
+| createCompatibleImage
+| getGraphics
+| drawImage
+| dispose
+
+com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+| com.TETOSOFT.tilegame.MapLoader.loadImage
+| com.TETOSOFT.tilegame.MapLoader.getMirrorImage
+| com.TETOSOFT.tilegame.MapLoader.getFlippedImage
+| com.TETOSOFT.tilegame.MapLoader.createPlayerAnim
+| com.TETOSOFT.tilegame.MapLoader.createFlyAnim
+| com.TETOSOFT.tilegame.MapLoader.createGrubAnim
+| com.TETOSOFT.tilegame.sprites.Player.Player
+| com.TETOSOFT.tilegame.sprites.Fly.Fly
+| com.TETOSOFT.tilegame.sprites.Grub.Grub
+
+com.TETOSOFT.tilegame.MapLoader.loadImage
+| getImage
+
+com.TETOSOFT.tilegame.MapLoader.loadMap
+| readLine
+| close
+| startsWith
+| add
+| length
+| max
+| size
+| com.TETOSOFT.tilegame.TileMap.TileMap
+| get
+| charAt
+| com.TETOSOFT.tilegame.TileMap.setTile
+| com.TETOSOFT.tilegame.MapLoader.addSprite
+| com.TETOSOFT.graphics.Sprite.clone  (Virtual)
+| com.TETOSOFT.tilegame.sprites.PowerUp.clone  (Virtual)
+| com.TETOSOFT.tilegame.sprites.Creature.clone  (Virtual)
+| com.TETOSOFT.tilegame.TileMapDrawer.tilesToPixels
+| com.TETOSOFT.graphics.Sprite.setX
+| com.TETOSOFT.graphics.Sprite.setY  (Virtual)
+| com.TETOSOFT.tilegame.sprites.Player.setY  (Virtual)
+| com.TETOSOFT.tilegame.TileMap.setPlayer
+
+com.TETOSOFT.tilegame.MapLoader.loadNextMap
+| com.TETOSOFT.tilegame.MapLoader.loadMap
+
+com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+| com.TETOSOFT.graphics.Animation.Animation
+| com.TETOSOFT.tilegame.MapLoader.loadImage
+| com.TETOSOFT.graphics.Animation.addFrame
+
+com.TETOSOFT.tilegame.MapLoader.loadTileImages
+| exists
+| com.TETOSOFT.tilegame.MapLoader.loadImage
+| add
+
+com.TETOSOFT.tilegame.MapLoader.MapLoader
+| com.TETOSOFT.tilegame.MapLoader.loadTileImages
+| com.TETOSOFT.tilegame.MapLoader.loadCreatureSprites
+| com.TETOSOFT.tilegame.MapLoader.loadPowerUpSprites
+
+com.TETOSOFT.tilegame.MapLoader.reloadMap
+| com.TETOSOFT.tilegame.MapLoader.loadMap
+| printStackTrace
+
+com.TETOSOFT.tilegame.sprites.Creature.clone
+| getClass
+| getConstructors
+| com.TETOSOFT.graphics.Animation.clone
+| newInstance
+| printStackTrace
+
+com.TETOSOFT.tilegame.sprites.Creature.collideHorizontal
+| com.TETOSOFT.graphics.Sprite.getVelocityX
+| com.TETOSOFT.graphics.Sprite.setVelocityX
+
+com.TETOSOFT.tilegame.sprites.Creature.collideVertical
+| com.TETOSOFT.graphics.Sprite.setVelocityY
+
+com.TETOSOFT.tilegame.sprites.Creature.Creature
+| com.TETOSOFT.graphics.Sprite.Sprite
+
+com.TETOSOFT.tilegame.sprites.Creature.setState
+| com.TETOSOFT.graphics.Sprite.setVelocityX
+| com.TETOSOFT.graphics.Sprite.setVelocityY
+
+com.TETOSOFT.tilegame.sprites.Creature.update
+| com.TETOSOFT.graphics.Sprite.getVelocityX
+| com.TETOSOFT.graphics.Animation.start
+| com.TETOSOFT.graphics.Animation.update
+| com.TETOSOFT.tilegame.sprites.Creature.setState
+
+com.TETOSOFT.tilegame.sprites.Creature.wakeUp
+| com.TETOSOFT.tilegame.sprites.Creature.getState
+| com.TETOSOFT.graphics.Sprite.getVelocityX
+| com.TETOSOFT.tilegame.sprites.Creature.getMaxSpeed  (Virtual)
+| com.TETOSOFT.tilegame.sprites.Fly.getMaxSpeed  (Virtual)
+| com.TETOSOFT.tilegame.sprites.Player.getMaxSpeed  (Virtual)
+| com.TETOSOFT.tilegame.sprites.Grub.getMaxSpeed  (Virtual)
+| com.TETOSOFT.graphics.Sprite.setVelocityX
+
+com.TETOSOFT.tilegame.sprites.Fly.Fly
+| com.TETOSOFT.tilegame.sprites.Creature.Creature
+
+com.TETOSOFT.tilegame.sprites.Fly.isFlying
+| com.TETOSOFT.tilegame.sprites.Creature.isAlive
+
+com.TETOSOFT.tilegame.sprites.Grub.Grub
+| com.TETOSOFT.tilegame.sprites.Creature.Creature
+
+com.TETOSOFT.tilegame.sprites.Player.collideHorizontal
+| com.TETOSOFT.graphics.Sprite.setVelocityX
+
+com.TETOSOFT.tilegame.sprites.Player.collideVertical
+| com.TETOSOFT.graphics.Sprite.getVelocityY
+| com.TETOSOFT.graphics.Sprite.setVelocityY
+
+com.TETOSOFT.tilegame.sprites.Player.jump
+| com.TETOSOFT.graphics.Sprite.setVelocityY
+
+com.TETOSOFT.tilegame.sprites.Player.Player
+| com.TETOSOFT.tilegame.sprites.Creature.Creature
+
+com.TETOSOFT.tilegame.sprites.Player.setY
+| round
+| com.TETOSOFT.graphics.Sprite.getY
+| com.TETOSOFT.graphics.Sprite.setY
+
+com.TETOSOFT.tilegame.sprites.PowerUp.clone
+| getClass
+| getConstructors
+| com.TETOSOFT.graphics.Animation.clone
+| newInstance
+| printStackTrace
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Goal.Goal
+| com.TETOSOFT.tilegame.sprites.PowerUp.PowerUp
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Music.Music
+| com.TETOSOFT.tilegame.sprites.PowerUp.PowerUp
+
+com.TETOSOFT.tilegame.sprites.PowerUp.PowerUp
+| com.TETOSOFT.graphics.Sprite.Sprite
+
+com.TETOSOFT.tilegame.sprites.PowerUp.Star.Star
+| com.TETOSOFT.tilegame.sprites.PowerUp.PowerUp
+
+com.TETOSOFT.tilegame.TileMap.addSprite
+| add
+
+com.TETOSOFT.tilegame.TileMap.getSprites
+| iterator
+
+com.TETOSOFT.tilegame.TileMap.getTile
+| com.TETOSOFT.tilegame.TileMap.getWidth
+| com.TETOSOFT.tilegame.TileMap.getHeight
+
+com.TETOSOFT.tilegame.TileMap.removeSprite
+| remove
+
+com.TETOSOFT.tilegame.TileMapDrawer.draw
+| com.TETOSOFT.tilegame.TileMap.getPlayer
+| com.TETOSOFT.tilegame.TileMap.getWidth
+| com.TETOSOFT.tilegame.TileMapDrawer.tilesToPixels
+| com.TETOSOFT.graphics.Sprite.getX
+| round
+| min
+| max
+| com.TETOSOFT.tilegame.TileMap.getHeight
+| getHeight
+| setColor
+| fillRect
+| getWidth
+| drawImage
+| com.TETOSOFT.tilegame.TileMapDrawer.pixelsToTiles
+| com.TETOSOFT.tilegame.TileMap.getTile
+| com.TETOSOFT.graphics.Sprite.getImage
+| com.TETOSOFT.graphics.Sprite.getY
+| com.TETOSOFT.tilegame.TileMap.getSprites
+| hasNext
+| next
+| com.TETOSOFT.tilegame.sprites.Creature.wakeUp  (Virtual)
+| com.TETOSOFT.tilegame.sprites.Player.wakeUp  (Virtual)
+
+com.TETOSOFT.tilegame.TileMapDrawer.pixelsToTiles
+| round
+| pixelsToTiles

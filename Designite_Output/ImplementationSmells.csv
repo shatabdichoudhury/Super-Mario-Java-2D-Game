@@ -1,0 +1,83 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell
+Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,displayModesMatch,Complex Conditional,The conditional expression mode1.getBitDepth() != DisplayMode.BIT_DEPTH_MULTI && mode2.getBitDepth() != DisplayMode.BIT_DEPTH_MULTI && mode1.getBitDepth() != mode2.getBitDepth() is complex.
+Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,displayModesMatch,Complex Conditional,The conditional expression mode1.getRefreshRate() != DisplayMode.REFRESH_RATE_UNKNOWN && mode2.getRefreshRate() != DisplayMode.REFRESH_RATE_UNKNOWN && mode1.getRefreshRate() != mode2.getRefreshRate() is complex.
+Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,displayModesMatch,Long Statement,The length of the statement "if (mode1.getBitDepth() != DisplayMode.BIT_DEPTH_MULTI && mode2.getBitDepth() != DisplayMode.BIT_DEPTH_MULTI && mode1.getBitDepth() != mode2.getBitDepth()) {" is 157.
+Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,displayModesMatch,Long Statement,The length of the statement "if (mode1.getRefreshRate() != DisplayMode.REFRESH_RATE_UNKNOWN && mode2.getRefreshRate() != DisplayMode.REFRESH_RATE_UNKNOWN && mode1.getRefreshRate() != mode2.getRefreshRate()) {" is 179.
+Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,setFullScreen,Empty catch clause,The method has an empty catch block.
+Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,setFullScreen,Empty catch clause,The method has an empty catch block.
+Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,setFullScreen,Empty catch clause,The method has an empty catch block.
+Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,setFullScreen,Magic Number,The method contains a magic number: 2
+Super-Mario-Java-2D-Game,com.TETOSOFT.graphics,ScreenManager,run,Magic Number,The method contains a magic number: 2
+Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,getMouseName,Complex Method,Cyclomatic complexity of the method is 10
+Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,getMouseName,Missing default,The following switch statement is missing a default case: switch (mouseCode) {
+Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,recenterMouse,Magic Number,The method contains a magic number: 2
+Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,recenterMouse,Magic Number,The method contains a magic number: 2
+Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,getMouseButtonCode,Missing default,The following switch statement is missing a default case: switch (e.getButton()) {
+Super-Mario-Java-2D-Game,com.TETOSOFT.input,InputManager,mouseMoved,Complex Conditional,The conditional expression isRecentering && centerLocation.x == e.getX() && centerLocation.y == e.getY() is complex.
+Super-Mario-Java-2D-Game,com.TETOSOFT.test,GameCore,lazilyExit,Empty catch clause,The method has an empty catch block.
+Super-Mario-Java-2D-Game,com.TETOSOFT.test,GameCore,lazilyExit,Magic Number,The method contains a magic number: 2000
+Super-Mario-Java-2D-Game,com.TETOSOFT.test,GameCore,run,Empty catch clause,The method has an empty catch block.
+Super-Mario-Java-2D-Game,com.TETOSOFT.test,GameCore,run,Magic Number,The method contains a magic number: 2000
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,draw,Magic Number,The method contains a magic number: 10.0f
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,draw,Magic Number,The method contains a magic number: 20.0f
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,draw,Magic Number,The method contains a magic number: 300.0f
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,draw,Magic Number,The method contains a magic number: 20.0f
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,draw,Magic Number,The method contains a magic number: 500.0f
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,draw,Magic Number,The method contains a magic number: 20.0f
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,draw,Magic Number,The method contains a magic number: 700.0f
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,draw,Magic Number,The method contains a magic number: 20.0f
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,getTileCollision,Complex Conditional,The conditional expression x < 0 || x >= map.getWidth() || map.getTile(x`y) != null is complex.
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,isCollision,Long Statement,The length of the statement "return (s1x < s2x + s2.getWidth() && s2x < s1x + s1.getWidth() && s1y < s2y + s2.getHeight() && s2y < s1y + s1.getHeight());" is 124.
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,updateCreature,Complex Method,Cyclomatic complexity of the method is 10
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,checkPlayerCollision,Magic Number,The method contains a magic number: 3000
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,GameEngine,acquirePowerUp,Magic Number,The method contains a magic number: 100
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,getScaledImage,Magic Number,The method contains a magic number: 2
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,getScaledImage,Magic Number,The method contains a magic number: 2
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadNextMap,Magic Number,The method contains a magic number: 2
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadMap,Complex Method,Cyclomatic complexity of the method is 12
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadMap,Magic Number,The method contains a magic number: 3
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,addSprite,Magic Number,The method contains a magic number: 2
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Long Statement,The length of the statement "images[0]=new Image[]{loadImage("player.png")`loadImage("fly1.png")`loadImage("fly2.png")`loadImage("fly3.png")`loadImage("grub1.png")`loadImage("grub2.png")};" is 159.
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 4
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 2
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 3
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 2
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 3
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 4
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 4
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 4
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 4
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 3
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 4
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 5
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 2
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 3
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 2
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 3
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 2
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadCreatureSprites,Magic Number,The method contains a magic number: 3
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,createPlayerAnim,Magic Number,The method contains a magic number: 250
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,createFlyAnim,Magic Number,The method contains a magic number: 50
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,createFlyAnim,Magic Number,The method contains a magic number: 50
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,createFlyAnim,Magic Number,The method contains a magic number: 50
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,createFlyAnim,Magic Number,The method contains a magic number: 50
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,createGrubAnim,Magic Number,The method contains a magic number: 250
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,createGrubAnim,Magic Number,The method contains a magic number: 250
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadPowerUpSprites,Magic Number,The method contains a magic number: 150
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadPowerUpSprites,Magic Number,The method contains a magic number: 250
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadPowerUpSprites,Magic Number,The method contains a magic number: 250
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadPowerUpSprites,Magic Number,The method contains a magic number: 250
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadPowerUpSprites,Magic Number,The method contains a magic number: 250
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadPowerUpSprites,Magic Number,The method contains a magic number: 250
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadPowerUpSprites,Magic Number,The method contains a magic number: 150
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadPowerUpSprites,Magic Number,The method contains a magic number: 150
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadPowerUpSprites,Magic Number,The method contains a magic number: 150
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,MapLoader,loadPowerUpSprites,Magic Number,The method contains a magic number: 150
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,TileMap,getTile,Complex Conditional,The conditional expression x < 0 || x >= getWidth() || y < 0 || y >= getHeight() is complex.
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,TileMapDrawer,draw,Complex Conditional,The conditional expression sprite instanceof Creature && x >= 0 && x < screenWidth is complex.
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,TileMapDrawer,draw,Complex Method,Cyclomatic complexity of the method is 8
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame,TileMapDrawer,draw,Magic Number,The method contains a magic number: 2
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame.sprites,Creature,clone,Long Statement,The length of the statement "return constructor.newInstance(new Object[]{(Animation)left.clone()`(Animation)right.clone()`(Animation)deadLeft.clone()`(Animation)deadRight.clone()});" is 152.
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame.sprites,Fly,getMaxSpeed,Magic Number,The method contains a magic number: 0.2f
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame.sprites,Grub,getMaxSpeed,Magic Number,The method contains a magic number: 0.05f
+Super-Mario-Java-2D-Game,com.TETOSOFT.tilegame.sprites,Player,getMaxSpeed,Magic Number,The method contains a magic number: 0.5f

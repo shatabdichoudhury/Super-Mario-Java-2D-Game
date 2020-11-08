@@ -1,0 +1,43 @@
+                          Unused Program Units Report
+===============================================================================
+
+ScreenManager.java
+    com.TETOSOFT.graphics.ScreenManager.createCompatibleImage         199
+    com.TETOSOFT.graphics.ScreenManager.getCompatibleDisplayModes      22
+    com.TETOSOFT.graphics.ScreenManager.getCurrentDisplayMode          46
+    com.TETOSOFT.graphics.ScreenManager.setFullScreen.(Anon_1).run    101
+
+GameAction.java
+    com.TETOSOFT.input.GameAction.getName                              37
+    com.TETOSOFT.input.GameAction.tap                                  51
+
+InputManager.java
+    com.TETOSOFT.input.InputManager.clearMap                          106
+    com.TETOSOFT.input.InputManager.getMaps                           125
+    com.TETOSOFT.input.InputManager.getMouseX                         183
+    com.TETOSOFT.input.InputManager.getMouseY                         188
+    com.TETOSOFT.input.InputManager.keyPressed                        243
+    com.TETOSOFT.input.InputManager.keyReleased                       254
+    com.TETOSOFT.input.InputManager.keyTyped                          265
+    com.TETOSOFT.input.InputManager.mapToMouse                         99
+    com.TETOSOFT.input.InputManager.mouseClicked                      290
+    com.TETOSOFT.input.InputManager.mouseDragged                      308
+    com.TETOSOFT.input.InputManager.mouseEntered                      296
+    com.TETOSOFT.input.InputManager.mouseExited                       302
+    com.TETOSOFT.input.InputManager.mousePressed                      272
+    com.TETOSOFT.input.InputManager.mouseReleased                     281
+    com.TETOSOFT.input.InputManager.mouseWheelMoved                   340
+    com.TETOSOFT.input.InputManager.resetAllGameActions               144
+    com.TETOSOFT.input.InputManager.setRelativeMouseMode               67
+
+GameCore.java
+    com.TETOSOFT.test.GameCore.lazilyExit.(Anon_1).run                 64
+    com.TETOSOFT.test.GameCore.loadImage                               98
+
+GameEngine.java
+    com.TETOSOFT.tilegame.GameEngine.getMap                           127
+
+PowerUp.java
+    com.TETOSOFT.tilegame.sprites.PowerUp.Goal.Goal                    54
+    com.TETOSOFT.tilegame.sprites.PowerUp.Music.Music                  44
+    com.TETOSOFT.tilegame.sprites.PowerUp.Star.Star                    34

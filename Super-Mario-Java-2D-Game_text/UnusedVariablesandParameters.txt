@@ -1,0 +1,55 @@
+                          Unused Objects and Functions
+
+Def: A variable that is not read from, written to after declaration, 
+or passed to a function, function parameters that are unused in the function, 
+and functions that have no invocations. 
+===============================================================================
+
+ScreenManager.java                                                            Line
+    ScreenManager.createCompatibleImage - Public Method                        199
+    ScreenManager.getCompatibleDisplayModes - Public Method                     22
+    ScreenManager.getCurrentDisplayMode - Public Method                         46
+    (Anon_1).run - Public Method                                               101
+
+GameAction.java                                                               Line
+    GameAction.getName - Public Method                                          37
+    GameAction.tap - Public Method                                              51
+
+InputManager.java                                                             Line
+    InputManager.clearMap - Public Method                                      106
+    InputManager.getMaps - Public Method                                       125
+    InputManager.getMouseX - Public Method                                     183
+    InputManager.getMouseY - Public Method                                     188
+    InputManager.keyPressed - Public Method                                    243
+    InputManager.keyReleased - Public Method                                   254
+    InputManager.keyTyped - Public Method                                      265
+    InputManager.mapToMouse - Public Method                                     99
+    InputManager.mouseClicked - Public Method                                  290
+    e - Parameter                                                              290
+      Declared in: com.TETOSOFT.input.InputManager.mouseClicked()
+    InputManager.mouseDragged - Public Method                                  308
+    InputManager.mouseEntered - Public Method                                  296
+    InputManager.mouseExited - Public Method                                   302
+    InputManager.mousePressed - Public Method                                  272
+    InputManager.mouseReleased - Public Method                                 281
+    InputManager.mouseWheelMoved - Public Method                               340
+    InputManager.resetAllGameActions - Public Method                           144
+    InputManager.setRelativeMouseMode - Public Method                           67
+
+GameCore.java                                                                 Line
+    (Anon_1).run - Public Method                                                64
+    GameCore.loadImage - Public Method                                          98
+    elapsedTime - Parameter                                                    137
+      Declared in: com.TETOSOFT.test.GameCore.update()
+
+GameEngine.java                                                               Line
+    elapsedTime - Parameter                                                     82
+      Declared in: com.TETOSOFT.tilegame.GameEngine.checkInput()
+    GameEngine.getMap - Public Method                                          127
+    args - Parameter                                                            18
+      Declared in: com.TETOSOFT.tilegame.GameEngine.main()
+
+PowerUp.java                                                                  Line
+    Goal.Goal - Public Constructor                                              54
+    Music.Music - Public Constructor                                            44
+    Star.Star - Public Constructor                                              34

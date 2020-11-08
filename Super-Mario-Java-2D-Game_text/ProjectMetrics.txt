@@ -1,0 +1,13 @@
+                         Project Metrics Summary Report
+===============================================================================
+Classes:                     21
+Files:                       29
+Program Units:              157
+Lines:                     3095
+Lines Blank:                522
+Lines Code:                2079
+Lines Comment:              494
+Lines Inactive:               0
+Executable Statements:      559
+Declarative Statements:     438
+Ratio Comment/Code:        0.24
