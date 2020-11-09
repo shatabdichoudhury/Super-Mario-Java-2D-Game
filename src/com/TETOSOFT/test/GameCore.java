@@ -63,8 +63,9 @@ public abstract class GameCore {
         Thread thread = new Thread() {
             public void run() {
                 // first, wait for the VM exit on its own.
+                int vm_wait_time = 2000;
                 try {
-                    Thread.sleep(2000);
+                    Thread.sleep(vm_wait_time);
                 }
                 catch (InterruptedException ex) { }
                 // system is still running, so force an exit

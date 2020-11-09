@@ -143,8 +143,8 @@ public class TileMapDrawer
             g.drawImage(sprite.getImage(), x, y, null);
 
             // wake up the creature when it's on screen
-            if (sprite instanceof Creature &&
-                x >= 0 && x < screenWidth)
+            boolean creatureonscreen = sprite instanceof Creature && x >= 0 && x < screenWidth;
+            if (creatureonscreen)
             {
                 ((Creature)sprite).wakeUp();
             }
